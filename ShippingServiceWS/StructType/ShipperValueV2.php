@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -41,7 +41,7 @@ class ShipperValueV2 extends ShipperValue
     /**
      * Set shipperType value
      * @param string $shipperType
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValueV2
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValueV2
      */
     public function setShipperType(?string $shipperType = null): self
     {

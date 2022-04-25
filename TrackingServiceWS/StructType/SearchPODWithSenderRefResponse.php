@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -19,33 +19,33 @@ class SearchPODWithSenderRefResponse extends AbstractStructBase
      * The return
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef|null
+     * @var \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef|null
      */
-    protected ?\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef $return = null;
+    protected ?\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef $return = null;
     /**
      * Constructor method for searchPODWithSenderRefResponse
      * @uses SearchPODWithSenderRefResponse::setReturn()
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef $return
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef $return
      */
-    public function __construct(?\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef $return = null)
+    public function __construct(?\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef $return = null)
     {
         $this
             ->setReturn($return);
     }
     /**
      * Get return value
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef|null
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef|null
      */
-    public function getReturn(): ?\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef
+    public function getReturn(): ?\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef
     {
         return $this->return;
     }
     /**
      * Set return value
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef $return
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODWithSenderRefResponse
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef $return
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODWithSenderRefResponse
      */
-    public function setReturn(?\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef $return = null): self
+    public function setReturn(?\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef $return = null): self
     {
         $this->return = $return;
         

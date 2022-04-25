@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -41,7 +41,7 @@ class AdresseEnlevementV2 extends AdresseEnlevement
     /**
      * Set email value
      * @param string $email
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevementV2
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevementV2
      */
     public function setEmail(?string $email = null): self
     {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -41,7 +41,7 @@ class AdresseEnlevementV3 extends AdresseEnlevementV2
     /**
      * Set refExpediteur value
      * @param string $refExpediteur
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevementV3
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevementV3
      */
     public function setRefExpediteur(?string $refExpediteur = null): self
     {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -41,7 +41,7 @@ class RecipientValueV2 extends RecipientValue
     /**
      * Set recipientType value
      * @param string $recipientType
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValueV2
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValueV2
      */
     public function setRecipientType(?string $recipientType = null): self
     {

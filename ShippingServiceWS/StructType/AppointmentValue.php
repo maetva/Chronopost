@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -61,7 +61,7 @@ class AppointmentValue extends AbstractStructBase
     /**
      * Set timeSlotEndDate value
      * @param string $timeSlotEndDate
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AppointmentValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AppointmentValue
      */
     public function setTimeSlotEndDate(?string $timeSlotEndDate = null): self
     {
@@ -84,7 +84,7 @@ class AppointmentValue extends AbstractStructBase
     /**
      * Set timeSlotStartDate value
      * @param string $timeSlotStartDate
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AppointmentValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AppointmentValue
      */
     public function setTimeSlotStartDate(?string $timeSlotStartDate = null): self
     {
@@ -107,7 +107,7 @@ class AppointmentValue extends AbstractStructBase
     /**
      * Set timeSlotTariffLevel value
      * @param string $timeSlotTariffLevel
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AppointmentValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AppointmentValue
      */
     public function setTimeSlotTariffLevel(?string $timeSlotTariffLevel = null): self
     {

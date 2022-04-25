@@ -4,7 +4,7 @@ wsdltophp generate:package \
     --urlorpath="https://ws.chronopost.fr/tracking-cxf/TrackingServiceWS?wsdl" \
     --destination="./" \
     --src-dirname="" \
-    --namespace="Drupal\commerce_chronopost\Endpoint\TrackingServiceWS" \
+    --namespace="Maetva\Chronopost\Endpoint\TrackingServiceWS" \
     --standalone="0" \
     --gathermethods="none" \
     --force

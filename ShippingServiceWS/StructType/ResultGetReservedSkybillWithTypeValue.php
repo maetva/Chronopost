@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -69,7 +69,7 @@ class ResultGetReservedSkybillWithTypeValue extends AbstractStructBase
     /**
      * Set errorCode value
      * @param int $errorCode
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillWithTypeValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillWithTypeValue
      */
     public function setErrorCode(?int $errorCode = null): self
     {
@@ -92,7 +92,7 @@ class ResultGetReservedSkybillWithTypeValue extends AbstractStructBase
     /**
      * Set errorMessage value
      * @param string $errorMessage
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillWithTypeValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillWithTypeValue
      */
     public function setErrorMessage(?string $errorMessage = null): self
     {
@@ -115,7 +115,7 @@ class ResultGetReservedSkybillWithTypeValue extends AbstractStructBase
     /**
      * Set skybill value
      * @param string $skybill
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillWithTypeValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillWithTypeValue
      */
     public function setSkybill(?string $skybill = null): self
     {
@@ -138,7 +138,7 @@ class ResultGetReservedSkybillWithTypeValue extends AbstractStructBase
     /**
      * Set type value
      * @param string $type
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillWithTypeValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillWithTypeValue
      */
     public function setType(?string $type = null): self
     {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -31,7 +31,7 @@ class ResultTrackSearch extends AbstractStructBase
      * - maxOccurs: unbounded
      * - minOccurs: 0
      * - nillable: true
-     * @var \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD[]
+     * @var \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD[]
      */
     protected ?array $listInfosPOD = null;
     /**
@@ -41,7 +41,7 @@ class ResultTrackSearch extends AbstractStructBase
      * @uses ResultTrackSearch::setListInfosPOD()
      * @param int $errorCode
      * @param string $errorMessage
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD[] $listInfosPOD
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD[] $listInfosPOD
      */
     public function __construct(?int $errorCode = null, ?string $errorMessage = null, ?array $listInfosPOD = null)
     {
@@ -61,7 +61,7 @@ class ResultTrackSearch extends AbstractStructBase
     /**
      * Set errorCode value
      * @param int $errorCode
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultTrackSearch
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultTrackSearch
      */
     public function setErrorCode(?int $errorCode = null): self
     {
@@ -84,7 +84,7 @@ class ResultTrackSearch extends AbstractStructBase
     /**
      * Set errorMessage value
      * @param string $errorMessage
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultTrackSearch
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultTrackSearch
      */
     public function setErrorMessage(?string $errorMessage = null): self
     {
@@ -101,7 +101,7 @@ class ResultTrackSearch extends AbstractStructBase
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD[]
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD[]
      */
     public function getListInfosPOD(): ?array
     {
@@ -122,12 +122,12 @@ class ResultTrackSearch extends AbstractStructBase
         $invalidValues = [];
         foreach ($values as $resultTrackSearchListInfosPODItem) {
             // validation for constraint: itemType
-            if (!$resultTrackSearchListInfosPODItem instanceof \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD) {
+            if (!$resultTrackSearchListInfosPODItem instanceof \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD) {
                 $invalidValues[] = is_object($resultTrackSearchListInfosPODItem) ? get_class($resultTrackSearchListInfosPODItem) : sprintf('%s(%s)', gettype($resultTrackSearchListInfosPODItem), var_export($resultTrackSearchListInfosPODItem, true));
             }
         }
         if (!empty($invalidValues)) {
-            $message = sprintf('The listInfosPOD property can only contain items of type \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
+            $message = sprintf('The listInfosPOD property can only contain items of type \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
         }
         unset($invalidValues);
         
@@ -138,8 +138,8 @@ class ResultTrackSearch extends AbstractStructBase
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
      * @throws InvalidArgumentException
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD[] $listInfosPOD
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultTrackSearch
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD[] $listInfosPOD
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultTrackSearch
      */
     public function setListInfosPOD(?array $listInfosPOD = null): self
     {
@@ -158,14 +158,14 @@ class ResultTrackSearch extends AbstractStructBase
     /**
      * Add item to listInfosPOD value
      * @throws InvalidArgumentException
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD $item
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultTrackSearch
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD $item
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultTrackSearch
      */
-    public function addToListInfosPOD(\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD $item): self
+    public function addToListInfosPOD(\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD $item): self
     {
         // validation for constraint: itemType
-        if (!$item instanceof \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD) {
-            throw new InvalidArgumentException(sprintf('The listInfosPOD property can only contain items of type \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
+        if (!$item instanceof \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD) {
+            throw new InvalidArgumentException(sprintf('The listInfosPOD property can only contain items of type \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
         }
         $this->listInfosPOD[] = $item;
         

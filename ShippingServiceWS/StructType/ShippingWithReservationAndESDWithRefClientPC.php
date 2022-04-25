@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -953,7 +953,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set refEsdClient value
      * @param string $refEsdClient
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setRefEsdClient(?string $refEsdClient = null): self
     {
@@ -976,7 +976,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set retrievalDateTime value
      * @param string $retrievalDateTime
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setRetrievalDateTime(?string $retrievalDateTime = null): self
     {
@@ -999,7 +999,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set closingDateTime value
      * @param string $closingDateTime
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setClosingDateTime(?string $closingDateTime = null): self
     {
@@ -1022,7 +1022,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set specificInstructions value
      * @param string $specificInstructions
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setSpecificInstructions(?string $specificInstructions = null): self
     {
@@ -1045,7 +1045,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set height value
      * @param string $height
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setHeight(?string $height = null): self
     {
@@ -1068,7 +1068,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set width value
      * @param string $width
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setWidth(?string $width = null): self
     {
@@ -1091,7 +1091,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set length value
      * @param string $length
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setLength(?string $length = null): self
     {
@@ -1114,7 +1114,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set shipperCarriesCode value
      * @param string $shipperCarriesCode
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperCarriesCode(?string $shipperCarriesCode = null): self
     {
@@ -1137,7 +1137,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set shipperBuildingFloor value
      * @param string $shipperBuildingFloor
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperBuildingFloor(?string $shipperBuildingFloor = null): self
     {
@@ -1160,7 +1160,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set shipperServiceDirection value
      * @param string $shipperServiceDirection
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperServiceDirection(?string $shipperServiceDirection = null): self
     {
@@ -1183,7 +1183,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set nombreDePassageMaximum value
      * @param string $nombreDePassageMaximum
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setNombreDePassageMaximum(?string $nombreDePassageMaximum = null): self
     {
@@ -1206,7 +1206,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set ltAImprimerParChronopost value
      * @param string $ltAImprimerParChronopost
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setLtAImprimerParChronopost(?string $ltAImprimerParChronopost = null): self
     {
@@ -1229,7 +1229,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set header_idEmit value
      * @param string $header_idEmit
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setHeader_idEmit(?string $header_idEmit = null): self
     {
@@ -1252,7 +1252,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set accountNumber value
      * @param string $accountNumber
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setAccountNumber(?string $accountNumber = null): self
     {
@@ -1275,7 +1275,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set subAccount value
      * @param string $subAccount
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setSubAccount(?string $subAccount = null): self
     {
@@ -1298,7 +1298,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set header_identWebPro value
      * @param string $header_identWebPro
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setHeader_identWebPro(?string $header_identWebPro = null): self
     {
@@ -1321,7 +1321,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set shipperCivility value
      * @param string $shipperCivility
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperCivility(?string $shipperCivility = null): self
     {
@@ -1344,7 +1344,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set shipperName value
      * @param string $shipperName
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperName(?string $shipperName = null): self
     {
@@ -1367,7 +1367,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set shipperName2 value
      * @param string $shipperName2
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperName2(?string $shipperName2 = null): self
     {
@@ -1390,7 +1390,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set shipperAdress1 value
      * @param string $shipperAdress1
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperAdress1(?string $shipperAdress1 = null): self
     {
@@ -1413,7 +1413,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set shipperAdress2 value
      * @param string $shipperAdress2
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperAdress2(?string $shipperAdress2 = null): self
     {
@@ -1436,7 +1436,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set shipperZipCode value
      * @param string $shipperZipCode
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperZipCode(?string $shipperZipCode = null): self
     {
@@ -1459,7 +1459,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set shipperCity value
      * @param string $shipperCity
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperCity(?string $shipperCity = null): self
     {
@@ -1482,7 +1482,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set shipperCountry value
      * @param string $shipperCountry
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperCountry(?string $shipperCountry = null): self
     {
@@ -1505,7 +1505,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set shipperCountryName value
      * @param string $shipperCountryName
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperCountryName(?string $shipperCountryName = null): self
     {
@@ -1528,7 +1528,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set shipperContactName value
      * @param string $shipperContactName
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperContactName(?string $shipperContactName = null): self
     {
@@ -1551,7 +1551,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set shipperEmail value
      * @param string $shipperEmail
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperEmail(?string $shipperEmail = null): self
     {
@@ -1574,7 +1574,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set shipperPhone value
      * @param string $shipperPhone
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperPhone(?string $shipperPhone = null): self
     {
@@ -1597,7 +1597,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set shipperMobilePhone value
      * @param string $shipperMobilePhone
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperMobilePhone(?string $shipperMobilePhone = null): self
     {
@@ -1620,7 +1620,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set customerCivility value
      * @param string $customerCivility
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerCivility(?string $customerCivility = null): self
     {
@@ -1643,7 +1643,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set customerName value
      * @param string $customerName
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerName(?string $customerName = null): self
     {
@@ -1666,7 +1666,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set customerName2 value
      * @param string $customerName2
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerName2(?string $customerName2 = null): self
     {
@@ -1689,7 +1689,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set customerAdress1 value
      * @param string $customerAdress1
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerAdress1(?string $customerAdress1 = null): self
     {
@@ -1712,7 +1712,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set customerAdress2 value
      * @param string $customerAdress2
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerAdress2(?string $customerAdress2 = null): self
     {
@@ -1735,7 +1735,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set customerZipCode value
      * @param string $customerZipCode
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerZipCode(?string $customerZipCode = null): self
     {
@@ -1758,7 +1758,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set customerCity value
      * @param string $customerCity
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerCity(?string $customerCity = null): self
     {
@@ -1781,7 +1781,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set customerCountry value
      * @param string $customerCountry
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerCountry(?string $customerCountry = null): self
     {
@@ -1804,7 +1804,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set customerCountryName value
      * @param string $customerCountryName
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerCountryName(?string $customerCountryName = null): self
     {
@@ -1827,7 +1827,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set customerContactName value
      * @param string $customerContactName
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerContactName(?string $customerContactName = null): self
     {
@@ -1850,7 +1850,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set customerEmail value
      * @param string $customerEmail
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerEmail(?string $customerEmail = null): self
     {
@@ -1873,7 +1873,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set customerPhone value
      * @param string $customerPhone
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerPhone(?string $customerPhone = null): self
     {
@@ -1896,7 +1896,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set customerMobilePhone value
      * @param string $customerMobilePhone
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerMobilePhone(?string $customerMobilePhone = null): self
     {
@@ -1919,7 +1919,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set customerPreAlert value
      * @param string $customerPreAlert
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerPreAlert(?string $customerPreAlert = null): self
     {
@@ -1942,7 +1942,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set recipientCivility value
      * @param string $recipientCivility
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientCivility(?string $recipientCivility = null): self
     {
@@ -1965,7 +1965,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set recipientName value
      * @param string $recipientName
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientName(?string $recipientName = null): self
     {
@@ -1988,7 +1988,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set recipientName2 value
      * @param string $recipientName2
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientName2(?string $recipientName2 = null): self
     {
@@ -2011,7 +2011,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set recipientAdress1 value
      * @param string $recipientAdress1
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientAdress1(?string $recipientAdress1 = null): self
     {
@@ -2034,7 +2034,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set recipientAdress2 value
      * @param string $recipientAdress2
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientAdress2(?string $recipientAdress2 = null): self
     {
@@ -2057,7 +2057,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set recipientZipCode value
      * @param string $recipientZipCode
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientZipCode(?string $recipientZipCode = null): self
     {
@@ -2080,7 +2080,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set recipientCity value
      * @param string $recipientCity
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientCity(?string $recipientCity = null): self
     {
@@ -2103,7 +2103,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set recipientCountry value
      * @param string $recipientCountry
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientCountry(?string $recipientCountry = null): self
     {
@@ -2126,7 +2126,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set recipientCountryName value
      * @param string $recipientCountryName
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientCountryName(?string $recipientCountryName = null): self
     {
@@ -2149,7 +2149,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set recipientContactName value
      * @param string $recipientContactName
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientContactName(?string $recipientContactName = null): self
     {
@@ -2172,7 +2172,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set recipientEmail value
      * @param string $recipientEmail
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientEmail(?string $recipientEmail = null): self
     {
@@ -2195,7 +2195,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set recipientPhone value
      * @param string $recipientPhone
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientPhone(?string $recipientPhone = null): self
     {
@@ -2218,7 +2218,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set recipientMobilePhone value
      * @param string $recipientMobilePhone
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientMobilePhone(?string $recipientMobilePhone = null): self
     {
@@ -2241,7 +2241,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set recipientPreAlert value
      * @param string $recipientPreAlert
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientPreAlert(?string $recipientPreAlert = null): self
     {
@@ -2264,7 +2264,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set shipperRef value
      * @param string $shipperRef
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperRef(?string $shipperRef = null): self
     {
@@ -2287,7 +2287,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set recipientRef value
      * @param string $recipientRef
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientRef(?string $recipientRef = null): self
     {
@@ -2310,7 +2310,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set customerSkybillNumber value
      * @param string $customerSkybillNumber
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerSkybillNumber(?string $customerSkybillNumber = null): self
     {
@@ -2333,7 +2333,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set evtCode value
      * @param string $evtCode
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setEvtCode(?string $evtCode = null): self
     {
@@ -2356,7 +2356,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set productCode value
      * @param string $productCode
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setProductCode(?string $productCode = null): self
     {
@@ -2379,7 +2379,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set shipDate value
      * @param string $shipDate
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setShipDate(?string $shipDate = null): self
     {
@@ -2402,7 +2402,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set shipHour value
      * @param string $shipHour
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setShipHour(?string $shipHour = null): self
     {
@@ -2425,7 +2425,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set weight value
      * @param string $weight
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setWeight(?string $weight = null): self
     {
@@ -2448,7 +2448,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set weightUnit value
      * @param string $weightUnit
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setWeightUnit(?string $weightUnit = null): self
     {
@@ -2471,7 +2471,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set insuredValue value
      * @param string $insuredValue
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setInsuredValue(?string $insuredValue = null): self
     {
@@ -2494,7 +2494,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set insuredCurrency value
      * @param string $insuredCurrency
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setInsuredCurrency(?string $insuredCurrency = null): self
     {
@@ -2517,7 +2517,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set codValue value
      * @param string $codValue
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setCodValue(?string $codValue = null): self
     {
@@ -2540,7 +2540,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set codCurrency value
      * @param string $codCurrency
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setCodCurrency(?string $codCurrency = null): self
     {
@@ -2563,7 +2563,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set customsValue value
      * @param string $customsValue
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomsValue(?string $customsValue = null): self
     {
@@ -2586,7 +2586,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set customsCurrency value
      * @param string $customsCurrency
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomsCurrency(?string $customsCurrency = null): self
     {
@@ -2609,7 +2609,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set service value
      * @param string $service
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setService(?string $service = null): self
     {
@@ -2632,7 +2632,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set as value
      * @param string $as
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setAs(?string $as = null): self
     {
@@ -2655,7 +2655,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set objectType value
      * @param string $objectType
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setObjectType(?string $objectType = null): self
     {
@@ -2678,7 +2678,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set content1 value
      * @param string $content1
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setContent1(?string $content1 = null): self
     {
@@ -2701,7 +2701,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set content2 value
      * @param string $content2
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setContent2(?string $content2 = null): self
     {
@@ -2724,7 +2724,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set content3 value
      * @param string $content3
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setContent3(?string $content3 = null): self
     {
@@ -2747,7 +2747,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set content4 value
      * @param string $content4
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setContent4(?string $content4 = null): self
     {
@@ -2770,7 +2770,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set content5 value
      * @param string $content5
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setContent5(?string $content5 = null): self
     {
@@ -2793,7 +2793,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set portValue value
      * @param string $portValue
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setPortValue(?string $portValue = null): self
     {
@@ -2816,7 +2816,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set portCurrency value
      * @param string $portCurrency
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setPortCurrency(?string $portCurrency = null): self
     {
@@ -2839,7 +2839,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set skybillRank value
      * @param string $skybillRank
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setSkybillRank(?string $skybillRank = null): self
     {
@@ -2862,7 +2862,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set bulkNumber value
      * @param string $bulkNumber
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setBulkNumber(?string $bulkNumber = null): self
     {
@@ -2885,7 +2885,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set mode value
      * @param string $mode
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setMode(?string $mode = null): self
     {
@@ -2908,7 +2908,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set password value
      * @param string $password
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setPassword(?string $password = null): self
     {
@@ -2931,7 +2931,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set modeRetour value
      * @param string $modeRetour
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setModeRetour(?string $modeRetour = null): self
     {
@@ -2954,7 +2954,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set timeSlotStartDate value
      * @param string $timeSlotStartDate
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setTimeSlotStartDate(?string $timeSlotStartDate = null): self
     {
@@ -2977,7 +2977,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set timeSlotEndDate value
      * @param string $timeSlotEndDate
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setTimeSlotEndDate(?string $timeSlotEndDate = null): self
     {
@@ -3000,7 +3000,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set timeSlotTariffLevel value
      * @param string $timeSlotTariffLevel
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setTimeSlotTariffLevel(?string $timeSlotTariffLevel = null): self
     {
@@ -3023,7 +3023,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set expirationDate value
      * @param string $expirationDate
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setExpirationDate(?string $expirationDate = null): self
     {
@@ -3046,7 +3046,7 @@ class ShippingWithReservationAndESDWithRefClientPC extends AbstractStructBase
     /**
      * Set sellByDate value
      * @param string $sellByDate
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC
      */
     public function setSellByDate(?string $sellByDate = null): self
     {

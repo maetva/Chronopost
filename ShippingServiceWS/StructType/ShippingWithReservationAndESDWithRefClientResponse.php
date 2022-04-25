@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -20,33 +20,33 @@ class ShippingWithReservationAndESDWithRefClientResponse extends AbstractStructB
      * The return
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue|null
+     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue|null
      */
-    protected ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue $return = null;
+    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue $return = null;
     /**
      * Constructor method for shippingWithReservationAndESDWithRefClientResponse
      * @uses ShippingWithReservationAndESDWithRefClientResponse::setReturn()
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue $return
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue $return
      */
-    public function __construct(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue $return = null)
+    public function __construct(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue $return = null)
     {
         $this
             ->setReturn($return);
     }
     /**
      * Get return value
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue|null
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue|null
      */
-    public function getReturn(): ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue
+    public function getReturn(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue
     {
         return $this->return;
     }
     /**
      * Set return value
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue $return
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientResponse
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue $return
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientResponse
      */
-    public function setReturn(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue $return = null): self
+    public function setReturn(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue $return = null): self
     {
         $this->return = $return;
         

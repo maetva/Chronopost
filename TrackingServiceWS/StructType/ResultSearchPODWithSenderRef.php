@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -31,7 +31,7 @@ class ResultSearchPODWithSenderRef extends AbstractStructBase
      * - maxOccurs: unbounded
      * - minOccurs: 0
      * - nillable: true
-     * @var \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ParcelPOD[]
+     * @var \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ParcelPOD[]
      */
     protected ?array $listParcelPOD = null;
     /**
@@ -41,7 +41,7 @@ class ResultSearchPODWithSenderRef extends AbstractStructBase
      * @uses ResultSearchPODWithSenderRef::setListParcelPOD()
      * @param int $errorCode
      * @param string $errorMessage
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ParcelPOD[] $listParcelPOD
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ParcelPOD[] $listParcelPOD
      */
     public function __construct(?int $errorCode = null, ?string $errorMessage = null, ?array $listParcelPOD = null)
     {
@@ -61,7 +61,7 @@ class ResultSearchPODWithSenderRef extends AbstractStructBase
     /**
      * Set errorCode value
      * @param int $errorCode
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef
      */
     public function setErrorCode(?int $errorCode = null): self
     {
@@ -84,7 +84,7 @@ class ResultSearchPODWithSenderRef extends AbstractStructBase
     /**
      * Set errorMessage value
      * @param string $errorMessage
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef
      */
     public function setErrorMessage(?string $errorMessage = null): self
     {
@@ -101,7 +101,7 @@ class ResultSearchPODWithSenderRef extends AbstractStructBase
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ParcelPOD[]
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ParcelPOD[]
      */
     public function getListParcelPOD(): ?array
     {
@@ -122,12 +122,12 @@ class ResultSearchPODWithSenderRef extends AbstractStructBase
         $invalidValues = [];
         foreach ($values as $resultSearchPODWithSenderRefListParcelPODItem) {
             // validation for constraint: itemType
-            if (!$resultSearchPODWithSenderRefListParcelPODItem instanceof \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ParcelPOD) {
+            if (!$resultSearchPODWithSenderRefListParcelPODItem instanceof \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ParcelPOD) {
                 $invalidValues[] = is_object($resultSearchPODWithSenderRefListParcelPODItem) ? get_class($resultSearchPODWithSenderRefListParcelPODItem) : sprintf('%s(%s)', gettype($resultSearchPODWithSenderRefListParcelPODItem), var_export($resultSearchPODWithSenderRefListParcelPODItem, true));
             }
         }
         if (!empty($invalidValues)) {
-            $message = sprintf('The listParcelPOD property can only contain items of type \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ParcelPOD, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
+            $message = sprintf('The listParcelPOD property can only contain items of type \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ParcelPOD, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
         }
         unset($invalidValues);
         
@@ -138,8 +138,8 @@ class ResultSearchPODWithSenderRef extends AbstractStructBase
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
      * @throws InvalidArgumentException
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ParcelPOD[] $listParcelPOD
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ParcelPOD[] $listParcelPOD
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef
      */
     public function setListParcelPOD(?array $listParcelPOD = null): self
     {
@@ -158,14 +158,14 @@ class ResultSearchPODWithSenderRef extends AbstractStructBase
     /**
      * Add item to listParcelPOD value
      * @throws InvalidArgumentException
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ParcelPOD $item
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ParcelPOD $item
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPODWithSenderRef
      */
-    public function addToListParcelPOD(\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ParcelPOD $item): self
+    public function addToListParcelPOD(\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ParcelPOD $item): self
     {
         // validation for constraint: itemType
-        if (!$item instanceof \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ParcelPOD) {
-            throw new InvalidArgumentException(sprintf('The listParcelPOD property can only contain items of type \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ParcelPOD, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
+        if (!$item instanceof \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ParcelPOD) {
+            throw new InvalidArgumentException(sprintf('The listParcelPOD property can only contain items of type \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ParcelPOD, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
         }
         $this->listParcelPOD[] = $item;
         

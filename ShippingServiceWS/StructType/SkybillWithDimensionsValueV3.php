@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -51,7 +51,7 @@ class SkybillWithDimensionsValueV3 extends SkybillWithDimensionsValueV2
     /**
      * Set subAccount value
      * @param string $subAccount
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3
      */
     public function setSubAccount(?string $subAccount = null): self
     {
@@ -74,7 +74,7 @@ class SkybillWithDimensionsValueV3 extends SkybillWithDimensionsValueV2
     /**
      * Set toTheOrderOf value
      * @param string $toTheOrderOf
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3
      */
     public function setToTheOrderOf(?string $toTheOrderOf = null): self
     {

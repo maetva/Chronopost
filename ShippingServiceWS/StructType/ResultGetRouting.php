@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -29,9 +29,9 @@ class ResultGetRouting extends AbstractStructBase
      * The geopostResult
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult|null
+     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult|null
      */
-    protected ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult $geopostResult = null;
+    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult $geopostResult = null;
     /**
      * The posteComptable
      * Meta information extracted from the WSDL
@@ -47,10 +47,10 @@ class ResultGetRouting extends AbstractStructBase
      * @uses ResultGetRouting::setPosteComptable()
      * @param int $errorCode
      * @param string $errorMessage
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult $geopostResult
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult $geopostResult
      * @param string $posteComptable
      */
-    public function __construct(?int $errorCode = null, ?string $errorMessage = null, ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult $geopostResult = null, ?string $posteComptable = null)
+    public function __construct(?int $errorCode = null, ?string $errorMessage = null, ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult $geopostResult = null, ?string $posteComptable = null)
     {
         $this
             ->setErrorCode($errorCode)
@@ -69,7 +69,7 @@ class ResultGetRouting extends AbstractStructBase
     /**
      * Set errorCode value
      * @param int $errorCode
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting
      */
     public function setErrorCode(?int $errorCode = null): self
     {
@@ -92,7 +92,7 @@ class ResultGetRouting extends AbstractStructBase
     /**
      * Set errorMessage value
      * @param string $errorMessage
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting
      */
     public function setErrorMessage(?string $errorMessage = null): self
     {
@@ -106,18 +106,18 @@ class ResultGetRouting extends AbstractStructBase
     }
     /**
      * Get geopostResult value
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult|null
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult|null
      */
-    public function getGeopostResult(): ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
+    public function getGeopostResult(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
     {
         return $this->geopostResult;
     }
     /**
      * Set geopostResult value
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult $geopostResult
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult $geopostResult
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting
      */
-    public function setGeopostResult(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult $geopostResult = null): self
+    public function setGeopostResult(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult $geopostResult = null): self
     {
         $this->geopostResult = $geopostResult;
         
@@ -134,7 +134,7 @@ class ResultGetRouting extends AbstractStructBase
     /**
      * Set posteComptable value
      * @param string $posteComptable
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting
      */
     public function setPosteComptable(?string $posteComptable = null): self
     {

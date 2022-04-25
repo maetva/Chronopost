@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\TrackingServiceWS;
+namespace Maetva\Chronopost\Endpoint\TrackingServiceWS;
 
 /**
  * Class which returns the class map definition

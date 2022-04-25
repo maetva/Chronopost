@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -81,7 +81,7 @@ class SearchPODWithSenderRef extends AbstractStructBase
     /**
      * Set accountNumber value
      * @param string $accountNumber
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODWithSenderRef
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODWithSenderRef
      */
     public function setAccountNumber(?string $accountNumber = null): self
     {
@@ -104,7 +104,7 @@ class SearchPODWithSenderRef extends AbstractStructBase
     /**
      * Set password value
      * @param string $password
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODWithSenderRef
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODWithSenderRef
      */
     public function setPassword(?string $password = null): self
     {
@@ -127,7 +127,7 @@ class SearchPODWithSenderRef extends AbstractStructBase
     /**
      * Set language value
      * @param string $language
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODWithSenderRef
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODWithSenderRef
      */
     public function setLanguage(?string $language = null): self
     {
@@ -150,7 +150,7 @@ class SearchPODWithSenderRef extends AbstractStructBase
     /**
      * Set sendersRef value
      * @param string $sendersRef
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODWithSenderRef
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODWithSenderRef
      */
     public function setSendersRef(?string $sendersRef = null): self
     {
@@ -173,7 +173,7 @@ class SearchPODWithSenderRef extends AbstractStructBase
     /**
      * Set pdf value
      * @param bool $pdf
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODWithSenderRef
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODWithSenderRef
      */
     public function setPdf(?bool $pdf = null): self
     {

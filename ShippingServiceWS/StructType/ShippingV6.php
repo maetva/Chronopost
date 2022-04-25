@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -19,58 +19,58 @@ class ShippingV6 extends AbstractStructBase
      * The esdValue
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3|null
+     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3|null
      */
-    protected ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3 $esdValue = null;
+    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3 $esdValue = null;
     /**
      * The headerValue
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue|null
+     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue|null
      */
-    protected ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue $headerValue = null;
+    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue $headerValue = null;
     /**
      * The shipperValue
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue|null
+     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue|null
      */
-    protected ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue $shipperValue = null;
+    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue $shipperValue = null;
     /**
      * The customerValue
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue|null
+     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue|null
      */
-    protected ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue $customerValue = null;
+    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue $customerValue = null;
     /**
      * The recipientValue
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue|null
+     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue|null
      */
-    protected ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue $recipientValue = null;
+    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue $recipientValue = null;
     /**
      * The refValue
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\RefValue|null
+     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RefValue|null
      */
-    protected ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\RefValue $refValue = null;
+    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RefValue $refValue = null;
     /**
      * The skybillValue
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValueV2|null
+     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValueV2|null
      */
-    protected ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValueV2 $skybillValue = null;
+    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValueV2 $skybillValue = null;
     /**
      * The skybillParamsValue
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValue|null
+     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValue|null
      */
-    protected ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValue $skybillParamsValue = null;
+    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValue $skybillParamsValue = null;
     /**
      * The password
      * Meta information extracted from the WSDL
@@ -89,9 +89,9 @@ class ShippingV6 extends AbstractStructBase
      * The scheduledValue
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue|null
+     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue|null
      */
-    protected ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue $scheduledValue = null;
+    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue $scheduledValue = null;
     /**
      * Constructor method for shippingV6
      * @uses ShippingV6::setEsdValue()
@@ -105,19 +105,19 @@ class ShippingV6 extends AbstractStructBase
      * @uses ShippingV6::setPassword()
      * @uses ShippingV6::setVersion()
      * @uses ShippingV6::setScheduledValue()
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3 $esdValue
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue $headerValue
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue $shipperValue
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue $customerValue
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue $recipientValue
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\RefValue $refValue
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValueV2 $skybillValue
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValue $skybillParamsValue
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3 $esdValue
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue $headerValue
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue $shipperValue
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue $customerValue
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue $recipientValue
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RefValue $refValue
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValueV2 $skybillValue
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValue $skybillParamsValue
      * @param string $password
      * @param string $version
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue $scheduledValue
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue $scheduledValue
      */
-    public function __construct(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3 $esdValue = null, ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue $headerValue = null, ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue $shipperValue = null, ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue $customerValue = null, ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue $recipientValue = null, ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\RefValue $refValue = null, ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValueV2 $skybillValue = null, ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValue $skybillParamsValue = null, ?string $password = null, ?string $version = null, ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue $scheduledValue = null)
+    public function __construct(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3 $esdValue = null, ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue $headerValue = null, ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue $shipperValue = null, ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue $customerValue = null, ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue $recipientValue = null, ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RefValue $refValue = null, ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValueV2 $skybillValue = null, ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValue $skybillParamsValue = null, ?string $password = null, ?string $version = null, ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue $scheduledValue = null)
     {
         $this
             ->setEsdValue($esdValue)
@@ -134,18 +134,18 @@ class ShippingV6 extends AbstractStructBase
     }
     /**
      * Get esdValue value
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3|null
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3|null
      */
-    public function getEsdValue(): ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3
+    public function getEsdValue(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3
     {
         return $this->esdValue;
     }
     /**
      * Set esdValue value
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3 $esdValue
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3 $esdValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6
      */
-    public function setEsdValue(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3 $esdValue = null): self
+    public function setEsdValue(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3 $esdValue = null): self
     {
         $this->esdValue = $esdValue;
         
@@ -153,18 +153,18 @@ class ShippingV6 extends AbstractStructBase
     }
     /**
      * Get headerValue value
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue|null
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue|null
      */
-    public function getHeaderValue(): ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue
+    public function getHeaderValue(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue
     {
         return $this->headerValue;
     }
     /**
      * Set headerValue value
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue $headerValue
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue $headerValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6
      */
-    public function setHeaderValue(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue $headerValue = null): self
+    public function setHeaderValue(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue $headerValue = null): self
     {
         $this->headerValue = $headerValue;
         
@@ -172,18 +172,18 @@ class ShippingV6 extends AbstractStructBase
     }
     /**
      * Get shipperValue value
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue|null
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue|null
      */
-    public function getShipperValue(): ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
+    public function getShipperValue(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
     {
         return $this->shipperValue;
     }
     /**
      * Set shipperValue value
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue $shipperValue
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue $shipperValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6
      */
-    public function setShipperValue(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue $shipperValue = null): self
+    public function setShipperValue(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue $shipperValue = null): self
     {
         $this->shipperValue = $shipperValue;
         
@@ -191,18 +191,18 @@ class ShippingV6 extends AbstractStructBase
     }
     /**
      * Get customerValue value
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue|null
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue|null
      */
-    public function getCustomerValue(): ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
+    public function getCustomerValue(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
     {
         return $this->customerValue;
     }
     /**
      * Set customerValue value
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue $customerValue
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue $customerValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6
      */
-    public function setCustomerValue(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue $customerValue = null): self
+    public function setCustomerValue(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue $customerValue = null): self
     {
         $this->customerValue = $customerValue;
         
@@ -210,18 +210,18 @@ class ShippingV6 extends AbstractStructBase
     }
     /**
      * Get recipientValue value
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue|null
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue|null
      */
-    public function getRecipientValue(): ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue
+    public function getRecipientValue(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue
     {
         return $this->recipientValue;
     }
     /**
      * Set recipientValue value
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue $recipientValue
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue $recipientValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6
      */
-    public function setRecipientValue(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue $recipientValue = null): self
+    public function setRecipientValue(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue $recipientValue = null): self
     {
         $this->recipientValue = $recipientValue;
         
@@ -229,18 +229,18 @@ class ShippingV6 extends AbstractStructBase
     }
     /**
      * Get refValue value
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\RefValue|null
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RefValue|null
      */
-    public function getRefValue(): ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\RefValue
+    public function getRefValue(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RefValue
     {
         return $this->refValue;
     }
     /**
      * Set refValue value
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\RefValue $refValue
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RefValue $refValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6
      */
-    public function setRefValue(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\RefValue $refValue = null): self
+    public function setRefValue(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RefValue $refValue = null): self
     {
         $this->refValue = $refValue;
         
@@ -248,18 +248,18 @@ class ShippingV6 extends AbstractStructBase
     }
     /**
      * Get skybillValue value
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValueV2|null
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValueV2|null
      */
-    public function getSkybillValue(): ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValueV2
+    public function getSkybillValue(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValueV2
     {
         return $this->skybillValue;
     }
     /**
      * Set skybillValue value
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValueV2 $skybillValue
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValueV2 $skybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6
      */
-    public function setSkybillValue(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValueV2 $skybillValue = null): self
+    public function setSkybillValue(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValueV2 $skybillValue = null): self
     {
         $this->skybillValue = $skybillValue;
         
@@ -267,18 +267,18 @@ class ShippingV6 extends AbstractStructBase
     }
     /**
      * Get skybillParamsValue value
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValue|null
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValue|null
      */
-    public function getSkybillParamsValue(): ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValue
+    public function getSkybillParamsValue(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValue
     {
         return $this->skybillParamsValue;
     }
     /**
      * Set skybillParamsValue value
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValue $skybillParamsValue
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValue $skybillParamsValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6
      */
-    public function setSkybillParamsValue(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValue $skybillParamsValue = null): self
+    public function setSkybillParamsValue(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValue $skybillParamsValue = null): self
     {
         $this->skybillParamsValue = $skybillParamsValue;
         
@@ -295,7 +295,7 @@ class ShippingV6 extends AbstractStructBase
     /**
      * Set password value
      * @param string $password
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6
      */
     public function setPassword(?string $password = null): self
     {
@@ -318,7 +318,7 @@ class ShippingV6 extends AbstractStructBase
     /**
      * Set version value
      * @param string $version
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6
      */
     public function setVersion(?string $version = null): self
     {
@@ -332,18 +332,18 @@ class ShippingV6 extends AbstractStructBase
     }
     /**
      * Get scheduledValue value
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue|null
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue|null
      */
-    public function getScheduledValue(): ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue
+    public function getScheduledValue(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue
     {
         return $this->scheduledValue;
     }
     /**
      * Set scheduledValue value
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue $scheduledValue
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue $scheduledValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6
      */
-    public function setScheduledValue(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue $scheduledValue = null): self
+    public function setScheduledValue(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue $scheduledValue = null): self
     {
         $this->scheduledValue = $scheduledValue;
         

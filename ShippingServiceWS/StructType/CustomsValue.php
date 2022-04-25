@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -19,7 +19,7 @@ class CustomsValue extends AbstractStructBase
      * - maxOccurs: unbounded
      * - minOccurs: 0
      * - nillable: true
-     * @var \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue[]
+     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue[]
      */
     protected ?array $articlesValue = null;
     /**
@@ -113,7 +113,7 @@ class CustomsValue extends AbstractStructBase
      * @uses CustomsValue::setNumberOfItems()
      * @uses CustomsValue::setValue()
      * @uses CustomsValue::setVatNumber()
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue[] $articlesValue
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue[] $articlesValue
      * @param string $bagNumber
      * @param string $clearanceCleared
      * @param string $currency
@@ -147,7 +147,7 @@ class CustomsValue extends AbstractStructBase
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue[]
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue[]
      */
     public function getArticlesValue(): ?array
     {
@@ -168,12 +168,12 @@ class CustomsValue extends AbstractStructBase
         $invalidValues = [];
         foreach ($values as $customsValueArticlesValueItem) {
             // validation for constraint: itemType
-            if (!$customsValueArticlesValueItem instanceof \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue) {
+            if (!$customsValueArticlesValueItem instanceof \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue) {
                 $invalidValues[] = is_object($customsValueArticlesValueItem) ? get_class($customsValueArticlesValueItem) : sprintf('%s(%s)', gettype($customsValueArticlesValueItem), var_export($customsValueArticlesValueItem, true));
             }
         }
         if (!empty($invalidValues)) {
-            $message = sprintf('The articlesValue property can only contain items of type \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
+            $message = sprintf('The articlesValue property can only contain items of type \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
         }
         unset($invalidValues);
         
@@ -184,8 +184,8 @@ class CustomsValue extends AbstractStructBase
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
      * @throws InvalidArgumentException
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue[] $articlesValue
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue[] $articlesValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
      */
     public function setArticlesValue(?array $articlesValue = null): self
     {
@@ -204,14 +204,14 @@ class CustomsValue extends AbstractStructBase
     /**
      * Add item to articlesValue value
      * @throws InvalidArgumentException
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue $item
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue $item
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
      */
-    public function addToArticlesValue(\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue $item): self
+    public function addToArticlesValue(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue $item): self
     {
         // validation for constraint: itemType
-        if (!$item instanceof \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue) {
-            throw new InvalidArgumentException(sprintf('The articlesValue property can only contain items of type \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
+        if (!$item instanceof \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue) {
+            throw new InvalidArgumentException(sprintf('The articlesValue property can only contain items of type \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
         }
         $this->articlesValue[] = $item;
         
@@ -228,7 +228,7 @@ class CustomsValue extends AbstractStructBase
     /**
      * Set bagNumber value
      * @param string $bagNumber
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
      */
     public function setBagNumber(?string $bagNumber = null): self
     {
@@ -251,7 +251,7 @@ class CustomsValue extends AbstractStructBase
     /**
      * Set clearanceCleared value
      * @param string $clearanceCleared
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
      */
     public function setClearanceCleared(?string $clearanceCleared = null): self
     {
@@ -274,7 +274,7 @@ class CustomsValue extends AbstractStructBase
     /**
      * Set currency value
      * @param string $currency
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
      */
     public function setCurrency(?string $currency = null): self
     {
@@ -297,7 +297,7 @@ class CustomsValue extends AbstractStructBase
     /**
      * Set description value
      * @param string $description
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
      */
     public function setDescription(?string $description = null): self
     {
@@ -320,7 +320,7 @@ class CustomsValue extends AbstractStructBase
     /**
      * Set descriptionInLanguage value
      * @param string $descriptionInLanguage
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
      */
     public function setDescriptionInLanguage(?string $descriptionInLanguage = null): self
     {
@@ -343,7 +343,7 @@ class CustomsValue extends AbstractStructBase
     /**
      * Set eori value
      * @param string $eori
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
      */
     public function setEori(?string $eori = null): self
     {
@@ -366,7 +366,7 @@ class CustomsValue extends AbstractStructBase
     /**
      * Set incoterm value
      * @param string $incoterm
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
      */
     public function setIncoterm(?string $incoterm = null): self
     {
@@ -389,7 +389,7 @@ class CustomsValue extends AbstractStructBase
     /**
      * Set language value
      * @param string $language
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
      */
     public function setLanguage(?string $language = null): self
     {
@@ -412,7 +412,7 @@ class CustomsValue extends AbstractStructBase
     /**
      * Set numberOfItems value
      * @param int $numberOfItems
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
      */
     public function setNumberOfItems(?int $numberOfItems = null): self
     {
@@ -435,7 +435,7 @@ class CustomsValue extends AbstractStructBase
     /**
      * Set value value
      * @param float $value
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
      */
     public function setValue(?float $value = null): self
     {
@@ -458,7 +458,7 @@ class CustomsValue extends AbstractStructBase
     /**
      * Set vatNumber value
      * @param string $vatNumber
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomsValue
      */
     public function setVatNumber(?string $vatNumber = null): self
     {

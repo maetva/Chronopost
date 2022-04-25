@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -73,7 +73,7 @@ class CancelSkybill extends AbstractStructBase
     /**
      * Set accountNumber value
      * @param string $accountNumber
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\CancelSkybill
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\CancelSkybill
      */
     public function setAccountNumber(?string $accountNumber = null): self
     {
@@ -96,7 +96,7 @@ class CancelSkybill extends AbstractStructBase
     /**
      * Set password value
      * @param string $password
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\CancelSkybill
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\CancelSkybill
      */
     public function setPassword(?string $password = null): self
     {
@@ -119,7 +119,7 @@ class CancelSkybill extends AbstractStructBase
     /**
      * Set language value
      * @param string $language
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\CancelSkybill
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\CancelSkybill
      */
     public function setLanguage(?string $language = null): self
     {
@@ -142,7 +142,7 @@ class CancelSkybill extends AbstractStructBase
     /**
      * Set skybillNumber value
      * @param string $skybillNumber
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\CancelSkybill
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\CancelSkybill
      */
     public function setSkybillNumber(?string $skybillNumber = null): self
     {

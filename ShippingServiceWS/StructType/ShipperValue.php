@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -169,7 +169,7 @@ class ShipperValue extends AbstractStructBase
     /**
      * Set shipperAdress1 value
      * @param string $shipperAdress1
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
      */
     public function setShipperAdress1(?string $shipperAdress1 = null): self
     {
@@ -192,7 +192,7 @@ class ShipperValue extends AbstractStructBase
     /**
      * Set shipperAdress2 value
      * @param string $shipperAdress2
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
      */
     public function setShipperAdress2(?string $shipperAdress2 = null): self
     {
@@ -215,7 +215,7 @@ class ShipperValue extends AbstractStructBase
     /**
      * Set shipperCity value
      * @param string $shipperCity
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
      */
     public function setShipperCity(?string $shipperCity = null): self
     {
@@ -238,7 +238,7 @@ class ShipperValue extends AbstractStructBase
     /**
      * Set shipperCivility value
      * @param string $shipperCivility
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
      */
     public function setShipperCivility(?string $shipperCivility = null): self
     {
@@ -261,7 +261,7 @@ class ShipperValue extends AbstractStructBase
     /**
      * Set shipperContactName value
      * @param string $shipperContactName
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
      */
     public function setShipperContactName(?string $shipperContactName = null): self
     {
@@ -284,7 +284,7 @@ class ShipperValue extends AbstractStructBase
     /**
      * Set shipperCountry value
      * @param string $shipperCountry
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
      */
     public function setShipperCountry(?string $shipperCountry = null): self
     {
@@ -307,7 +307,7 @@ class ShipperValue extends AbstractStructBase
     /**
      * Set shipperCountryName value
      * @param string $shipperCountryName
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
      */
     public function setShipperCountryName(?string $shipperCountryName = null): self
     {
@@ -330,7 +330,7 @@ class ShipperValue extends AbstractStructBase
     /**
      * Set shipperEmail value
      * @param string $shipperEmail
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
      */
     public function setShipperEmail(?string $shipperEmail = null): self
     {
@@ -353,7 +353,7 @@ class ShipperValue extends AbstractStructBase
     /**
      * Set shipperMobilePhone value
      * @param string $shipperMobilePhone
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
      */
     public function setShipperMobilePhone(?string $shipperMobilePhone = null): self
     {
@@ -376,7 +376,7 @@ class ShipperValue extends AbstractStructBase
     /**
      * Set shipperName value
      * @param string $shipperName
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
      */
     public function setShipperName(?string $shipperName = null): self
     {
@@ -399,7 +399,7 @@ class ShipperValue extends AbstractStructBase
     /**
      * Set shipperName2 value
      * @param string $shipperName2
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
      */
     public function setShipperName2(?string $shipperName2 = null): self
     {
@@ -422,7 +422,7 @@ class ShipperValue extends AbstractStructBase
     /**
      * Set shipperPhone value
      * @param string $shipperPhone
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
      */
     public function setShipperPhone(?string $shipperPhone = null): self
     {
@@ -445,7 +445,7 @@ class ShipperValue extends AbstractStructBase
     /**
      * Set shipperPreAlert value
      * @param int $shipperPreAlert
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
      */
     public function setShipperPreAlert(?int $shipperPreAlert = null): self
     {
@@ -468,7 +468,7 @@ class ShipperValue extends AbstractStructBase
     /**
      * Set shipperZipCode value
      * @param string $shipperZipCode
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
      */
     public function setShipperZipCode(?string $shipperZipCode = null): self
     {

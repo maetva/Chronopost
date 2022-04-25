@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -57,7 +57,7 @@ class EsdWithRefClientValue extends EsdValue
     /**
      * Set ltAImprimerParChronopost value
      * @param bool $ltAImprimerParChronopost
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdWithRefClientValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdWithRefClientValue
      */
     public function setLtAImprimerParChronopost(?bool $ltAImprimerParChronopost = null): self
     {
@@ -80,7 +80,7 @@ class EsdWithRefClientValue extends EsdValue
     /**
      * Set nombreDePassageMaximum value
      * @param int $nombreDePassageMaximum
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdWithRefClientValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdWithRefClientValue
      */
     public function setNombreDePassageMaximum(?int $nombreDePassageMaximum = null): self
     {
@@ -103,7 +103,7 @@ class EsdWithRefClientValue extends EsdValue
     /**
      * Set refEsdClient value
      * @param string $refEsdClient
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdWithRefClientValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdWithRefClientValue
      */
     public function setRefEsdClient(?string $refEsdClient = null): self
     {

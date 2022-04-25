@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -43,7 +43,7 @@ class GetReservedSkybill extends AbstractStructBase
     /**
      * Set reservationNumber value
      * @param string $reservationNumber
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybill
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybill
      */
     public function setReservationNumber(?string $reservationNumber = null): self
     {

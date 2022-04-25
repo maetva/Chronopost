@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -51,7 +51,7 @@ class SkybillParamsValue extends AbstractStructBase
     /**
      * Set duplicata value
      * @param string $duplicata
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValue
      */
     public function setDuplicata(?string $duplicata = null): self
     {
@@ -74,7 +74,7 @@ class SkybillParamsValue extends AbstractStructBase
     /**
      * Set mode value
      * @param string $mode
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValue
      */
     public function setMode(?string $mode = null): self
     {

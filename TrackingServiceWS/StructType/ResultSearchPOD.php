@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -85,7 +85,7 @@ class ResultSearchPOD extends AbstractStructBase
     /**
      * Set errorCode value
      * @param int $errorCode
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPOD
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPOD
      */
     public function setErrorCode(?int $errorCode = null): self
     {
@@ -108,7 +108,7 @@ class ResultSearchPOD extends AbstractStructBase
     /**
      * Set errorMessage value
      * @param string $errorMessage
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPOD
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPOD
      */
     public function setErrorMessage(?string $errorMessage = null): self
     {
@@ -131,7 +131,7 @@ class ResultSearchPOD extends AbstractStructBase
     /**
      * Set formatPOD value
      * @param string $formatPOD
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPOD
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPOD
      */
     public function setFormatPOD(?string $formatPOD = null): self
     {
@@ -154,7 +154,7 @@ class ResultSearchPOD extends AbstractStructBase
     /**
      * Set pod value
      * @param string $pod
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPOD
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPOD
      */
     public function setPod(?string $pod = null): self
     {
@@ -177,7 +177,7 @@ class ResultSearchPOD extends AbstractStructBase
     /**
      * Set podPresente value
      * @param bool $podPresente
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPOD
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPOD
      */
     public function setPodPresente(?bool $podPresente = null): self
     {
@@ -200,7 +200,7 @@ class ResultSearchPOD extends AbstractStructBase
     /**
      * Set statusCode value
      * @param int $statusCode
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPOD
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultSearchPOD
      */
     public function setStatusCode(?int $statusCode = null): self
     {

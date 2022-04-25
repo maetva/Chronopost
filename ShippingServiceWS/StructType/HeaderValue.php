@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -67,7 +67,7 @@ class HeaderValue extends AbstractStructBase
     /**
      * Set accountNumber value
      * @param int $accountNumber
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue
      */
     public function setAccountNumber(?int $accountNumber = null): self
     {
@@ -90,7 +90,7 @@ class HeaderValue extends AbstractStructBase
     /**
      * Set idEmit value
      * @param string $idEmit
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue
      */
     public function setIdEmit(?string $idEmit = null): self
     {
@@ -113,7 +113,7 @@ class HeaderValue extends AbstractStructBase
     /**
      * Set identWebPro value
      * @param string $identWebPro
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue
      */
     public function setIdentWebPro(?string $identWebPro = null): self
     {
@@ -136,7 +136,7 @@ class HeaderValue extends AbstractStructBase
     /**
      * Set subAccount value
      * @param int $subAccount
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue
      */
     public function setSubAccount(?int $subAccount = null): self
     {

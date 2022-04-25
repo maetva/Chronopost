@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -19,33 +19,33 @@ class GetReservedSkybillResponse extends AbstractStructBase
      * The return
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillValue|null
+     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillValue|null
      */
-    protected ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillValue $return = null;
+    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillValue $return = null;
     /**
      * Constructor method for getReservedSkybillResponse
      * @uses GetReservedSkybillResponse::setReturn()
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillValue $return
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillValue $return
      */
-    public function __construct(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillValue $return = null)
+    public function __construct(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillValue $return = null)
     {
         $this
             ->setReturn($return);
     }
     /**
      * Get return value
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillValue|null
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillValue|null
      */
-    public function getReturn(): ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillValue
+    public function getReturn(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillValue
     {
         return $this->return;
     }
     /**
      * Set return value
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillValue $return
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillResponse
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillValue $return
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillResponse
      */
-    public function setReturn(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillValue $return = null): self
+    public function setReturn(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillValue $return = null): self
     {
         $this->return = $return;
         

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -41,7 +41,7 @@ class ResultReservationMultiParcelExpeditionValueV2 extends ResultReservationMul
     /**
      * Set asCode value
      * @param string $asCode
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationMultiParcelExpeditionValueV2
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationMultiParcelExpeditionValueV2
      */
     public function setAsCode(?string $asCode = null): self
     {

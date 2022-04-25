@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -22,9 +22,9 @@ class ResultEnlevementNational extends AbstractStructBase
      * The infoEnlevement
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement|null
+     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement|null
      */
-    protected ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement $infoEnlevement = null;
+    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement $infoEnlevement = null;
     /**
      * The libelleErreur
      * Meta information extracted from the WSDL
@@ -38,10 +38,10 @@ class ResultEnlevementNational extends AbstractStructBase
      * @uses ResultEnlevementNational::setInfoEnlevement()
      * @uses ResultEnlevementNational::setLibelleErreur()
      * @param int $codeErreur
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement $infoEnlevement
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement $infoEnlevement
      * @param string $libelleErreur
      */
-    public function __construct(?int $codeErreur = null, ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement $infoEnlevement = null, ?string $libelleErreur = null)
+    public function __construct(?int $codeErreur = null, ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement $infoEnlevement = null, ?string $libelleErreur = null)
     {
         $this
             ->setCodeErreur($codeErreur)
@@ -59,7 +59,7 @@ class ResultEnlevementNational extends AbstractStructBase
     /**
      * Set codeErreur value
      * @param int $codeErreur
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational
      */
     public function setCodeErreur(?int $codeErreur = null): self
     {
@@ -73,18 +73,18 @@ class ResultEnlevementNational extends AbstractStructBase
     }
     /**
      * Get infoEnlevement value
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement|null
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement|null
      */
-    public function getInfoEnlevement(): ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
+    public function getInfoEnlevement(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
     {
         return $this->infoEnlevement;
     }
     /**
      * Set infoEnlevement value
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement $infoEnlevement
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement $infoEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational
      */
-    public function setInfoEnlevement(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement $infoEnlevement = null): self
+    public function setInfoEnlevement(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement $infoEnlevement = null): self
     {
         $this->infoEnlevement = $infoEnlevement;
         
@@ -101,7 +101,7 @@ class ResultEnlevementNational extends AbstractStructBase
     /**
      * Set libelleErreur value
      * @param string $libelleErreur
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational
      */
     public function setLibelleErreur(?string $libelleErreur = null): self
     {

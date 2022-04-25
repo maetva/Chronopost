@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -139,7 +139,7 @@ class InfoEnlevement extends AbstractStructBase
     /**
      * Set ancienNumeroESD value
      * @param string $ancienNumeroESD
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
      */
     public function setAncienNumeroESD(?string $ancienNumeroESD = null): self
     {
@@ -162,7 +162,7 @@ class InfoEnlevement extends AbstractStructBase
     /**
      * Set codeBu value
      * @param string $codeBu
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
      */
     public function setCodeBu(?string $codeBu = null): self
     {
@@ -185,7 +185,7 @@ class InfoEnlevement extends AbstractStructBase
     /**
      * Set codeDepot value
      * @param string $codeDepot
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
      */
     public function setCodeDepot(?string $codeDepot = null): self
     {
@@ -208,7 +208,7 @@ class InfoEnlevement extends AbstractStructBase
     /**
      * Set codePostal value
      * @param string $codePostal
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
      */
     public function setCodePostal(?string $codePostal = null): self
     {
@@ -231,7 +231,7 @@ class InfoEnlevement extends AbstractStructBase
     /**
      * Set dateCreation value
      * @param string $dateCreation
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
      */
     public function setDateCreation(?string $dateCreation = null): self
     {
@@ -254,7 +254,7 @@ class InfoEnlevement extends AbstractStructBase
     /**
      * Set datePassage value
      * @param string $datePassage
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
      */
     public function setDatePassage(?string $datePassage = null): self
     {
@@ -277,7 +277,7 @@ class InfoEnlevement extends AbstractStructBase
     /**
      * Set idEnlevement value
      * @param int $idEnlevement
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
      */
     public function setIdEnlevement(?int $idEnlevement = null): self
     {
@@ -300,7 +300,7 @@ class InfoEnlevement extends AbstractStructBase
     /**
      * Set numeroUniqueESD value
      * @param string $numeroUniqueESD
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
      */
     public function setNumeroUniqueESD(?string $numeroUniqueESD = null): self
     {
@@ -323,7 +323,7 @@ class InfoEnlevement extends AbstractStructBase
     /**
      * Set refDestinataire value
      * @param string $refDestinataire
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
      */
     public function setRefDestinataire(?string $refDestinataire = null): self
     {
@@ -346,7 +346,7 @@ class InfoEnlevement extends AbstractStructBase
     /**
      * Set refEsdClient value
      * @param string $refEsdClient
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
      */
     public function setRefEsdClient(?string $refEsdClient = null): self
     {
@@ -369,7 +369,7 @@ class InfoEnlevement extends AbstractStructBase
     /**
      * Set ville value
      * @param string $ville
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
      */
     public function setVille(?string $ville = null): self
     {

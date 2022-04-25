@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -179,7 +179,7 @@ class AdresseEnlevement extends AbstractStructBase
     /**
      * Set codeCivilite value
      * @param string $codeCivilite
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
      */
     public function setCodeCivilite(?string $codeCivilite = null): self
     {
@@ -202,7 +202,7 @@ class AdresseEnlevement extends AbstractStructBase
     /**
      * Set codePays value
      * @param string $codePays
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
      */
     public function setCodePays(?string $codePays = null): self
     {
@@ -225,7 +225,7 @@ class AdresseEnlevement extends AbstractStructBase
     /**
      * Set codePorte value
      * @param string $codePorte
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
      */
     public function setCodePorte(?string $codePorte = null): self
     {
@@ -248,7 +248,7 @@ class AdresseEnlevement extends AbstractStructBase
     /**
      * Set codePostal value
      * @param string $codePostal
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
      */
     public function setCodePostal(?string $codePostal = null): self
     {
@@ -271,7 +271,7 @@ class AdresseEnlevement extends AbstractStructBase
     /**
      * Set lieuDit value
      * @param string $lieuDit
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
      */
     public function setLieuDit(?string $lieuDit = null): self
     {
@@ -294,7 +294,7 @@ class AdresseEnlevement extends AbstractStructBase
     /**
      * Set nom value
      * @param string $nom
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
      */
     public function setNom(?string $nom = null): self
     {
@@ -317,7 +317,7 @@ class AdresseEnlevement extends AbstractStructBase
     /**
      * Set nomPersonneARencontrer value
      * @param string $nomPersonneARencontrer
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
      */
     public function setNomPersonneARencontrer(?string $nomPersonneARencontrer = null): self
     {
@@ -340,7 +340,7 @@ class AdresseEnlevement extends AbstractStructBase
     /**
      * Set numeroVoie value
      * @param string $numeroVoie
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
      */
     public function setNumeroVoie(?string $numeroVoie = null): self
     {
@@ -363,7 +363,7 @@ class AdresseEnlevement extends AbstractStructBase
     /**
      * Set porteAPorte value
      * @param bool $porteAPorte
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
      */
     public function setPorteAPorte(?bool $porteAPorte = null): self
     {
@@ -386,7 +386,7 @@ class AdresseEnlevement extends AbstractStructBase
     /**
      * Set prenom value
      * @param string $prenom
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
      */
     public function setPrenom(?string $prenom = null): self
     {
@@ -409,7 +409,7 @@ class AdresseEnlevement extends AbstractStructBase
     /**
      * Set raisonSociale value
      * @param string $raisonSociale
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
      */
     public function setRaisonSociale(?string $raisonSociale = null): self
     {
@@ -432,7 +432,7 @@ class AdresseEnlevement extends AbstractStructBase
     /**
      * Set residenceBatimentEtage value
      * @param string $residenceBatimentEtage
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
      */
     public function setResidenceBatimentEtage(?string $residenceBatimentEtage = null): self
     {
@@ -455,7 +455,7 @@ class AdresseEnlevement extends AbstractStructBase
     /**
      * Set serviceDirection value
      * @param string $serviceDirection
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
      */
     public function setServiceDirection(?string $serviceDirection = null): self
     {
@@ -478,7 +478,7 @@ class AdresseEnlevement extends AbstractStructBase
     /**
      * Set telephone value
      * @param string $telephone
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
      */
     public function setTelephone(?string $telephone = null): self
     {
@@ -501,7 +501,7 @@ class AdresseEnlevement extends AbstractStructBase
     /**
      * Set ville value
      * @param string $ville
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevement
      */
     public function setVille(?string $ville = null): self
     {

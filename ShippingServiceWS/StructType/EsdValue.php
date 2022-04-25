@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -115,7 +115,7 @@ class EsdValue extends AbstractStructBase
     /**
      * Set closingDateTime value
      * @param string $closingDateTime
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue
      */
     public function setClosingDateTime(?string $closingDateTime = null): self
     {
@@ -138,7 +138,7 @@ class EsdValue extends AbstractStructBase
     /**
      * Set height value
      * @param float $height
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue
      */
     public function setHeight(?float $height = null): self
     {
@@ -161,7 +161,7 @@ class EsdValue extends AbstractStructBase
     /**
      * Set length value
      * @param float $length
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue
      */
     public function setLength(?float $length = null): self
     {
@@ -184,7 +184,7 @@ class EsdValue extends AbstractStructBase
     /**
      * Set retrievalDateTime value
      * @param string $retrievalDateTime
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue
      */
     public function setRetrievalDateTime(?string $retrievalDateTime = null): self
     {
@@ -207,7 +207,7 @@ class EsdValue extends AbstractStructBase
     /**
      * Set shipperBuildingFloor value
      * @param string $shipperBuildingFloor
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue
      */
     public function setShipperBuildingFloor(?string $shipperBuildingFloor = null): self
     {
@@ -230,7 +230,7 @@ class EsdValue extends AbstractStructBase
     /**
      * Set shipperCarriesCode value
      * @param string $shipperCarriesCode
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue
      */
     public function setShipperCarriesCode(?string $shipperCarriesCode = null): self
     {
@@ -253,7 +253,7 @@ class EsdValue extends AbstractStructBase
     /**
      * Set shipperServiceDirection value
      * @param string $shipperServiceDirection
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue
      */
     public function setShipperServiceDirection(?string $shipperServiceDirection = null): self
     {
@@ -276,7 +276,7 @@ class EsdValue extends AbstractStructBase
     /**
      * Set specificInstructions value
      * @param string $specificInstructions
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue
      */
     public function setSpecificInstructions(?string $specificInstructions = null): self
     {
@@ -299,7 +299,7 @@ class EsdValue extends AbstractStructBase
     /**
      * Set width value
      * @param float $width
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue
      */
     public function setWidth(?float $width = null): self
     {

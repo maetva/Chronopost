@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\ServiceType;
+namespace Maetva\Chronopost\Endpoint\TrackingServiceWS\ServiceType;
 
 use SoapFault;
 use WsdlToPhp\PackageBase\AbstractSoapClientBase;
@@ -18,10 +18,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\TrackWithSenderRef $parameters
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\TrackWithSenderRefResponse|bool
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackWithSenderRef $parameters
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackWithSenderRefResponse|bool
      */
-    public function trackWithSenderRef(\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\TrackWithSenderRef $parameters)
+    public function trackWithSenderRef(\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackWithSenderRef $parameters)
     {
         try {
             $this->setResult($resultTrackWithSenderRef = $this->getSoapClient()->__soapCall('trackWithSenderRef', [
@@ -40,10 +40,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\TrackSearch $parameters
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\TrackSearchResponse|bool
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSearch $parameters
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSearchResponse|bool
      */
-    public function trackSearch(\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\TrackSearch $parameters)
+    public function trackSearch(\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSearch $parameters)
     {
         try {
             $this->setResult($resultTrackSearch = $this->getSoapClient()->__soapCall('trackSearch', [
@@ -62,10 +62,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\TrackSkybillV2 $parameters
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\TrackSkybillV2Response|bool
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSkybillV2 $parameters
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSkybillV2Response|bool
      */
-    public function trackSkybillV2(\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\TrackSkybillV2 $parameters)
+    public function trackSkybillV2(\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSkybillV2 $parameters)
     {
         try {
             $this->setResult($resultTrackSkybillV2 = $this->getSoapClient()->__soapCall('trackSkybillV2', [
@@ -84,10 +84,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\CancelSkybill $parameters
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\CancelSkybillResponse|bool
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\CancelSkybill $parameters
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\CancelSkybillResponse|bool
      */
-    public function cancelSkybill(\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\CancelSkybill $parameters)
+    public function cancelSkybill(\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\CancelSkybill $parameters)
     {
         try {
             $this->setResult($resultCancelSkybill = $this->getSoapClient()->__soapCall('cancelSkybill', [
@@ -106,10 +106,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\TrackSkybill $parameters
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\TrackSkybillResponse|bool
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSkybill $parameters
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSkybillResponse|bool
      */
-    public function trackSkybill(\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\TrackSkybill $parameters)
+    public function trackSkybill(\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSkybill $parameters)
     {
         try {
             $this->setResult($resultTrackSkybill = $this->getSoapClient()->__soapCall('trackSkybill', [
@@ -128,10 +128,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\SearchPOD $parameters
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODResponse|bool
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\SearchPOD $parameters
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODResponse|bool
      */
-    public function searchPOD(\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\SearchPOD $parameters)
+    public function searchPOD(\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\SearchPOD $parameters)
     {
         try {
             $this->setResult($resultSearchPOD = $this->getSoapClient()->__soapCall('searchPOD', [
@@ -150,10 +150,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODWithSenderRef $parameters
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODWithSenderRefResponse|bool
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODWithSenderRef $parameters
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODWithSenderRefResponse|bool
      */
-    public function searchPODWithSenderRef(\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODWithSenderRef $parameters)
+    public function searchPODWithSenderRef(\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODWithSenderRef $parameters)
     {
         try {
             $this->setResult($resultSearchPODWithSenderRef = $this->getSoapClient()->__soapCall('searchPODWithSenderRef', [
@@ -170,7 +170,7 @@ class Service extends AbstractSoapClientBase
     /**
      * Returns the result
      * @see AbstractSoapClientBase::getResult()
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\CancelSkybillResponse|\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODResponse|\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODWithSenderRefResponse|\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\TrackSearchResponse|\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\TrackSkybillResponse|\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\TrackSkybillV2Response|\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\TrackWithSenderRefResponse
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\CancelSkybillResponse|\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODResponse|\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODWithSenderRefResponse|\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSearchResponse|\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSkybillResponse|\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSkybillV2Response|\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackWithSenderRefResponse
      */
     public function getResult()
     {

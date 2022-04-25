@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -19,7 +19,7 @@ class ListEventInfoComps extends AbstractStructBase
      * - maxOccurs: unbounded
      * - minOccurs: 0
      * - nillable: true
-     * @var \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\EventInfoComp[]
+     * @var \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\EventInfoComp[]
      */
     protected ?array $events = null;
     /**
@@ -33,7 +33,7 @@ class ListEventInfoComps extends AbstractStructBase
      * Constructor method for listEventInfoComps
      * @uses ListEventInfoComps::setEvents()
      * @uses ListEventInfoComps::setSkybillNumber()
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\EventInfoComp[] $events
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\EventInfoComp[] $events
      * @param string $skybillNumber
      */
     public function __construct(?array $events = null, ?string $skybillNumber = null)
@@ -47,7 +47,7 @@ class ListEventInfoComps extends AbstractStructBase
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\EventInfoComp[]
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\EventInfoComp[]
      */
     public function getEvents(): ?array
     {
@@ -68,12 +68,12 @@ class ListEventInfoComps extends AbstractStructBase
         $invalidValues = [];
         foreach ($values as $listEventInfoCompsEventsItem) {
             // validation for constraint: itemType
-            if (!$listEventInfoCompsEventsItem instanceof \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\EventInfoComp) {
+            if (!$listEventInfoCompsEventsItem instanceof \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\EventInfoComp) {
                 $invalidValues[] = is_object($listEventInfoCompsEventsItem) ? get_class($listEventInfoCompsEventsItem) : sprintf('%s(%s)', gettype($listEventInfoCompsEventsItem), var_export($listEventInfoCompsEventsItem, true));
             }
         }
         if (!empty($invalidValues)) {
-            $message = sprintf('The events property can only contain items of type \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\EventInfoComp, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
+            $message = sprintf('The events property can only contain items of type \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\EventInfoComp, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
         }
         unset($invalidValues);
         
@@ -84,8 +84,8 @@ class ListEventInfoComps extends AbstractStructBase
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
      * @throws InvalidArgumentException
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\EventInfoComp[] $events
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ListEventInfoComps
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\EventInfoComp[] $events
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEventInfoComps
      */
     public function setEvents(?array $events = null): self
     {
@@ -104,14 +104,14 @@ class ListEventInfoComps extends AbstractStructBase
     /**
      * Add item to events value
      * @throws InvalidArgumentException
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\EventInfoComp $item
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ListEventInfoComps
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\EventInfoComp $item
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEventInfoComps
      */
-    public function addToEvents(\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\EventInfoComp $item): self
+    public function addToEvents(\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\EventInfoComp $item): self
     {
         // validation for constraint: itemType
-        if (!$item instanceof \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\EventInfoComp) {
-            throw new InvalidArgumentException(sprintf('The events property can only contain items of type \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\EventInfoComp, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
+        if (!$item instanceof \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\EventInfoComp) {
+            throw new InvalidArgumentException(sprintf('The events property can only contain items of type \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\EventInfoComp, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
         }
         $this->events[] = $item;
         
@@ -128,7 +128,7 @@ class ListEventInfoComps extends AbstractStructBase
     /**
      * Set skybillNumber value
      * @param string $skybillNumber
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ListEventInfoComps
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEventInfoComps
      */
     public function setSkybillNumber(?string $skybillNumber = null): self
     {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -17,9 +17,9 @@ class ScheduledValue extends AbstractStructBase
      * The appointmentValue
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AppointmentValue|null
+     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AppointmentValue|null
      */
-    protected ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AppointmentValue $appointmentValue = null;
+    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AppointmentValue $appointmentValue = null;
     /**
      * The expirationDate
      * Meta information extracted from the WSDL
@@ -39,11 +39,11 @@ class ScheduledValue extends AbstractStructBase
      * @uses ScheduledValue::setAppointmentValue()
      * @uses ScheduledValue::setExpirationDate()
      * @uses ScheduledValue::setSellByDate()
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AppointmentValue $appointmentValue
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AppointmentValue $appointmentValue
      * @param string $expirationDate
      * @param string $sellByDate
      */
-    public function __construct(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AppointmentValue $appointmentValue = null, ?string $expirationDate = null, ?string $sellByDate = null)
+    public function __construct(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AppointmentValue $appointmentValue = null, ?string $expirationDate = null, ?string $sellByDate = null)
     {
         $this
             ->setAppointmentValue($appointmentValue)
@@ -52,18 +52,18 @@ class ScheduledValue extends AbstractStructBase
     }
     /**
      * Get appointmentValue value
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AppointmentValue|null
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AppointmentValue|null
      */
-    public function getAppointmentValue(): ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AppointmentValue
+    public function getAppointmentValue(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AppointmentValue
     {
         return $this->appointmentValue;
     }
     /**
      * Set appointmentValue value
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AppointmentValue $appointmentValue
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AppointmentValue $appointmentValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue
      */
-    public function setAppointmentValue(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AppointmentValue $appointmentValue = null): self
+    public function setAppointmentValue(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AppointmentValue $appointmentValue = null): self
     {
         $this->appointmentValue = $appointmentValue;
         
@@ -80,7 +80,7 @@ class ScheduledValue extends AbstractStructBase
     /**
      * Set expirationDate value
      * @param string $expirationDate
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue
      */
     public function setExpirationDate(?string $expirationDate = null): self
     {
@@ -103,7 +103,7 @@ class ScheduledValue extends AbstractStructBase
     /**
      * Set sellByDate value
      * @param string $sellByDate
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue
      */
     public function setSellByDate(?string $sellByDate = null): self
     {

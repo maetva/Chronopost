@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -63,7 +63,7 @@ class Options extends AbstractStructBase
     /**
      * Set aviserSurRealisation value
      * @param bool $aviserSurRealisation
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\Options
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Options
      */
     public function setAviserSurRealisation(?bool $aviserSurRealisation = null): self
     {
@@ -86,7 +86,7 @@ class Options extends AbstractStructBase
     /**
      * Set chezUnTiers value
      * @param bool $chezUnTiers
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\Options
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Options
      */
     public function setChezUnTiers(?bool $chezUnTiers = null): self
     {
@@ -109,7 +109,7 @@ class Options extends AbstractStructBase
     /**
      * Set envoyerLtParMail value
      * @param bool $envoyerLtParMail
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\Options
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Options
      */
     public function setEnvoyerLtParMail(?bool $envoyerLtParMail = null): self
     {
@@ -132,7 +132,7 @@ class Options extends AbstractStructBase
     /**
      * Set LTaImprimerParChronopost value
      * @param bool $lTaImprimerParChronopost
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\Options
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Options
      */
     public function setLTaImprimerParChronopost(?bool $lTaImprimerParChronopost = null): self
     {

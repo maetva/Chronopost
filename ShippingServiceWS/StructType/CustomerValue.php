@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -179,7 +179,7 @@ class CustomerValue extends AbstractStructBase
     /**
      * Set customerAdress1 value
      * @param string $customerAdress1
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
      */
     public function setCustomerAdress1(?string $customerAdress1 = null): self
     {
@@ -202,7 +202,7 @@ class CustomerValue extends AbstractStructBase
     /**
      * Set customerAdress2 value
      * @param string $customerAdress2
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
      */
     public function setCustomerAdress2(?string $customerAdress2 = null): self
     {
@@ -225,7 +225,7 @@ class CustomerValue extends AbstractStructBase
     /**
      * Set customerCity value
      * @param string $customerCity
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
      */
     public function setCustomerCity(?string $customerCity = null): self
     {
@@ -248,7 +248,7 @@ class CustomerValue extends AbstractStructBase
     /**
      * Set customerCivility value
      * @param string $customerCivility
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
      */
     public function setCustomerCivility(?string $customerCivility = null): self
     {
@@ -271,7 +271,7 @@ class CustomerValue extends AbstractStructBase
     /**
      * Set customerContactName value
      * @param string $customerContactName
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
      */
     public function setCustomerContactName(?string $customerContactName = null): self
     {
@@ -294,7 +294,7 @@ class CustomerValue extends AbstractStructBase
     /**
      * Set customerCountry value
      * @param string $customerCountry
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
      */
     public function setCustomerCountry(?string $customerCountry = null): self
     {
@@ -317,7 +317,7 @@ class CustomerValue extends AbstractStructBase
     /**
      * Set customerCountryName value
      * @param string $customerCountryName
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
      */
     public function setCustomerCountryName(?string $customerCountryName = null): self
     {
@@ -340,7 +340,7 @@ class CustomerValue extends AbstractStructBase
     /**
      * Set customerEmail value
      * @param string $customerEmail
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
      */
     public function setCustomerEmail(?string $customerEmail = null): self
     {
@@ -363,7 +363,7 @@ class CustomerValue extends AbstractStructBase
     /**
      * Set customerMobilePhone value
      * @param string $customerMobilePhone
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
      */
     public function setCustomerMobilePhone(?string $customerMobilePhone = null): self
     {
@@ -386,7 +386,7 @@ class CustomerValue extends AbstractStructBase
     /**
      * Set customerName value
      * @param string $customerName
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
      */
     public function setCustomerName(?string $customerName = null): self
     {
@@ -409,7 +409,7 @@ class CustomerValue extends AbstractStructBase
     /**
      * Set customerName2 value
      * @param string $customerName2
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
      */
     public function setCustomerName2(?string $customerName2 = null): self
     {
@@ -432,7 +432,7 @@ class CustomerValue extends AbstractStructBase
     /**
      * Set customerPhone value
      * @param string $customerPhone
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
      */
     public function setCustomerPhone(?string $customerPhone = null): self
     {
@@ -455,7 +455,7 @@ class CustomerValue extends AbstractStructBase
     /**
      * Set customerPreAlert value
      * @param int $customerPreAlert
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
      */
     public function setCustomerPreAlert(?int $customerPreAlert = null): self
     {
@@ -478,7 +478,7 @@ class CustomerValue extends AbstractStructBase
     /**
      * Set customerZipCode value
      * @param string $customerZipCode
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
      */
     public function setCustomerZipCode(?string $customerZipCode = null): self
     {
@@ -501,7 +501,7 @@ class CustomerValue extends AbstractStructBase
     /**
      * Set printAsSender value
      * @param string $printAsSender
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
      */
     public function setPrintAsSender(?string $printAsSender = null): self
     {

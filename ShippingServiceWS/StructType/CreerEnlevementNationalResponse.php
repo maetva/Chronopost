@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -19,33 +19,33 @@ class CreerEnlevementNationalResponse extends AbstractStructBase
      * The return
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational|null
+     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational|null
      */
-    protected ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational $return = null;
+    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational $return = null;
     /**
      * Constructor method for creerEnlevementNationalResponse
      * @uses CreerEnlevementNationalResponse::setReturn()
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational $return
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational $return
      */
-    public function __construct(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational $return = null)
+    public function __construct(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational $return = null)
     {
         $this
             ->setReturn($return);
     }
     /**
      * Get return value
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational|null
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational|null
      */
-    public function getReturn(): ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational
+    public function getReturn(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational
     {
         return $this->return;
     }
     /**
      * Set return value
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational $return
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CreerEnlevementNationalResponse
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational $return
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CreerEnlevementNationalResponse
      */
-    public function setReturn(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational $return = null): self
+    public function setReturn(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational $return = null): self
     {
         $this->return = $return;
         

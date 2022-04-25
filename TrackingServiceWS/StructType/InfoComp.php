@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -51,7 +51,7 @@ class InfoComp extends AbstractStructBase
     /**
      * Set name value
      * @param string $name
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\InfoComp
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfoComp
      */
     public function setName(?string $name = null): self
     {
@@ -74,7 +74,7 @@ class InfoComp extends AbstractStructBase
     /**
      * Set value value
      * @param string $value
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\InfoComp
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfoComp
      */
     public function setValue(?string $value = null): self
     {

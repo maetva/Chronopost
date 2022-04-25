@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -59,7 +59,7 @@ class ResultGetReservedSkybillValue extends AbstractStructBase
     /**
      * Set errorCode value
      * @param int $errorCode
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillValue
      */
     public function setErrorCode(?int $errorCode = null): self
     {
@@ -82,7 +82,7 @@ class ResultGetReservedSkybillValue extends AbstractStructBase
     /**
      * Set errorMessage value
      * @param string $errorMessage
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillValue
      */
     public function setErrorMessage(?string $errorMessage = null): self
     {
@@ -105,7 +105,7 @@ class ResultGetReservedSkybillValue extends AbstractStructBase
     /**
      * Set skybill value
      * @param string $skybill
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillValue
      */
     public function setSkybill(?string $skybill = null): self
     {

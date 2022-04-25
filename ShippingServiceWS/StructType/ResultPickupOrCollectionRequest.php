@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -29,7 +29,7 @@ class ResultPickupOrCollectionRequest extends AbstractStructBase
      * - maxOccurs: unbounded
      * - minOccurs: 0
      * - nillable: true
-     * @var \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement[]
+     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement[]
      */
     protected ?array $infoEnlevements = null;
     /**
@@ -47,7 +47,7 @@ class ResultPickupOrCollectionRequest extends AbstractStructBase
      * @uses ResultPickupOrCollectionRequest::setLibelleErreur()
      * @param int $codeErreur
      * @param bool $collectionRequest
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement[] $infoEnlevements
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement[] $infoEnlevements
      * @param string $libelleErreur
      */
     public function __construct(?int $codeErreur = null, ?bool $collectionRequest = null, ?array $infoEnlevements = null, ?string $libelleErreur = null)
@@ -69,7 +69,7 @@ class ResultPickupOrCollectionRequest extends AbstractStructBase
     /**
      * Set codeErreur value
      * @param int $codeErreur
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultPickupOrCollectionRequest
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultPickupOrCollectionRequest
      */
     public function setCodeErreur(?int $codeErreur = null): self
     {
@@ -92,7 +92,7 @@ class ResultPickupOrCollectionRequest extends AbstractStructBase
     /**
      * Set collectionRequest value
      * @param bool $collectionRequest
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultPickupOrCollectionRequest
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultPickupOrCollectionRequest
      */
     public function setCollectionRequest(?bool $collectionRequest = null): self
     {
@@ -109,7 +109,7 @@ class ResultPickupOrCollectionRequest extends AbstractStructBase
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement[]
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement[]
      */
     public function getInfoEnlevements(): ?array
     {
@@ -130,12 +130,12 @@ class ResultPickupOrCollectionRequest extends AbstractStructBase
         $invalidValues = [];
         foreach ($values as $resultPickupOrCollectionRequestInfoEnlevementsItem) {
             // validation for constraint: itemType
-            if (!$resultPickupOrCollectionRequestInfoEnlevementsItem instanceof \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement) {
+            if (!$resultPickupOrCollectionRequestInfoEnlevementsItem instanceof \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement) {
                 $invalidValues[] = is_object($resultPickupOrCollectionRequestInfoEnlevementsItem) ? get_class($resultPickupOrCollectionRequestInfoEnlevementsItem) : sprintf('%s(%s)', gettype($resultPickupOrCollectionRequestInfoEnlevementsItem), var_export($resultPickupOrCollectionRequestInfoEnlevementsItem, true));
             }
         }
         if (!empty($invalidValues)) {
-            $message = sprintf('The infoEnlevements property can only contain items of type \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
+            $message = sprintf('The infoEnlevements property can only contain items of type \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
         }
         unset($invalidValues);
         
@@ -146,8 +146,8 @@ class ResultPickupOrCollectionRequest extends AbstractStructBase
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
      * @throws InvalidArgumentException
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement[] $infoEnlevements
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultPickupOrCollectionRequest
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement[] $infoEnlevements
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultPickupOrCollectionRequest
      */
     public function setInfoEnlevements(?array $infoEnlevements = null): self
     {
@@ -166,14 +166,14 @@ class ResultPickupOrCollectionRequest extends AbstractStructBase
     /**
      * Add item to infoEnlevements value
      * @throws InvalidArgumentException
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement $item
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultPickupOrCollectionRequest
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement $item
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultPickupOrCollectionRequest
      */
-    public function addToInfoEnlevements(\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement $item): self
+    public function addToInfoEnlevements(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement $item): self
     {
         // validation for constraint: itemType
-        if (!$item instanceof \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement) {
-            throw new InvalidArgumentException(sprintf('The infoEnlevements property can only contain items of type \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
+        if (!$item instanceof \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement) {
+            throw new InvalidArgumentException(sprintf('The infoEnlevements property can only contain items of type \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
         }
         $this->infoEnlevements[] = $item;
         
@@ -190,7 +190,7 @@ class ResultPickupOrCollectionRequest extends AbstractStructBase
     /**
      * Set libelleErreur value
      * @param string $libelleErreur
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultPickupOrCollectionRequest
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultPickupOrCollectionRequest
      */
     public function setLibelleErreur(?string $libelleErreur = null): self
     {

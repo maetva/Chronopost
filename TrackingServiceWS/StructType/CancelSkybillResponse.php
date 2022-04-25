@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -19,33 +19,33 @@ class CancelSkybillResponse extends AbstractStructBase
      * The return
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultCancelSkybill|null
+     * @var \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultCancelSkybill|null
      */
-    protected ?\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultCancelSkybill $return = null;
+    protected ?\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultCancelSkybill $return = null;
     /**
      * Constructor method for cancelSkybillResponse
      * @uses CancelSkybillResponse::setReturn()
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultCancelSkybill $return
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultCancelSkybill $return
      */
-    public function __construct(?\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultCancelSkybill $return = null)
+    public function __construct(?\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultCancelSkybill $return = null)
     {
         $this
             ->setReturn($return);
     }
     /**
      * Get return value
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultCancelSkybill|null
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultCancelSkybill|null
      */
-    public function getReturn(): ?\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultCancelSkybill
+    public function getReturn(): ?\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultCancelSkybill
     {
         return $this->return;
     }
     /**
      * Set return value
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultCancelSkybill $return
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\CancelSkybillResponse
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultCancelSkybill $return
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\CancelSkybillResponse
      */
-    public function setReturn(?\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultCancelSkybill $return = null): self
+    public function setReturn(?\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultCancelSkybill $return = null): self
     {
         $this->return = $return;
         

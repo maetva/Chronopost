@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -309,7 +309,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set bulkNumber value
      * @param string $bulkNumber
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setBulkNumber(?string $bulkNumber = null): self
     {
@@ -332,7 +332,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set codCurrency value
      * @param string $codCurrency
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setCodCurrency(?string $codCurrency = null): self
     {
@@ -355,7 +355,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set codValue value
      * @param float $codValue
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setCodValue(?float $codValue = null): self
     {
@@ -378,7 +378,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set content1 value
      * @param string $content1
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setContent1(?string $content1 = null): self
     {
@@ -401,7 +401,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set content2 value
      * @param string $content2
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setContent2(?string $content2 = null): self
     {
@@ -424,7 +424,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set content3 value
      * @param string $content3
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setContent3(?string $content3 = null): self
     {
@@ -447,7 +447,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set content4 value
      * @param string $content4
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setContent4(?string $content4 = null): self
     {
@@ -470,7 +470,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set content5 value
      * @param string $content5
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setContent5(?string $content5 = null): self
     {
@@ -493,7 +493,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set customsCurrency value
      * @param string $customsCurrency
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setCustomsCurrency(?string $customsCurrency = null): self
     {
@@ -516,7 +516,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set customsValue value
      * @param float $customsValue
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setCustomsValue(?float $customsValue = null): self
     {
@@ -539,7 +539,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set evtCode value
      * @param string $evtCode
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setEvtCode(?string $evtCode = null): self
     {
@@ -562,7 +562,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set insuredCurrency value
      * @param string $insuredCurrency
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setInsuredCurrency(?string $insuredCurrency = null): self
     {
@@ -585,7 +585,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set insuredValue value
      * @param float $insuredValue
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setInsuredValue(?float $insuredValue = null): self
     {
@@ -608,7 +608,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set latitude value
      * @param string $latitude
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setLatitude(?string $latitude = null): self
     {
@@ -631,7 +631,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set longitude value
      * @param string $longitude
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setLongitude(?string $longitude = null): self
     {
@@ -654,7 +654,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set masterSkybillNumber value
      * @param string $masterSkybillNumber
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setMasterSkybillNumber(?string $masterSkybillNumber = null): self
     {
@@ -677,7 +677,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set objectType value
      * @param string $objectType
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setObjectType(?string $objectType = null): self
     {
@@ -700,7 +700,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set portCurrency value
      * @param string $portCurrency
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setPortCurrency(?string $portCurrency = null): self
     {
@@ -723,7 +723,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set portValue value
      * @param float $portValue
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setPortValue(?float $portValue = null): self
     {
@@ -746,7 +746,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set productCode value
      * @param string $productCode
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setProductCode(?string $productCode = null): self
     {
@@ -769,7 +769,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set qualite value
      * @param string $qualite
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setQualite(?string $qualite = null): self
     {
@@ -792,7 +792,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set service value
      * @param string $service
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setService(?string $service = null): self
     {
@@ -815,7 +815,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set shipDate value
      * @param string $shipDate
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setShipDate(?string $shipDate = null): self
     {
@@ -838,7 +838,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set shipHour value
      * @param int $shipHour
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setShipHour(?int $shipHour = null): self
     {
@@ -861,7 +861,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set skybillRank value
      * @param string $skybillRank
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setSkybillRank(?string $skybillRank = null): self
     {
@@ -884,7 +884,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set source value
      * @param string $source
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setSource(?string $source = null): self
     {
@@ -907,7 +907,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set weight value
      * @param float $weight
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setWeight(?float $weight = null): self
     {
@@ -930,7 +930,7 @@ class SkybillValue extends AbstractStructBase
     /**
      * Set weightUnit value
      * @param string $weightUnit
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValue
      */
     public function setWeightUnit(?string $weightUnit = null): self
     {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -211,7 +211,7 @@ class GeopostResult extends AbstractStructBase
     /**
      * Set barcodeId value
      * @param string $barcodeId
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
      */
     public function setBarcodeId(?string $barcodeId = null): self
     {
@@ -234,7 +234,7 @@ class GeopostResult extends AbstractStructBase
     /**
      * Set barcodePostcode value
      * @param string $barcodePostcode
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
      */
     public function setBarcodePostcode(?string $barcodePostcode = null): self
     {
@@ -257,7 +257,7 @@ class GeopostResult extends AbstractStructBase
     /**
      * Set buAlphaString value
      * @param string $buAlphaString
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
      */
     public function setBuAlphaString(?string $buAlphaString = null): self
     {
@@ -280,7 +280,7 @@ class GeopostResult extends AbstractStructBase
     /**
      * Set buCode value
      * @param string $buCode
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
      */
     public function setBuCode(?string $buCode = null): self
     {
@@ -303,7 +303,7 @@ class GeopostResult extends AbstractStructBase
     /**
      * Set CSort value
      * @param string $cSort
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
      */
     public function setCSort(?string $cSort = null): self
     {
@@ -326,7 +326,7 @@ class GeopostResult extends AbstractStructBase
     /**
      * Set DCountry value
      * @param string $dCountry
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
      */
     public function setDCountry(?string $dCountry = null): self
     {
@@ -349,7 +349,7 @@ class GeopostResult extends AbstractStructBase
     /**
      * Set DDepot value
      * @param string $dDepot
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
      */
     public function setDDepot(?string $dDepot = null): self
     {
@@ -372,7 +372,7 @@ class GeopostResult extends AbstractStructBase
     /**
      * Set DDepotCountry value
      * @param string $dDepotCountry
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
      */
     public function setDDepotCountry(?string $dDepotCountry = null): self
     {
@@ -395,7 +395,7 @@ class GeopostResult extends AbstractStructBase
     /**
      * Set DDepotStr value
      * @param string $dDepotStr
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
      */
     public function setDDepotStr(?string $dDepotStr = null): self
     {
@@ -418,7 +418,7 @@ class GeopostResult extends AbstractStructBase
     /**
      * Set DSort value
      * @param string $dSort
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
      */
     public function setDSort(?string $dSort = null): self
     {
@@ -441,7 +441,7 @@ class GeopostResult extends AbstractStructBase
     /**
      * Set groupingPriority value
      * @param string $groupingPriority
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
      */
     public function setGroupingPriority(?string $groupingPriority = null): self
     {
@@ -464,7 +464,7 @@ class GeopostResult extends AbstractStructBase
     /**
      * Set networkCode value
      * @param string $networkCode
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
      */
     public function setNetworkCode(?string $networkCode = null): self
     {
@@ -487,7 +487,7 @@ class GeopostResult extends AbstractStructBase
     /**
      * Set OSort value
      * @param string $oSort
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
      */
     public function setOSort(?string $oSort = null): self
     {
@@ -510,7 +510,7 @@ class GeopostResult extends AbstractStructBase
     /**
      * Set partnerCode value
      * @param string $partnerCode
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
      */
     public function setPartnerCode(?string $partnerCode = null): self
     {
@@ -533,7 +533,7 @@ class GeopostResult extends AbstractStructBase
     /**
      * Set SSort value
      * @param string $sSort
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
      */
     public function setSSort(?string $sSort = null): self
     {
@@ -556,7 +556,7 @@ class GeopostResult extends AbstractStructBase
     /**
      * Set serviceMark value
      * @param string $serviceMark
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
      */
     public function setServiceMark(?string $serviceMark = null): self
     {
@@ -579,7 +579,7 @@ class GeopostResult extends AbstractStructBase
     /**
      * Set serviceText value
      * @param string $serviceText
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
      */
     public function setServiceText(?string $serviceText = null): self
     {
@@ -602,7 +602,7 @@ class GeopostResult extends AbstractStructBase
     /**
      * Set version value
      * @param string $version
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GeopostResult
      */
     public function setVersion(?string $version = null): self
     {

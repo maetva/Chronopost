@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -191,7 +191,7 @@ class DonneurDOrdre extends AbstractStructBase
     /**
      * Set autreTelephone value
      * @param string $autreTelephone
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
      */
     public function setAutreTelephone(?string $autreTelephone = null): self
     {
@@ -214,7 +214,7 @@ class DonneurDOrdre extends AbstractStructBase
     /**
      * Set batiment value
      * @param string $batiment
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
      */
     public function setBatiment(?string $batiment = null): self
     {
@@ -237,7 +237,7 @@ class DonneurDOrdre extends AbstractStructBase
     /**
      * Set codeCivilite value
      * @param string $codeCivilite
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
      */
     public function setCodeCivilite(?string $codeCivilite = null): self
     {
@@ -260,7 +260,7 @@ class DonneurDOrdre extends AbstractStructBase
     /**
      * Set codeNaf value
      * @param string $codeNaf
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
      */
     public function setCodeNaf(?string $codeNaf = null): self
     {
@@ -283,7 +283,7 @@ class DonneurDOrdre extends AbstractStructBase
     /**
      * Set codePays value
      * @param string $codePays
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
      */
     public function setCodePays(?string $codePays = null): self
     {
@@ -306,7 +306,7 @@ class DonneurDOrdre extends AbstractStructBase
     /**
      * Set codePostal value
      * @param string $codePostal
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
      */
     public function setCodePostal(?string $codePostal = null): self
     {
@@ -329,7 +329,7 @@ class DonneurDOrdre extends AbstractStructBase
     /**
      * Set EMail value
      * @param string $eMail
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
      */
     public function setEMail(?string $eMail = null): self
     {
@@ -352,7 +352,7 @@ class DonneurDOrdre extends AbstractStructBase
     /**
      * Set fax value
      * @param string $fax
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
      */
     public function setFax(?string $fax = null): self
     {
@@ -375,7 +375,7 @@ class DonneurDOrdre extends AbstractStructBase
     /**
      * Set lieuDit value
      * @param string $lieuDit
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
      */
     public function setLieuDit(?string $lieuDit = null): self
     {
@@ -398,7 +398,7 @@ class DonneurDOrdre extends AbstractStructBase
     /**
      * Set nom value
      * @param string $nom
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
      */
     public function setNom(?string $nom = null): self
     {
@@ -421,7 +421,7 @@ class DonneurDOrdre extends AbstractStructBase
     /**
      * Set prenom value
      * @param string $prenom
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
      */
     public function setPrenom(?string $prenom = null): self
     {
@@ -444,7 +444,7 @@ class DonneurDOrdre extends AbstractStructBase
     /**
      * Set raisonSociale value
      * @param string $raisonSociale
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
      */
     public function setRaisonSociale(?string $raisonSociale = null): self
     {
@@ -467,7 +467,7 @@ class DonneurDOrdre extends AbstractStructBase
     /**
      * Set service value
      * @param string $service
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
      */
     public function setService(?string $service = null): self
     {
@@ -490,7 +490,7 @@ class DonneurDOrdre extends AbstractStructBase
     /**
      * Set telephone value
      * @param string $telephone
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
      */
     public function setTelephone(?string $telephone = null): self
     {
@@ -513,7 +513,7 @@ class DonneurDOrdre extends AbstractStructBase
     /**
      * Set ville value
      * @param string $ville
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
      */
     public function setVille(?string $ville = null): self
     {
@@ -536,7 +536,7 @@ class DonneurDOrdre extends AbstractStructBase
     /**
      * Set voie value
      * @param string $voie
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
      */
     public function setVoie(?string $voie = null): self
     {

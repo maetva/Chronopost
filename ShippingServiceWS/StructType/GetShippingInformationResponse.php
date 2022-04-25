@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -19,33 +19,33 @@ class GetShippingInformationResponse extends AbstractStructBase
      * The return
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultShippingInfo|null
+     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultShippingInfo|null
      */
-    protected ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultShippingInfo $return = null;
+    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultShippingInfo $return = null;
     /**
      * Constructor method for getShippingInformationResponse
      * @uses GetShippingInformationResponse::setReturn()
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultShippingInfo $return
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultShippingInfo $return
      */
-    public function __construct(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultShippingInfo $return = null)
+    public function __construct(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultShippingInfo $return = null)
     {
         $this
             ->setReturn($return);
     }
     /**
      * Get return value
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultShippingInfo|null
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultShippingInfo|null
      */
-    public function getReturn(): ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultShippingInfo
+    public function getReturn(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultShippingInfo
     {
         return $this->return;
     }
     /**
      * Set return value
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultShippingInfo $return
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GetShippingInformationResponse
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultShippingInfo $return
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetShippingInformationResponse
      */
-    public function setReturn(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultShippingInfo $return = null): self
+    public function setReturn(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultShippingInfo $return = null): self
     {
         $this->return = $return;
         

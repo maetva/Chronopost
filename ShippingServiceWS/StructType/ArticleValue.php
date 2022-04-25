@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -131,7 +131,7 @@ class ArticleValue extends AbstractStructBase
     /**
      * Set content value
      * @param string $content
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue
      */
     public function setContent(?string $content = null): self
     {
@@ -154,7 +154,7 @@ class ArticleValue extends AbstractStructBase
     /**
      * Set contentInLanguage value
      * @param string $contentInLanguage
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue
      */
     public function setContentInLanguage(?string $contentInLanguage = null): self
     {
@@ -177,7 +177,7 @@ class ArticleValue extends AbstractStructBase
     /**
      * Set grossWeight value
      * @param float $grossWeight
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue
      */
     public function setGrossWeight(?float $grossWeight = null): self
     {
@@ -200,7 +200,7 @@ class ArticleValue extends AbstractStructBase
     /**
      * Set hscode value
      * @param string $hscode
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue
      */
     public function setHscode(?string $hscode = null): self
     {
@@ -223,7 +223,7 @@ class ArticleValue extends AbstractStructBase
     /**
      * Set netWeight value
      * @param float $netWeight
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue
      */
     public function setNetWeight(?float $netWeight = null): self
     {
@@ -246,7 +246,7 @@ class ArticleValue extends AbstractStructBase
     /**
      * Set origin value
      * @param string $origin
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue
      */
     public function setOrigin(?string $origin = null): self
     {
@@ -269,7 +269,7 @@ class ArticleValue extends AbstractStructBase
     /**
      * Set position value
      * @param int $position
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue
      */
     public function setPosition(?int $position = null): self
     {
@@ -292,7 +292,7 @@ class ArticleValue extends AbstractStructBase
     /**
      * Set quantity value
      * @param int $quantity
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue
      */
     public function setQuantity(?int $quantity = null): self
     {
@@ -315,7 +315,7 @@ class ArticleValue extends AbstractStructBase
     /**
      * Set regime value
      * @param string $regime
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue
      */
     public function setRegime(?string $regime = null): self
     {
@@ -338,7 +338,7 @@ class ArticleValue extends AbstractStructBase
     /**
      * Set value value
      * @param float $value
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ArticleValue
      */
     public function setValue(?float $value = null): self
     {

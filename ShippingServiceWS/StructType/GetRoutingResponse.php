@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -19,33 +19,33 @@ class GetRoutingResponse extends AbstractStructBase
      * The return
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting|null
+     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting|null
      */
-    protected ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting $return = null;
+    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting $return = null;
     /**
      * Constructor method for getRoutingResponse
      * @uses GetRoutingResponse::setReturn()
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting $return
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting $return
      */
-    public function __construct(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting $return = null)
+    public function __construct(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting $return = null)
     {
         $this
             ->setReturn($return);
     }
     /**
      * Get return value
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting|null
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting|null
      */
-    public function getReturn(): ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting
+    public function getReturn(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting
     {
         return $this->return;
     }
     /**
      * Set return value
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting $return
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GetRoutingResponse
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting $return
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetRoutingResponse
      */
-    public function setReturn(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting $return = null): self
+    public function setReturn(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetRouting $return = null): self
     {
         $this->return = $return;
         

@@ -21,16 +21,16 @@
  */
 $options = [
     WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_URL => 'https://ws.chronopost.fr/shipping-cxf/ShippingServiceWS?wsdl',
-    WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_CLASSMAP => \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\ClassMap::get(),
+    WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_CLASSMAP => \Maetva\Chronopost\Endpoint\ShippingServiceWS\ClassMap::get(),
 ];
 /**
  * Samples for Service ServiceType
  */
-$service = new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\ServiceType\Service($options);
+$service = new \Maetva\Chronopost\Endpoint\ShippingServiceWS\ServiceType\Service($options);
 /**
  * Sample call for faisabiliteESD operation/method
  */
-if ($service->faisabiliteESD(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\FaisabiliteESD()) !== false) {
+if ($service->faisabiliteESD(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\FaisabiliteESD()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -38,7 +38,7 @@ if ($service->faisabiliteESD(new \Drupal\commerce_chronopost\Endpoint\ShippingSe
 /**
  * Sample call for getReservedSkybillWithType operation/method
  */
-if ($service->getReservedSkybillWithType(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithType()) !== false) {
+if ($service->getReservedSkybillWithType(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithType()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -46,7 +46,7 @@ if ($service->getReservedSkybillWithType(new \Drupal\commerce_chronopost\Endpoin
 /**
  * Sample call for getReservedSkybillWithTypeAndModeAuth operation/method
  */
-if ($service->getReservedSkybillWithTypeAndModeAuth(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeAuth()) !== false) {
+if ($service->getReservedSkybillWithTypeAndModeAuth(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeAuth()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -54,7 +54,7 @@ if ($service->getReservedSkybillWithTypeAndModeAuth(new \Drupal\commerce_chronop
 /**
  * Sample call for shippingV2 operation/method
  */
-if ($service->shippingV2(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV2()) !== false) {
+if ($service->shippingV2(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV2()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -62,7 +62,7 @@ if ($service->shippingV2(new \Drupal\commerce_chronopost\Endpoint\ShippingServic
 /**
  * Sample call for shippingV3 operation/method
  */
-if ($service->shippingV3(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV3()) !== false) {
+if ($service->shippingV3(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV3()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -70,7 +70,7 @@ if ($service->shippingV3(new \Drupal\commerce_chronopost\Endpoint\ShippingServic
 /**
  * Sample call for shippingV6 operation/method
  */
-if ($service->shippingV6(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6()) !== false) {
+if ($service->shippingV6(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -78,7 +78,7 @@ if ($service->shippingV6(new \Drupal\commerce_chronopost\Endpoint\ShippingServic
 /**
  * Sample call for shippingV7 operation/method
  */
-if ($service->shippingV7(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV7()) !== false) {
+if ($service->shippingV7(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV7()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -86,7 +86,7 @@ if ($service->shippingV7(new \Drupal\commerce_chronopost\Endpoint\ShippingServic
 /**
  * Sample call for shippingV4 operation/method
  */
-if ($service->shippingV4(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV4()) !== false) {
+if ($service->shippingV4(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV4()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -94,7 +94,7 @@ if ($service->shippingV4(new \Drupal\commerce_chronopost\Endpoint\ShippingServic
 /**
  * Sample call for shippingV5 operation/method
  */
-if ($service->shippingV5(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV5()) !== false) {
+if ($service->shippingV5(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV5()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -102,7 +102,7 @@ if ($service->shippingV5(new \Drupal\commerce_chronopost\Endpoint\ShippingServic
 /**
  * Sample call for creerEnlevementNational operation/method
  */
-if ($service->creerEnlevementNational(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CreerEnlevementNational()) !== false) {
+if ($service->creerEnlevementNational(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CreerEnlevementNational()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -110,7 +110,7 @@ if ($service->creerEnlevementNational(new \Drupal\commerce_chronopost\Endpoint\S
 /**
  * Sample call for getReservedSkybillWithTypeAndModeByReservation operation/method
  */
-if ($service->getReservedSkybillWithTypeAndModeByReservation(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeByReservation()) !== false) {
+if ($service->getReservedSkybillWithTypeAndModeByReservation(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeByReservation()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -118,7 +118,7 @@ if ($service->getReservedSkybillWithTypeAndModeByReservation(new \Drupal\commerc
 /**
  * Sample call for shippingMultiParcel operation/method
  */
-if ($service->shippingMultiParcel(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcel()) !== false) {
+if ($service->shippingMultiParcel(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcel()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -126,7 +126,7 @@ if ($service->shippingMultiParcel(new \Drupal\commerce_chronopost\Endpoint\Shipp
 /**
  * Sample call for shippingWithESDOnlyV2 operation/method
  */
-if ($service->shippingWithESDOnlyV2(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithESDOnlyV2()) !== false) {
+if ($service->shippingWithESDOnlyV2(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithESDOnlyV2()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -134,7 +134,7 @@ if ($service->shippingWithESDOnlyV2(new \Drupal\commerce_chronopost\Endpoint\Shi
 /**
  * Sample call for shippingWithReservationV2 operation/method
  */
-if ($service->shippingWithReservationV2(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationV2()) !== false) {
+if ($service->shippingWithReservationV2(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationV2()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -142,7 +142,7 @@ if ($service->shippingWithReservationV2(new \Drupal\commerce_chronopost\Endpoint
 /**
  * Sample call for shipping operation/method
  */
-if ($service->shipping(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\Shipping()) !== false) {
+if ($service->shipping(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Shipping()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -150,7 +150,7 @@ if ($service->shipping(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceW
 /**
  * Sample call for getReservedSkybill operation/method
  */
-if ($service->getReservedSkybill(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybill()) !== false) {
+if ($service->getReservedSkybill(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybill()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -158,7 +158,7 @@ if ($service->getReservedSkybill(new \Drupal\commerce_chronopost\Endpoint\Shippi
 /**
  * Sample call for shippingMultiParcelWithReservation operation/method
  */
-if ($service->shippingMultiParcelWithReservation(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelWithReservation()) !== false) {
+if ($service->shippingMultiParcelWithReservation(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelWithReservation()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -166,7 +166,7 @@ if ($service->shippingMultiParcelWithReservation(new \Drupal\commerce_chronopost
 /**
  * Sample call for shippingMultiParcelV4 operation/method
  */
-if ($service->shippingMultiParcelV4(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV4()) !== false) {
+if ($service->shippingMultiParcelV4(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV4()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -174,7 +174,7 @@ if ($service->shippingMultiParcelV4(new \Drupal\commerce_chronopost\Endpoint\Shi
 /**
  * Sample call for shippingMultiParcelV5 operation/method
  */
-if ($service->shippingMultiParcelV5(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV5()) !== false) {
+if ($service->shippingMultiParcelV5(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV5()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -182,7 +182,7 @@ if ($service->shippingMultiParcelV5(new \Drupal\commerce_chronopost\Endpoint\Shi
 /**
  * Sample call for shippingMultiParcelV2 operation/method
  */
-if ($service->shippingMultiParcelV2(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV2()) !== false) {
+if ($service->shippingMultiParcelV2(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV2()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -190,7 +190,7 @@ if ($service->shippingMultiParcelV2(new \Drupal\commerce_chronopost\Endpoint\Shi
 /**
  * Sample call for shippingMultiParcelV3 operation/method
  */
-if ($service->shippingMultiParcelV3(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV3()) !== false) {
+if ($service->shippingMultiParcelV3(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV3()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -198,7 +198,7 @@ if ($service->shippingMultiParcelV3(new \Drupal\commerce_chronopost\Endpoint\Shi
 /**
  * Sample call for shippingMultiParcelWithReservationV3 operation/method
  */
-if ($service->shippingMultiParcelWithReservationV3(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationV3()) !== false) {
+if ($service->shippingMultiParcelWithReservationV3(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationV3()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -206,7 +206,7 @@ if ($service->shippingMultiParcelWithReservationV3(new \Drupal\commerce_chronopo
 /**
  * Sample call for shippingMultiParcelWithReservationV2 operation/method
  */
-if ($service->shippingMultiParcelWithReservationV2(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationV2()) !== false) {
+if ($service->shippingMultiParcelWithReservationV2(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationV2()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -214,7 +214,7 @@ if ($service->shippingMultiParcelWithReservationV2(new \Drupal\commerce_chronopo
 /**
  * Sample call for shippingWithReservation operation/method
  */
-if ($service->shippingWithReservation(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservation()) !== false) {
+if ($service->shippingWithReservation(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservation()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -222,7 +222,7 @@ if ($service->shippingWithReservation(new \Drupal\commerce_chronopost\Endpoint\S
 /**
  * Sample call for rechercherContraintesEnlevement operation/method
  */
-if ($service->rechercherContraintesEnlevement(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\RechercherContraintesEnlevement()) !== false) {
+if ($service->rechercherContraintesEnlevement(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RechercherContraintesEnlevement()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -230,7 +230,7 @@ if ($service->rechercherContraintesEnlevement(new \Drupal\commerce_chronopost\En
 /**
  * Sample call for annulerEnlevements operation/method
  */
-if ($service->annulerEnlevements(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\AnnulerEnlevements()) !== false) {
+if ($service->annulerEnlevements(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AnnulerEnlevements()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -238,7 +238,7 @@ if ($service->annulerEnlevements(new \Drupal\commerce_chronopost\Endpoint\Shippi
 /**
  * Sample call for creerEnlevementEurope operation/method
  */
-if ($service->creerEnlevementEurope(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\CreerEnlevementEurope()) !== false) {
+if ($service->creerEnlevementEurope(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CreerEnlevementEurope()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -246,7 +246,7 @@ if ($service->creerEnlevementEurope(new \Drupal\commerce_chronopost\Endpoint\Shi
 /**
  * Sample call for shippingWithReservationAndESDWithRefClient operation/method
  */
-if ($service->shippingWithReservationAndESDWithRefClient(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClient()) !== false) {
+if ($service->shippingWithReservationAndESDWithRefClient(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClient()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -254,7 +254,7 @@ if ($service->shippingWithReservationAndESDWithRefClient(new \Drupal\commerce_ch
 /**
  * Sample call for getReservedSkybillWithTypeAndMode operation/method
  */
-if ($service->getReservedSkybillWithTypeAndMode(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndMode()) !== false) {
+if ($service->getReservedSkybillWithTypeAndMode(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndMode()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -262,7 +262,7 @@ if ($service->getReservedSkybillWithTypeAndMode(new \Drupal\commerce_chronopost\
 /**
  * Sample call for shippingWithReservationAndESDWithRefClientPC operation/method
  */
-if ($service->shippingWithReservationAndESDWithRefClientPC(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC()) !== false) {
+if ($service->shippingWithReservationAndESDWithRefClientPC(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -270,7 +270,7 @@ if ($service->shippingWithReservationAndESDWithRefClientPC(new \Drupal\commerce_
 /**
  * Sample call for shippingWithESDOnly operation/method
  */
-if ($service->shippingWithESDOnly(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithESDOnly()) !== false) {
+if ($service->shippingWithESDOnly(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithESDOnly()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -278,7 +278,7 @@ if ($service->shippingWithESDOnly(new \Drupal\commerce_chronopost\Endpoint\Shipp
 /**
  * Sample call for getShippingInformation operation/method
  */
-if ($service->getShippingInformation(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GetShippingInformation()) !== false) {
+if ($service->getShippingInformation(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetShippingInformation()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -286,7 +286,7 @@ if ($service->getShippingInformation(new \Drupal\commerce_chronopost\Endpoint\Sh
 /**
  * Sample call for getRouting operation/method
  */
-if ($service->getRouting(new \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\GetRouting()) !== false) {
+if ($service->getRouting(new \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetRouting()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());

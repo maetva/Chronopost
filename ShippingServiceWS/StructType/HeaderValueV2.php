@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -41,7 +41,7 @@ class HeaderValueV2 extends HeaderValue
     /**
      * Set iv4OrderId value
      * @param string $iv4OrderId
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValueV2
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValueV2
      */
     public function setIv4OrderId(?string $iv4OrderId = null): self
     {

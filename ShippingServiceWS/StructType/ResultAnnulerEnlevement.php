@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -27,9 +27,9 @@ class ResultAnnulerEnlevement extends AbstractStructBase
     protected ?string $errorMessage = null;
     /**
      * The statut
-     * @var \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\Statut|null
+     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Statut|null
      */
-    protected ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\Statut $statut = null;
+    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Statut $statut = null;
     /**
      * Constructor method for resultAnnulerEnlevement
      * @uses ResultAnnulerEnlevement::setCodeErreur()
@@ -37,9 +37,9 @@ class ResultAnnulerEnlevement extends AbstractStructBase
      * @uses ResultAnnulerEnlevement::setStatut()
      * @param int $codeErreur
      * @param string $errorMessage
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\Statut $statut
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Statut $statut
      */
-    public function __construct(?int $codeErreur = null, ?string $errorMessage = null, ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\Statut $statut = null)
+    public function __construct(?int $codeErreur = null, ?string $errorMessage = null, ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Statut $statut = null)
     {
         $this
             ->setCodeErreur($codeErreur)
@@ -57,7 +57,7 @@ class ResultAnnulerEnlevement extends AbstractStructBase
     /**
      * Set codeErreur value
      * @param int $codeErreur
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultAnnulerEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultAnnulerEnlevement
      */
     public function setCodeErreur(?int $codeErreur = null): self
     {
@@ -80,7 +80,7 @@ class ResultAnnulerEnlevement extends AbstractStructBase
     /**
      * Set errorMessage value
      * @param string $errorMessage
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultAnnulerEnlevement
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultAnnulerEnlevement
      */
     public function setErrorMessage(?string $errorMessage = null): self
     {
@@ -94,18 +94,18 @@ class ResultAnnulerEnlevement extends AbstractStructBase
     }
     /**
      * Get statut value
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\Statut|null
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Statut|null
      */
-    public function getStatut(): ?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\Statut
+    public function getStatut(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Statut
     {
         return $this->statut;
     }
     /**
      * Set statut value
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\Statut $statut
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultAnnulerEnlevement
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Statut $statut
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultAnnulerEnlevement
      */
-    public function setStatut(?\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\Statut $statut = null): self
+    public function setStatut(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Statut $statut = null): self
     {
         $this->statut = $statut;
         

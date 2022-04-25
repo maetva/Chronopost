@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -24,7 +24,7 @@ class EsdResultContraintesAgenceValue extends AbstractStructBase
      * - maxOccurs: unbounded
      * - minOccurs: 0
      * - nillable: true
-     * @var \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence[]
+     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence[]
      */
     protected ?array $esdContraintesAgence = null;
     /**
@@ -40,7 +40,7 @@ class EsdResultContraintesAgenceValue extends AbstractStructBase
      * @uses EsdResultContraintesAgenceValue::setEsdContraintesAgence()
      * @uses EsdResultContraintesAgenceValue::setLibelleErreur()
      * @param int $codeErreur
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence[] $esdContraintesAgence
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence[] $esdContraintesAgence
      * @param string $libelleErreur
      */
     public function __construct(?int $codeErreur = null, ?array $esdContraintesAgence = null, ?string $libelleErreur = null)
@@ -61,7 +61,7 @@ class EsdResultContraintesAgenceValue extends AbstractStructBase
     /**
      * Set codeErreur value
      * @param int $codeErreur
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue
      */
     public function setCodeErreur(?int $codeErreur = null): self
     {
@@ -78,7 +78,7 @@ class EsdResultContraintesAgenceValue extends AbstractStructBase
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence[]
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence[]
      */
     public function getEsdContraintesAgence(): ?array
     {
@@ -99,12 +99,12 @@ class EsdResultContraintesAgenceValue extends AbstractStructBase
         $invalidValues = [];
         foreach ($values as $esdResultContraintesAgenceValueEsdContraintesAgenceItem) {
             // validation for constraint: itemType
-            if (!$esdResultContraintesAgenceValueEsdContraintesAgenceItem instanceof \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence) {
+            if (!$esdResultContraintesAgenceValueEsdContraintesAgenceItem instanceof \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence) {
                 $invalidValues[] = is_object($esdResultContraintesAgenceValueEsdContraintesAgenceItem) ? get_class($esdResultContraintesAgenceValueEsdContraintesAgenceItem) : sprintf('%s(%s)', gettype($esdResultContraintesAgenceValueEsdContraintesAgenceItem), var_export($esdResultContraintesAgenceValueEsdContraintesAgenceItem, true));
             }
         }
         if (!empty($invalidValues)) {
-            $message = sprintf('The esdContraintesAgence property can only contain items of type \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
+            $message = sprintf('The esdContraintesAgence property can only contain items of type \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
         }
         unset($invalidValues);
         
@@ -115,8 +115,8 @@ class EsdResultContraintesAgenceValue extends AbstractStructBase
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
      * @throws InvalidArgumentException
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence[] $esdContraintesAgence
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence[] $esdContraintesAgence
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue
      */
     public function setEsdContraintesAgence(?array $esdContraintesAgence = null): self
     {
@@ -135,14 +135,14 @@ class EsdResultContraintesAgenceValue extends AbstractStructBase
     /**
      * Add item to esdContraintesAgence value
      * @throws InvalidArgumentException
-     * @param \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence $item
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue
+     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence $item
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue
      */
-    public function addToEsdContraintesAgence(\Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence $item): self
+    public function addToEsdContraintesAgence(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence $item): self
     {
         // validation for constraint: itemType
-        if (!$item instanceof \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence) {
-            throw new InvalidArgumentException(sprintf('The esdContraintesAgence property can only contain items of type \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
+        if (!$item instanceof \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence) {
+            throw new InvalidArgumentException(sprintf('The esdContraintesAgence property can only contain items of type \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
         }
         $this->esdContraintesAgence[] = $item;
         
@@ -159,7 +159,7 @@ class EsdResultContraintesAgenceValue extends AbstractStructBase
     /**
      * Set libelleErreur value
      * @param string $libelleErreur
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue
      */
     public function setLibelleErreur(?string $libelleErreur = null): self
     {

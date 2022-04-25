@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -81,7 +81,7 @@ class InfoClient extends AbstractStructBase
     /**
      * Set contenu value
      * @param string $contenu
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoClient
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoClient
      */
     public function setContenu(?string $contenu = null): self
     {
@@ -104,7 +104,7 @@ class InfoClient extends AbstractStructBase
     /**
      * Set devise value
      * @param string $devise
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoClient
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoClient
      */
     public function setDevise(?string $devise = null): self
     {
@@ -127,7 +127,7 @@ class InfoClient extends AbstractStructBase
     /**
      * Set montant value
      * @param float $montant
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoClient
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoClient
      */
     public function setMontant(?float $montant = null): self
     {
@@ -150,7 +150,7 @@ class InfoClient extends AbstractStructBase
     /**
      * Set refEsdClient value
      * @param string $refEsdClient
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoClient
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoClient
      */
     public function setRefEsdClient(?string $refEsdClient = null): self
     {
@@ -173,7 +173,7 @@ class InfoClient extends AbstractStructBase
     /**
      * Set service value
      * @param string $service
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\InfoClient
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoClient
      */
     public function setService(?string $service = null): self
     {

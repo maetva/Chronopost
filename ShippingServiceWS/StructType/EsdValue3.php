@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -51,7 +51,7 @@ class EsdValue3 extends EsdWithRefClientValue
     /**
      * Set codeDepotColReq value
      * @param string $codeDepotColReq
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3
      */
     public function setCodeDepotColReq(?string $codeDepotColReq = null): self
     {
@@ -74,7 +74,7 @@ class EsdValue3 extends EsdWithRefClientValue
     /**
      * Set numColReq value
      * @param string $numColReq
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3
      */
     public function setNumColReq(?string $numColReq = null): self
     {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -19,7 +19,7 @@ class ListEvents extends AbstractStructBase
      * - maxOccurs: unbounded
      * - minOccurs: 0
      * - nillable: true
-     * @var \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\Event[]
+     * @var \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event[]
      */
     protected ?array $events = null;
     /**
@@ -33,7 +33,7 @@ class ListEvents extends AbstractStructBase
      * Constructor method for listEvents
      * @uses ListEvents::setEvents()
      * @uses ListEvents::setSkybillNumber()
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\Event[] $events
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event[] $events
      * @param string $skybillNumber
      */
     public function __construct(?array $events = null, ?string $skybillNumber = null)
@@ -47,7 +47,7 @@ class ListEvents extends AbstractStructBase
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\Event[]
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event[]
      */
     public function getEvents(): ?array
     {
@@ -68,12 +68,12 @@ class ListEvents extends AbstractStructBase
         $invalidValues = [];
         foreach ($values as $listEventsEventsItem) {
             // validation for constraint: itemType
-            if (!$listEventsEventsItem instanceof \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\Event) {
+            if (!$listEventsEventsItem instanceof \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event) {
                 $invalidValues[] = is_object($listEventsEventsItem) ? get_class($listEventsEventsItem) : sprintf('%s(%s)', gettype($listEventsEventsItem), var_export($listEventsEventsItem, true));
             }
         }
         if (!empty($invalidValues)) {
-            $message = sprintf('The events property can only contain items of type \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\Event, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
+            $message = sprintf('The events property can only contain items of type \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
         }
         unset($invalidValues);
         
@@ -84,8 +84,8 @@ class ListEvents extends AbstractStructBase
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
      * @throws InvalidArgumentException
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\Event[] $events
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event[] $events
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents
      */
     public function setEvents(?array $events = null): self
     {
@@ -104,14 +104,14 @@ class ListEvents extends AbstractStructBase
     /**
      * Add item to events value
      * @throws InvalidArgumentException
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\Event $item
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event $item
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents
      */
-    public function addToEvents(\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\Event $item): self
+    public function addToEvents(\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event $item): self
     {
         // validation for constraint: itemType
-        if (!$item instanceof \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\Event) {
-            throw new InvalidArgumentException(sprintf('The events property can only contain items of type \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\Event, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
+        if (!$item instanceof \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event) {
+            throw new InvalidArgumentException(sprintf('The events property can only contain items of type \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
         }
         $this->events[] = $item;
         
@@ -128,7 +128,7 @@ class ListEvents extends AbstractStructBase
     /**
      * Set skybillNumber value
      * @param string $skybillNumber
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents
      */
     public function setSkybillNumber(?string $skybillNumber = null): self
     {

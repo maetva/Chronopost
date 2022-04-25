@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -161,7 +161,7 @@ class ResultParcelValue extends AbstractStructBase
     /**
      * Set codeDepot value
      * @param string $codeDepot
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
      */
     public function setCodeDepot(?string $codeDepot = null): self
     {
@@ -184,7 +184,7 @@ class ResultParcelValue extends AbstractStructBase
     /**
      * Set codeService value
      * @param string $codeService
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
      */
     public function setCodeService(?string $codeService = null): self
     {
@@ -207,7 +207,7 @@ class ResultParcelValue extends AbstractStructBase
     /**
      * Set DSort value
      * @param string $dSort
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
      */
     public function setDSort(?string $dSort = null): self
     {
@@ -230,7 +230,7 @@ class ResultParcelValue extends AbstractStructBase
     /**
      * Set destinationDepot value
      * @param string $destinationDepot
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
      */
     public function setDestinationDepot(?string $destinationDepot = null): self
     {
@@ -253,7 +253,7 @@ class ResultParcelValue extends AbstractStructBase
     /**
      * Set geoPostCodeBarre value
      * @param string $geoPostCodeBarre
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
      */
     public function setGeoPostCodeBarre(?string $geoPostCodeBarre = null): self
     {
@@ -276,7 +276,7 @@ class ResultParcelValue extends AbstractStructBase
     /**
      * Set geoPostNumeroColis value
      * @param string $geoPostNumeroColis
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
      */
     public function setGeoPostNumeroColis(?string $geoPostNumeroColis = null): self
     {
@@ -299,7 +299,7 @@ class ResultParcelValue extends AbstractStructBase
     /**
      * Set groupingPriorityLabel value
      * @param string $groupingPriorityLabel
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
      */
     public function setGroupingPriorityLabel(?string $groupingPriorityLabel = null): self
     {
@@ -322,7 +322,7 @@ class ResultParcelValue extends AbstractStructBase
     /**
      * Set OSort value
      * @param string $oSort
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
      */
     public function setOSort(?string $oSort = null): self
     {
@@ -345,7 +345,7 @@ class ResultParcelValue extends AbstractStructBase
     /**
      * Set reservationNumber value
      * @param string $reservationNumber
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
      */
     public function setReservationNumber(?string $reservationNumber = null): self
     {
@@ -368,7 +368,7 @@ class ResultParcelValue extends AbstractStructBase
     /**
      * Set serviceMark value
      * @param string $serviceMark
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
      */
     public function setServiceMark(?string $serviceMark = null): self
     {
@@ -391,7 +391,7 @@ class ResultParcelValue extends AbstractStructBase
     /**
      * Set serviceName value
      * @param string $serviceName
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
      */
     public function setServiceName(?string $serviceName = null): self
     {
@@ -414,7 +414,7 @@ class ResultParcelValue extends AbstractStructBase
     /**
      * Set signaletiqueProduit value
      * @param string $signaletiqueProduit
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
      */
     public function setSignaletiqueProduit(?string $signaletiqueProduit = null): self
     {
@@ -437,7 +437,7 @@ class ResultParcelValue extends AbstractStructBase
     /**
      * Set skybillNumber value
      * @param string $skybillNumber
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue
      */
     public function setSkybillNumber(?string $skybillNumber = null): self
     {

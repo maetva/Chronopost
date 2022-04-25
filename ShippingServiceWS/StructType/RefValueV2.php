@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -41,7 +41,7 @@ class RefValueV2 extends RefValue
     /**
      * Set idRelais value
      * @param string $idRelais
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\RefValueV2
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RefValueV2
      */
     public function setIdRelais(?string $idRelais = null): self
     {

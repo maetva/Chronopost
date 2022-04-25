@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -53,7 +53,7 @@ class TrackSkybill extends AbstractStructBase
     /**
      * Set language value
      * @param string $language
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\TrackSkybill
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSkybill
      */
     public function setLanguage(?string $language = null): self
     {
@@ -76,7 +76,7 @@ class TrackSkybill extends AbstractStructBase
     /**
      * Set skybillNumber value
      * @param string $skybillNumber
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\TrackSkybill
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSkybill
      */
     public function setSkybillNumber(?string $skybillNumber = null): self
     {

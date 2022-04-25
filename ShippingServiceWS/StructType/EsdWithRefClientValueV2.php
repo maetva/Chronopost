@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -51,7 +51,7 @@ class EsdWithRefClientValueV2 extends EsdWithRefClientValue
     /**
      * Set numberOfParcel value
      * @param int $numberOfParcel
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdWithRefClientValueV2
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdWithRefClientValueV2
      */
     public function setNumberOfParcel(?int $numberOfParcel = null): self
     {
@@ -106,7 +106,7 @@ class EsdWithRefClientValueV2 extends EsdWithRefClientValue
      * if the value assigned to this property is null, it is removed from this object
      * @throws InvalidArgumentException
      * @param string[] $parcelsNumber
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdWithRefClientValueV2
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdWithRefClientValueV2
      */
     public function setParcelsNumber(?array $parcelsNumber = null): self
     {
@@ -126,7 +126,7 @@ class EsdWithRefClientValueV2 extends EsdWithRefClientValue
      * Add item to parcelsNumber value
      * @throws InvalidArgumentException
      * @param string $item
-     * @return \Drupal\commerce_chronopost\Endpoint\ShippingServiceWS\StructType\EsdWithRefClientValueV2
+     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdWithRefClientValueV2
      */
     public function addToParcelsNumber(string $item): self
     {

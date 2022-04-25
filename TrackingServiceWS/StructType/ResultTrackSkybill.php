@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType;
+namespace Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -29,9 +29,9 @@ class ResultTrackSkybill extends AbstractStructBase
      * The listEvents
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents|null
+     * @var \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents|null
      */
-    protected ?\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents $listEvents = null;
+    protected ?\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents $listEvents = null;
     /**
      * Constructor method for resultTrackSkybill
      * @uses ResultTrackSkybill::setErrorCode()
@@ -39,9 +39,9 @@ class ResultTrackSkybill extends AbstractStructBase
      * @uses ResultTrackSkybill::setListEvents()
      * @param int $errorCode
      * @param string $errorMessage
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents $listEvents
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents $listEvents
      */
-    public function __construct(?int $errorCode = null, ?string $errorMessage = null, ?\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents $listEvents = null)
+    public function __construct(?int $errorCode = null, ?string $errorMessage = null, ?\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents $listEvents = null)
     {
         $this
             ->setErrorCode($errorCode)
@@ -59,7 +59,7 @@ class ResultTrackSkybill extends AbstractStructBase
     /**
      * Set errorCode value
      * @param int $errorCode
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultTrackSkybill
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultTrackSkybill
      */
     public function setErrorCode(?int $errorCode = null): self
     {
@@ -82,7 +82,7 @@ class ResultTrackSkybill extends AbstractStructBase
     /**
      * Set errorMessage value
      * @param string $errorMessage
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultTrackSkybill
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultTrackSkybill
      */
     public function setErrorMessage(?string $errorMessage = null): self
     {
@@ -96,18 +96,18 @@ class ResultTrackSkybill extends AbstractStructBase
     }
     /**
      * Get listEvents value
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents|null
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents|null
      */
-    public function getListEvents(): ?\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents
+    public function getListEvents(): ?\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents
     {
         return $this->listEvents;
     }
     /**
      * Set listEvents value
-     * @param \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents $listEvents
-     * @return \Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ResultTrackSkybill
+     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents $listEvents
+     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultTrackSkybill
      */
-    public function setListEvents(?\Drupal\commerce_chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents $listEvents = null): self
+    public function setListEvents(?\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents $listEvents = null): self
     {
         $this->listEvents = $listEvents;
         
