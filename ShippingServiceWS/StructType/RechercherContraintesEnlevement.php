@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -63,7 +63,7 @@ class RechercherContraintesEnlevement extends AbstractStructBase
     /**
      * Set country value
      * @param string $country
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RechercherContraintesEnlevement
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\RechercherContraintesEnlevement
      */
     public function setCountry(?string $country = null): self
     {
@@ -86,7 +86,7 @@ class RechercherContraintesEnlevement extends AbstractStructBase
     /**
      * Set zipCode value
      * @param string $zipCode
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RechercherContraintesEnlevement
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\RechercherContraintesEnlevement
      */
     public function setZipCode(?string $zipCode = null): self
     {
@@ -109,7 +109,7 @@ class RechercherContraintesEnlevement extends AbstractStructBase
     /**
      * Set city value
      * @param string $city
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RechercherContraintesEnlevement
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\RechercherContraintesEnlevement
      */
     public function setCity(?string $city = null): self
     {

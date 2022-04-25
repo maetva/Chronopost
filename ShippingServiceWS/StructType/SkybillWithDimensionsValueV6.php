@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -51,7 +51,7 @@ class SkybillWithDimensionsValueV6 extends SkybillWithDimensionsValueV5
     /**
      * Set alternateProductCode value
      * @param string $alternateProductCode
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillWithDimensionsValueV6
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillWithDimensionsValueV6
      */
     public function setAlternateProductCode(?string $alternateProductCode = null): self
     {
@@ -74,7 +74,7 @@ class SkybillWithDimensionsValueV6 extends SkybillWithDimensionsValueV5
     /**
      * Set labelNumber value
      * @param string $labelNumber
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillWithDimensionsValueV6
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillWithDimensionsValueV6
      */
     public function setLabelNumber(?string $labelNumber = null): self
     {

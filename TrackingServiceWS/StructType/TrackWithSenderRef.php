@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType;
+namespace Maetva\Chronopost\TrackingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -73,7 +73,7 @@ class TrackWithSenderRef extends AbstractStructBase
     /**
      * Set accountNumber value
      * @param string $accountNumber
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackWithSenderRef
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\TrackWithSenderRef
      */
     public function setAccountNumber(?string $accountNumber = null): self
     {
@@ -96,7 +96,7 @@ class TrackWithSenderRef extends AbstractStructBase
     /**
      * Set password value
      * @param string $password
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackWithSenderRef
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\TrackWithSenderRef
      */
     public function setPassword(?string $password = null): self
     {
@@ -119,7 +119,7 @@ class TrackWithSenderRef extends AbstractStructBase
     /**
      * Set language value
      * @param string $language
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackWithSenderRef
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\TrackWithSenderRef
      */
     public function setLanguage(?string $language = null): self
     {
@@ -142,7 +142,7 @@ class TrackWithSenderRef extends AbstractStructBase
     /**
      * Set sendersRef value
      * @param string $sendersRef
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackWithSenderRef
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\TrackWithSenderRef
      */
     public function setSendersRef(?string $sendersRef = null): self
     {

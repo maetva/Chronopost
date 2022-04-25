@@ -21,16 +21,16 @@
  */
 $options = [
     WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_URL => 'https://ws.chronopost.fr/tracking-cxf/TrackingServiceWS?wsdl',
-    WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_CLASSMAP => \Maetva\Chronopost\Endpoint\TrackingServiceWS\ClassMap::get(),
+    WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_CLASSMAP => \Maetva\Chronopost\TrackingServiceWS\ClassMap::get(),
 ];
 /**
  * Samples for Service ServiceType
  */
-$service = new \Maetva\Chronopost\Endpoint\TrackingServiceWS\ServiceType\Service($options);
+$service = new \Maetva\Chronopost\TrackingServiceWS\ServiceType\Service($options);
 /**
  * Sample call for trackWithSenderRef operation/method
  */
-if ($service->trackWithSenderRef(new \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackWithSenderRef()) !== false) {
+if ($service->trackWithSenderRef(new \Maetva\Chronopost\TrackingServiceWS\StructType\TrackWithSenderRef()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -38,7 +38,7 @@ if ($service->trackWithSenderRef(new \Maetva\Chronopost\Endpoint\TrackingService
 /**
  * Sample call for trackSearch operation/method
  */
-if ($service->trackSearch(new \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSearch()) !== false) {
+if ($service->trackSearch(new \Maetva\Chronopost\TrackingServiceWS\StructType\TrackSearch()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -46,7 +46,7 @@ if ($service->trackSearch(new \Maetva\Chronopost\Endpoint\TrackingServiceWS\Stru
 /**
  * Sample call for trackSkybillV2 operation/method
  */
-if ($service->trackSkybillV2(new \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSkybillV2()) !== false) {
+if ($service->trackSkybillV2(new \Maetva\Chronopost\TrackingServiceWS\StructType\TrackSkybillV2()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -54,7 +54,7 @@ if ($service->trackSkybillV2(new \Maetva\Chronopost\Endpoint\TrackingServiceWS\S
 /**
  * Sample call for cancelSkybill operation/method
  */
-if ($service->cancelSkybill(new \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\CancelSkybill()) !== false) {
+if ($service->cancelSkybill(new \Maetva\Chronopost\TrackingServiceWS\StructType\CancelSkybill()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -62,7 +62,7 @@ if ($service->cancelSkybill(new \Maetva\Chronopost\Endpoint\TrackingServiceWS\St
 /**
  * Sample call for trackSkybill operation/method
  */
-if ($service->trackSkybill(new \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSkybill()) !== false) {
+if ($service->trackSkybill(new \Maetva\Chronopost\TrackingServiceWS\StructType\TrackSkybill()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -70,7 +70,7 @@ if ($service->trackSkybill(new \Maetva\Chronopost\Endpoint\TrackingServiceWS\Str
 /**
  * Sample call for searchPOD operation/method
  */
-if ($service->searchPOD(new \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\SearchPOD()) !== false) {
+if ($service->searchPOD(new \Maetva\Chronopost\TrackingServiceWS\StructType\SearchPOD()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());
@@ -78,7 +78,7 @@ if ($service->searchPOD(new \Maetva\Chronopost\Endpoint\TrackingServiceWS\Struct
 /**
  * Sample call for searchPODWithSenderRef operation/method
  */
-if ($service->searchPODWithSenderRef(new \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\SearchPODWithSenderRef()) !== false) {
+if ($service->searchPODWithSenderRef(new \Maetva\Chronopost\TrackingServiceWS\StructType\SearchPODWithSenderRef()) !== false) {
     print_r($service->getResult());
 } else {
     print_r($service->getLastError());

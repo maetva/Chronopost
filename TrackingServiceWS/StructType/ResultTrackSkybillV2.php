@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType;
+namespace Maetva\Chronopost\TrackingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -29,9 +29,9 @@ class ResultTrackSkybillV2 extends AbstractStructBase
      * The listEventInfoComp
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEventInfoComps|null
+     * @var \Maetva\Chronopost\TrackingServiceWS\StructType\ListEventInfoComps|null
      */
-    protected ?\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEventInfoComps $listEventInfoComp = null;
+    protected ?\Maetva\Chronopost\TrackingServiceWS\StructType\ListEventInfoComps $listEventInfoComp = null;
     /**
      * Constructor method for resultTrackSkybillV2
      * @uses ResultTrackSkybillV2::setErrorCode()
@@ -39,9 +39,9 @@ class ResultTrackSkybillV2 extends AbstractStructBase
      * @uses ResultTrackSkybillV2::setListEventInfoComp()
      * @param int $errorCode
      * @param string $errorMessage
-     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEventInfoComps $listEventInfoComp
+     * @param \Maetva\Chronopost\TrackingServiceWS\StructType\ListEventInfoComps $listEventInfoComp
      */
-    public function __construct(?int $errorCode = null, ?string $errorMessage = null, ?\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEventInfoComps $listEventInfoComp = null)
+    public function __construct(?int $errorCode = null, ?string $errorMessage = null, ?\Maetva\Chronopost\TrackingServiceWS\StructType\ListEventInfoComps $listEventInfoComp = null)
     {
         $this
             ->setErrorCode($errorCode)
@@ -59,7 +59,7 @@ class ResultTrackSkybillV2 extends AbstractStructBase
     /**
      * Set errorCode value
      * @param int $errorCode
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultTrackSkybillV2
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\ResultTrackSkybillV2
      */
     public function setErrorCode(?int $errorCode = null): self
     {
@@ -82,7 +82,7 @@ class ResultTrackSkybillV2 extends AbstractStructBase
     /**
      * Set errorMessage value
      * @param string $errorMessage
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultTrackSkybillV2
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\ResultTrackSkybillV2
      */
     public function setErrorMessage(?string $errorMessage = null): self
     {
@@ -96,18 +96,18 @@ class ResultTrackSkybillV2 extends AbstractStructBase
     }
     /**
      * Get listEventInfoComp value
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEventInfoComps|null
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\ListEventInfoComps|null
      */
-    public function getListEventInfoComp(): ?\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEventInfoComps
+    public function getListEventInfoComp(): ?\Maetva\Chronopost\TrackingServiceWS\StructType\ListEventInfoComps
     {
         return $this->listEventInfoComp;
     }
     /**
      * Set listEventInfoComp value
-     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEventInfoComps $listEventInfoComp
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultTrackSkybillV2
+     * @param \Maetva\Chronopost\TrackingServiceWS\StructType\ListEventInfoComps $listEventInfoComp
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\ResultTrackSkybillV2
      */
-    public function setListEventInfoComp(?\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEventInfoComps $listEventInfoComp = null): self
+    public function setListEventInfoComp(?\Maetva\Chronopost\TrackingServiceWS\StructType\ListEventInfoComps $listEventInfoComp = null): self
     {
         $this->listEventInfoComp = $listEventInfoComp;
         

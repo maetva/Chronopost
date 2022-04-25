@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -51,7 +51,7 @@ class Entry extends AbstractStructBase
     /**
      * Set key value
      * @param string $key
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Entry
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\Entry
      */
     public function setKey(?string $key = null): self
     {
@@ -74,7 +74,7 @@ class Entry extends AbstractStructBase
     /**
      * Set value value
      * @param string $value
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Entry
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\Entry
      */
     public function setValue(?string $value = null): self
     {

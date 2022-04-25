@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -17,9 +17,9 @@ class Error extends AbstractStructBase
      * The detail
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Detail|null
+     * @var \Maetva\Chronopost\ShippingServiceWS\StructType\Detail|null
      */
-    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Detail $detail = null;
+    protected ?\Maetva\Chronopost\ShippingServiceWS\StructType\Detail $detail = null;
     /**
      * The errorCode
      * @var int|null
@@ -37,11 +37,11 @@ class Error extends AbstractStructBase
      * @uses Error::setDetail()
      * @uses Error::setErrorCode()
      * @uses Error::setErrorMessage()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Detail $detail
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\Detail $detail
      * @param int $errorCode
      * @param string $errorMessage
      */
-    public function __construct(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Detail $detail = null, ?int $errorCode = null, ?string $errorMessage = null)
+    public function __construct(?\Maetva\Chronopost\ShippingServiceWS\StructType\Detail $detail = null, ?int $errorCode = null, ?string $errorMessage = null)
     {
         $this
             ->setDetail($detail)
@@ -50,18 +50,18 @@ class Error extends AbstractStructBase
     }
     /**
      * Get detail value
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Detail|null
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\Detail|null
      */
-    public function getDetail(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Detail
+    public function getDetail(): ?\Maetva\Chronopost\ShippingServiceWS\StructType\Detail
     {
         return $this->detail;
     }
     /**
      * Set detail value
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Detail $detail
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Error
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\Detail $detail
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\Error
      */
-    public function setDetail(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Detail $detail = null): self
+    public function setDetail(?\Maetva\Chronopost\ShippingServiceWS\StructType\Detail $detail = null): self
     {
         $this->detail = $detail;
         
@@ -78,7 +78,7 @@ class Error extends AbstractStructBase
     /**
      * Set errorCode value
      * @param int $errorCode
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Error
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\Error
      */
     public function setErrorCode(?int $errorCode = null): self
     {
@@ -101,7 +101,7 @@ class Error extends AbstractStructBase
     /**
      * Set errorMessage value
      * @param string $errorMessage
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Error
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\Error
      */
     public function setErrorMessage(?string $errorMessage = null): self
     {

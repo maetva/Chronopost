@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -103,7 +103,7 @@ class GetRouting extends AbstractStructBase
     /**
      * Set accountNumber value
      * @param string $accountNumber
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetRouting
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\GetRouting
      */
     public function setAccountNumber(?string $accountNumber = null): self
     {
@@ -126,7 +126,7 @@ class GetRouting extends AbstractStructBase
     /**
      * Set password value
      * @param string $password
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetRouting
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\GetRouting
      */
     public function setPassword(?string $password = null): self
     {
@@ -149,7 +149,7 @@ class GetRouting extends AbstractStructBase
     /**
      * Set shipperDepot value
      * @param string $shipperDepot
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetRouting
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\GetRouting
      */
     public function setShipperDepot(?string $shipperDepot = null): self
     {
@@ -172,7 +172,7 @@ class GetRouting extends AbstractStructBase
     /**
      * Set countryCode value
      * @param string $countryCode
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetRouting
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\GetRouting
      */
     public function setCountryCode(?string $countryCode = null): self
     {
@@ -195,7 +195,7 @@ class GetRouting extends AbstractStructBase
     /**
      * Set zipCode value
      * @param string $zipCode
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetRouting
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\GetRouting
      */
     public function setZipCode(?string $zipCode = null): self
     {
@@ -218,7 +218,7 @@ class GetRouting extends AbstractStructBase
     /**
      * Set socode value
      * @param string $socode
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetRouting
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\GetRouting
      */
     public function setSocode(?string $socode = null): self
     {
@@ -241,7 +241,7 @@ class GetRouting extends AbstractStructBase
     /**
      * Set ascode value
      * @param string $ascode
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetRouting
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\GetRouting
      */
     public function setAscode(?string $ascode = null): self
     {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -39,7 +39,7 @@ class SkybillParamsValueV2 extends SkybillParamsValue
     /**
      * Set withReservation value
      * @param int $withReservation
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValueV2
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillParamsValueV2
      */
     public function setWithReservation(?int $withReservation = null): self
     {

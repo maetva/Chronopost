@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType;
+namespace Maetva\Chronopost\TrackingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -101,9 +101,9 @@ class InfosPOD extends AbstractStructBase
      * The significantEvent
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event|null
+     * @var \Maetva\Chronopost\TrackingServiceWS\StructType\Event|null
      */
-    protected ?\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event $significantEvent = null;
+    protected ?\Maetva\Chronopost\TrackingServiceWS\StructType\Event $significantEvent = null;
     /**
      * The skybillNumber
      * Meta information extracted from the WSDL
@@ -139,10 +139,10 @@ class InfosPOD extends AbstractStructBase
      * @param string $shipperCity
      * @param string $shipperRef
      * @param string $shipperZipCode
-     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event $significantEvent
+     * @param \Maetva\Chronopost\TrackingServiceWS\StructType\Event $significantEvent
      * @param string $skybillNumber
      */
-    public function __construct(?string $dateDeposit = null, ?string $depositCountry = null, ?string $depositZipCode = null, ?string $objectType = null, ?string $recipientCity = null, ?string $recipientCountry = null, ?string $recipientName = null, ?string $recipientRef = null, ?string $recipientZipCode = null, ?string $shipperCity = null, ?string $shipperRef = null, ?string $shipperZipCode = null, ?\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event $significantEvent = null, ?string $skybillNumber = null)
+    public function __construct(?string $dateDeposit = null, ?string $depositCountry = null, ?string $depositZipCode = null, ?string $objectType = null, ?string $recipientCity = null, ?string $recipientCountry = null, ?string $recipientName = null, ?string $recipientRef = null, ?string $recipientZipCode = null, ?string $shipperCity = null, ?string $shipperRef = null, ?string $shipperZipCode = null, ?\Maetva\Chronopost\TrackingServiceWS\StructType\Event $significantEvent = null, ?string $skybillNumber = null)
     {
         $this
             ->setDateDeposit($dateDeposit)
@@ -171,7 +171,7 @@ class InfosPOD extends AbstractStructBase
     /**
      * Set dateDeposit value
      * @param string $dateDeposit
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\InfosPOD
      */
     public function setDateDeposit(?string $dateDeposit = null): self
     {
@@ -194,7 +194,7 @@ class InfosPOD extends AbstractStructBase
     /**
      * Set depositCountry value
      * @param string $depositCountry
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\InfosPOD
      */
     public function setDepositCountry(?string $depositCountry = null): self
     {
@@ -217,7 +217,7 @@ class InfosPOD extends AbstractStructBase
     /**
      * Set depositZipCode value
      * @param string $depositZipCode
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\InfosPOD
      */
     public function setDepositZipCode(?string $depositZipCode = null): self
     {
@@ -240,7 +240,7 @@ class InfosPOD extends AbstractStructBase
     /**
      * Set objectType value
      * @param string $objectType
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\InfosPOD
      */
     public function setObjectType(?string $objectType = null): self
     {
@@ -263,7 +263,7 @@ class InfosPOD extends AbstractStructBase
     /**
      * Set recipientCity value
      * @param string $recipientCity
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\InfosPOD
      */
     public function setRecipientCity(?string $recipientCity = null): self
     {
@@ -286,7 +286,7 @@ class InfosPOD extends AbstractStructBase
     /**
      * Set recipientCountry value
      * @param string $recipientCountry
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\InfosPOD
      */
     public function setRecipientCountry(?string $recipientCountry = null): self
     {
@@ -309,7 +309,7 @@ class InfosPOD extends AbstractStructBase
     /**
      * Set recipientName value
      * @param string $recipientName
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\InfosPOD
      */
     public function setRecipientName(?string $recipientName = null): self
     {
@@ -332,7 +332,7 @@ class InfosPOD extends AbstractStructBase
     /**
      * Set recipientRef value
      * @param string $recipientRef
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\InfosPOD
      */
     public function setRecipientRef(?string $recipientRef = null): self
     {
@@ -355,7 +355,7 @@ class InfosPOD extends AbstractStructBase
     /**
      * Set recipientZipCode value
      * @param string $recipientZipCode
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\InfosPOD
      */
     public function setRecipientZipCode(?string $recipientZipCode = null): self
     {
@@ -378,7 +378,7 @@ class InfosPOD extends AbstractStructBase
     /**
      * Set shipperCity value
      * @param string $shipperCity
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\InfosPOD
      */
     public function setShipperCity(?string $shipperCity = null): self
     {
@@ -401,7 +401,7 @@ class InfosPOD extends AbstractStructBase
     /**
      * Set shipperRef value
      * @param string $shipperRef
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\InfosPOD
      */
     public function setShipperRef(?string $shipperRef = null): self
     {
@@ -424,7 +424,7 @@ class InfosPOD extends AbstractStructBase
     /**
      * Set shipperZipCode value
      * @param string $shipperZipCode
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\InfosPOD
      */
     public function setShipperZipCode(?string $shipperZipCode = null): self
     {
@@ -438,18 +438,18 @@ class InfosPOD extends AbstractStructBase
     }
     /**
      * Get significantEvent value
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event|null
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\Event|null
      */
-    public function getSignificantEvent(): ?\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event
+    public function getSignificantEvent(): ?\Maetva\Chronopost\TrackingServiceWS\StructType\Event
     {
         return $this->significantEvent;
     }
     /**
      * Set significantEvent value
-     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event $significantEvent
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD
+     * @param \Maetva\Chronopost\TrackingServiceWS\StructType\Event $significantEvent
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\InfosPOD
      */
-    public function setSignificantEvent(?\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event $significantEvent = null): self
+    public function setSignificantEvent(?\Maetva\Chronopost\TrackingServiceWS\StructType\Event $significantEvent = null): self
     {
         $this->significantEvent = $significantEvent;
         
@@ -466,7 +466,7 @@ class InfosPOD extends AbstractStructBase
     /**
      * Set skybillNumber value
      * @param string $skybillNumber
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\InfosPOD
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\InfosPOD
      */
     public function setSkybillNumber(?string $skybillNumber = null): self
     {

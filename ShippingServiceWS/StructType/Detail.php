@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -59,7 +59,7 @@ class Detail extends AbstractStructBase
     /**
      * Set errorCode value
      * @param int $errorCode
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Detail
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\Detail
      */
     public function setErrorCode(?int $errorCode = null): self
     {
@@ -82,7 +82,7 @@ class Detail extends AbstractStructBase
     /**
      * Set errorMessage value
      * @param string $errorMessage
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Detail
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\Detail
      */
     public function setErrorMessage(?string $errorMessage = null): self
     {
@@ -105,7 +105,7 @@ class Detail extends AbstractStructBase
     /**
      * Set mode value
      * @param string $mode
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Detail
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\Detail
      */
     public function setMode(?string $mode = null): self
     {

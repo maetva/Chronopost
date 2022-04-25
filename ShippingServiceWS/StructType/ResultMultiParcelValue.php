@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -171,7 +171,7 @@ class ResultMultiParcelValue extends AbstractStructBase
     /**
      * Set asCode value
      * @param string $asCode
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultMultiParcelValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultMultiParcelValue
      */
     public function setAsCode(?string $asCode = null): self
     {
@@ -194,7 +194,7 @@ class ResultMultiParcelValue extends AbstractStructBase
     /**
      * Set codeDepot value
      * @param string $codeDepot
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultMultiParcelValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultMultiParcelValue
      */
     public function setCodeDepot(?string $codeDepot = null): self
     {
@@ -217,7 +217,7 @@ class ResultMultiParcelValue extends AbstractStructBase
     /**
      * Set codeService value
      * @param string $codeService
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultMultiParcelValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultMultiParcelValue
      */
     public function setCodeService(?string $codeService = null): self
     {
@@ -240,7 +240,7 @@ class ResultMultiParcelValue extends AbstractStructBase
     /**
      * Set destinationDepot value
      * @param string $destinationDepot
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultMultiParcelValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultMultiParcelValue
      */
     public function setDestinationDepot(?string $destinationDepot = null): self
     {
@@ -263,7 +263,7 @@ class ResultMultiParcelValue extends AbstractStructBase
     /**
      * Set geoPostCodeBarre value
      * @param string $geoPostCodeBarre
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultMultiParcelValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultMultiParcelValue
      */
     public function setGeoPostCodeBarre(?string $geoPostCodeBarre = null): self
     {
@@ -286,7 +286,7 @@ class ResultMultiParcelValue extends AbstractStructBase
     /**
      * Set geoPostNumeroColis value
      * @param string $geoPostNumeroColis
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultMultiParcelValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultMultiParcelValue
      */
     public function setGeoPostNumeroColis(?string $geoPostNumeroColis = null): self
     {
@@ -309,7 +309,7 @@ class ResultMultiParcelValue extends AbstractStructBase
     /**
      * Set groupingPriorityLabel value
      * @param string $groupingPriorityLabel
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultMultiParcelValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultMultiParcelValue
      */
     public function setGroupingPriorityLabel(?string $groupingPriorityLabel = null): self
     {
@@ -332,7 +332,7 @@ class ResultMultiParcelValue extends AbstractStructBase
     /**
      * Set pdfEtiquette value
      * @param string $pdfEtiquette
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultMultiParcelValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultMultiParcelValue
      */
     public function setPdfEtiquette(?string $pdfEtiquette = null): self
     {
@@ -355,7 +355,7 @@ class ResultMultiParcelValue extends AbstractStructBase
     /**
      * Set serviceMark value
      * @param string $serviceMark
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultMultiParcelValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultMultiParcelValue
      */
     public function setServiceMark(?string $serviceMark = null): self
     {
@@ -378,7 +378,7 @@ class ResultMultiParcelValue extends AbstractStructBase
     /**
      * Set serviceName value
      * @param string $serviceName
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultMultiParcelValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultMultiParcelValue
      */
     public function setServiceName(?string $serviceName = null): self
     {
@@ -401,7 +401,7 @@ class ResultMultiParcelValue extends AbstractStructBase
     /**
      * Set signaletiqueProduit value
      * @param string $signaletiqueProduit
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultMultiParcelValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultMultiParcelValue
      */
     public function setSignaletiqueProduit(?string $signaletiqueProduit = null): self
     {
@@ -424,7 +424,7 @@ class ResultMultiParcelValue extends AbstractStructBase
     /**
      * Set skybillNumber value
      * @param string $skybillNumber
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultMultiParcelValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultMultiParcelValue
      */
     public function setSkybillNumber(?string $skybillNumber = null): self
     {
@@ -447,7 +447,7 @@ class ResultMultiParcelValue extends AbstractStructBase
     /**
      * Set dSort value
      * @param string $dSort
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultMultiParcelValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultMultiParcelValue
      */
     public function setDSort(?string $dSort = null): self
     {
@@ -470,7 +470,7 @@ class ResultMultiParcelValue extends AbstractStructBase
     /**
      * Set oSort value
      * @param string $oSort
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultMultiParcelValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultMultiParcelValue
      */
     public function setOSort(?string $oSort = null): self
     {

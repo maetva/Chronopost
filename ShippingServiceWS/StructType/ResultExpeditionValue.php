@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -99,7 +99,7 @@ class ResultExpeditionValue extends AbstractStructBase
     /**
      * Set ESDFullNumber value
      * @param string $eSDFullNumber
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValue
      */
     public function setESDFullNumber(?string $eSDFullNumber = null): self
     {
@@ -122,7 +122,7 @@ class ResultExpeditionValue extends AbstractStructBase
     /**
      * Set ESDNumber value
      * @param string $eSDNumber
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValue
      */
     public function setESDNumber(?string $eSDNumber = null): self
     {
@@ -145,7 +145,7 @@ class ResultExpeditionValue extends AbstractStructBase
     /**
      * Set errorCode value
      * @param int $errorCode
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValue
      */
     public function setErrorCode(?int $errorCode = null): self
     {
@@ -168,7 +168,7 @@ class ResultExpeditionValue extends AbstractStructBase
     /**
      * Set errorMessage value
      * @param string $errorMessage
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValue
      */
     public function setErrorMessage(?string $errorMessage = null): self
     {
@@ -191,7 +191,7 @@ class ResultExpeditionValue extends AbstractStructBase
     /**
      * Set pickupDate value
      * @param string $pickupDate
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValue
      */
     public function setPickupDate(?string $pickupDate = null): self
     {
@@ -214,7 +214,7 @@ class ResultExpeditionValue extends AbstractStructBase
     /**
      * Set skybill value
      * @param string $skybill
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValue
      */
     public function setSkybill(?string $skybill = null): self
     {
@@ -237,7 +237,7 @@ class ResultExpeditionValue extends AbstractStructBase
     /**
      * Set skybillNumber value
      * @param string $skybillNumber
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValue
      */
     public function setSkybillNumber(?string $skybillNumber = null): self
     {

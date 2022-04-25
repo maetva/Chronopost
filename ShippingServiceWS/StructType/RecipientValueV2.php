@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -41,7 +41,7 @@ class RecipientValueV2 extends RecipientValue
     /**
      * Set recipientType value
      * @param string $recipientType
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValueV2
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\RecipientValueV2
      */
     public function setRecipientType(?string $recipientType = null): self
     {

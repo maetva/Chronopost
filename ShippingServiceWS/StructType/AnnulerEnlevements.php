@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -74,7 +74,7 @@ class AnnulerEnlevements extends AbstractStructBase
     /**
      * Set accountNumber value
      * @param string $accountNumber
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AnnulerEnlevements
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\AnnulerEnlevements
      */
     public function setAccountNumber(?string $accountNumber = null): self
     {
@@ -97,7 +97,7 @@ class AnnulerEnlevements extends AbstractStructBase
     /**
      * Set password value
      * @param string $password
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AnnulerEnlevements
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\AnnulerEnlevements
      */
     public function setPassword(?string $password = null): self
     {
@@ -120,7 +120,7 @@ class AnnulerEnlevements extends AbstractStructBase
     /**
      * Set locale value
      * @param string $locale
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AnnulerEnlevements
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\AnnulerEnlevements
      */
     public function setLocale(?string $locale = null): self
     {
@@ -170,7 +170,7 @@ class AnnulerEnlevements extends AbstractStructBase
      * Set esdNumber value
      * @throws InvalidArgumentException
      * @param string[] $esdNumber
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AnnulerEnlevements
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\AnnulerEnlevements
      */
     public function setEsdNumber(?array $esdNumber = null): self
     {
@@ -186,7 +186,7 @@ class AnnulerEnlevements extends AbstractStructBase
      * Add item to esdNumber value
      * @throws InvalidArgumentException
      * @param string $item
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AnnulerEnlevements
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\AnnulerEnlevements
      */
     public function addToEsdNumber(string $item): self
     {

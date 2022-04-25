@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -17,9 +17,9 @@ class ParticularitesColisDpd extends AbstractStructBase
      * The infoDouanieres
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoDouanieres|null
+     * @var \Maetva\Chronopost\ShippingServiceWS\StructType\InfoDouanieres|null
      */
-    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoDouanieres $infoDouanieres = null;
+    protected ?\Maetva\Chronopost\ShippingServiceWS\StructType\InfoDouanieres $infoDouanieres = null;
     /**
      * The valeurAssuree
      * @var float|null
@@ -29,10 +29,10 @@ class ParticularitesColisDpd extends AbstractStructBase
      * Constructor method for particularitesColisDpd
      * @uses ParticularitesColisDpd::setInfoDouanieres()
      * @uses ParticularitesColisDpd::setValeurAssuree()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoDouanieres $infoDouanieres
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\InfoDouanieres $infoDouanieres
      * @param float $valeurAssuree
      */
-    public function __construct(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoDouanieres $infoDouanieres = null, ?float $valeurAssuree = null)
+    public function __construct(?\Maetva\Chronopost\ShippingServiceWS\StructType\InfoDouanieres $infoDouanieres = null, ?float $valeurAssuree = null)
     {
         $this
             ->setInfoDouanieres($infoDouanieres)
@@ -40,18 +40,18 @@ class ParticularitesColisDpd extends AbstractStructBase
     }
     /**
      * Get infoDouanieres value
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoDouanieres|null
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\InfoDouanieres|null
      */
-    public function getInfoDouanieres(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoDouanieres
+    public function getInfoDouanieres(): ?\Maetva\Chronopost\ShippingServiceWS\StructType\InfoDouanieres
     {
         return $this->infoDouanieres;
     }
     /**
      * Set infoDouanieres value
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoDouanieres $infoDouanieres
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ParticularitesColisDpd
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\InfoDouanieres $infoDouanieres
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ParticularitesColisDpd
      */
-    public function setInfoDouanieres(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoDouanieres $infoDouanieres = null): self
+    public function setInfoDouanieres(?\Maetva\Chronopost\ShippingServiceWS\StructType\InfoDouanieres $infoDouanieres = null): self
     {
         $this->infoDouanieres = $infoDouanieres;
         
@@ -68,7 +68,7 @@ class ParticularitesColisDpd extends AbstractStructBase
     /**
      * Set valeurAssuree value
      * @param float $valeurAssuree
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ParticularitesColisDpd
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ParticularitesColisDpd
      */
     public function setValeurAssuree(?float $valeurAssuree = null): self
     {

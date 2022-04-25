@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -41,7 +41,7 @@ class ResultMonoParcelExpeditionValue extends ResultExpeditionValueV3
     /**
      * Set pdfEtiquette value
      * @param string $pdfEtiquette
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultMonoParcelExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultMonoParcelExpeditionValue
      */
     public function setPdfEtiquette(?string $pdfEtiquette = null): self
     {

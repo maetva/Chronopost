@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -61,7 +61,7 @@ class RecipientLocalValue extends RecipientValue
     /**
      * Set identityCardNumber value
      * @param string $identityCardNumber
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RecipientLocalValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\RecipientLocalValue
      */
     public function setIdentityCardNumber(?string $identityCardNumber = null): self
     {
@@ -84,7 +84,7 @@ class RecipientLocalValue extends RecipientValue
     /**
      * Set language value
      * @param string $language
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RecipientLocalValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\RecipientLocalValue
      */
     public function setLanguage(?string $language = null): self
     {
@@ -107,7 +107,7 @@ class RecipientLocalValue extends RecipientValue
     /**
      * Set province value
      * @param string $province
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RecipientLocalValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\RecipientLocalValue
      */
     public function setProvince(?string $province = null): self
     {

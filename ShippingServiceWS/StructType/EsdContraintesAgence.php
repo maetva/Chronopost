@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -149,7 +149,7 @@ class EsdContraintesAgence extends AbstractStructBase
     /**
      * Set battement value
      * @param int $battement
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\EsdContraintesAgence
      */
     public function setBattement(?int $battement = null): self
     {
@@ -172,7 +172,7 @@ class EsdContraintesAgence extends AbstractStructBase
     /**
      * Set battementEnHeure value
      * @param string $battementEnHeure
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\EsdContraintesAgence
      */
     public function setBattementEnHeure(?string $battementEnHeure = null): self
     {
@@ -195,7 +195,7 @@ class EsdContraintesAgence extends AbstractStructBase
     /**
      * Set codeAgence value
      * @param string $codeAgence
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\EsdContraintesAgence
      */
     public function setCodeAgence(?string $codeAgence = null): self
     {
@@ -218,7 +218,7 @@ class EsdContraintesAgence extends AbstractStructBase
     /**
      * Set codePays value
      * @param string $codePays
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\EsdContraintesAgence
      */
     public function setCodePays(?string $codePays = null): self
     {
@@ -241,7 +241,7 @@ class EsdContraintesAgence extends AbstractStructBase
     /**
      * Set codePostal value
      * @param string $codePostal
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\EsdContraintesAgence
      */
     public function setCodePostal(?string $codePostal = null): self
     {
@@ -264,7 +264,7 @@ class EsdContraintesAgence extends AbstractStructBase
     /**
      * Set hla value
      * @param string $hla
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\EsdContraintesAgence
      */
     public function setHla(?string $hla = null): self
     {
@@ -287,7 +287,7 @@ class EsdContraintesAgence extends AbstractStructBase
     /**
      * Set hlp value
      * @param string $hlp
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\EsdContraintesAgence
      */
     public function setHlp(?string $hlp = null): self
     {
@@ -310,7 +310,7 @@ class EsdContraintesAgence extends AbstractStructBase
     /**
      * Set hppt value
      * @param string $hppt
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\EsdContraintesAgence
      */
     public function setHppt(?string $hppt = null): self
     {
@@ -333,7 +333,7 @@ class EsdContraintesAgence extends AbstractStructBase
     /**
      * Set nomAgence value
      * @param string $nomAgence
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\EsdContraintesAgence
      */
     public function setNomAgence(?string $nomAgence = null): self
     {
@@ -356,7 +356,7 @@ class EsdContraintesAgence extends AbstractStructBase
     /**
      * Set raisonNonActivite value
      * @param string $raisonNonActivite
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\EsdContraintesAgence
      */
     public function setRaisonNonActivite(?string $raisonNonActivite = null): self
     {
@@ -379,7 +379,7 @@ class EsdContraintesAgence extends AbstractStructBase
     /**
      * Set ville value
      * @param string $ville
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\EsdContraintesAgence
      */
     public function setVille(?string $ville = null): self
     {
@@ -402,7 +402,7 @@ class EsdContraintesAgence extends AbstractStructBase
     /**
      * Set zoneA value
      * @param bool $zoneA
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdContraintesAgence
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\EsdContraintesAgence
      */
     public function setZoneA(?bool $zoneA = null): self
     {

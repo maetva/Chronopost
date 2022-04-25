@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -22,9 +22,9 @@ class ResultEnlevementNational extends AbstractStructBase
      * The infoEnlevement
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement|null
+     * @var \Maetva\Chronopost\ShippingServiceWS\StructType\InfoEnlevement|null
      */
-    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement $infoEnlevement = null;
+    protected ?\Maetva\Chronopost\ShippingServiceWS\StructType\InfoEnlevement $infoEnlevement = null;
     /**
      * The libelleErreur
      * Meta information extracted from the WSDL
@@ -38,10 +38,10 @@ class ResultEnlevementNational extends AbstractStructBase
      * @uses ResultEnlevementNational::setInfoEnlevement()
      * @uses ResultEnlevementNational::setLibelleErreur()
      * @param int $codeErreur
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement $infoEnlevement
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\InfoEnlevement $infoEnlevement
      * @param string $libelleErreur
      */
-    public function __construct(?int $codeErreur = null, ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement $infoEnlevement = null, ?string $libelleErreur = null)
+    public function __construct(?int $codeErreur = null, ?\Maetva\Chronopost\ShippingServiceWS\StructType\InfoEnlevement $infoEnlevement = null, ?string $libelleErreur = null)
     {
         $this
             ->setCodeErreur($codeErreur)
@@ -59,7 +59,7 @@ class ResultEnlevementNational extends AbstractStructBase
     /**
      * Set codeErreur value
      * @param int $codeErreur
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultEnlevementNational
      */
     public function setCodeErreur(?int $codeErreur = null): self
     {
@@ -73,18 +73,18 @@ class ResultEnlevementNational extends AbstractStructBase
     }
     /**
      * Get infoEnlevement value
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement|null
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\InfoEnlevement|null
      */
-    public function getInfoEnlevement(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement
+    public function getInfoEnlevement(): ?\Maetva\Chronopost\ShippingServiceWS\StructType\InfoEnlevement
     {
         return $this->infoEnlevement;
     }
     /**
      * Set infoEnlevement value
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement $infoEnlevement
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\InfoEnlevement $infoEnlevement
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultEnlevementNational
      */
-    public function setInfoEnlevement(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoEnlevement $infoEnlevement = null): self
+    public function setInfoEnlevement(?\Maetva\Chronopost\ShippingServiceWS\StructType\InfoEnlevement $infoEnlevement = null): self
     {
         $this->infoEnlevement = $infoEnlevement;
         
@@ -101,7 +101,7 @@ class ResultEnlevementNational extends AbstractStructBase
     /**
      * Set libelleErreur value
      * @param string $libelleErreur
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultEnlevementNational
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultEnlevementNational
      */
     public function setLibelleErreur(?string $libelleErreur = null): self
     {

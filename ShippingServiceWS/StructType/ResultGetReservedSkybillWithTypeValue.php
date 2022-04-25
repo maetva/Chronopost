@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -69,7 +69,7 @@ class ResultGetReservedSkybillWithTypeValue extends AbstractStructBase
     /**
      * Set errorCode value
      * @param int $errorCode
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillWithTypeValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultGetReservedSkybillWithTypeValue
      */
     public function setErrorCode(?int $errorCode = null): self
     {
@@ -92,7 +92,7 @@ class ResultGetReservedSkybillWithTypeValue extends AbstractStructBase
     /**
      * Set errorMessage value
      * @param string $errorMessage
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillWithTypeValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultGetReservedSkybillWithTypeValue
      */
     public function setErrorMessage(?string $errorMessage = null): self
     {
@@ -115,7 +115,7 @@ class ResultGetReservedSkybillWithTypeValue extends AbstractStructBase
     /**
      * Set skybill value
      * @param string $skybill
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillWithTypeValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultGetReservedSkybillWithTypeValue
      */
     public function setSkybill(?string $skybill = null): self
     {
@@ -138,7 +138,7 @@ class ResultGetReservedSkybillWithTypeValue extends AbstractStructBase
     /**
      * Set type value
      * @param string $type
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultGetReservedSkybillWithTypeValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultGetReservedSkybillWithTypeValue
      */
     public function setType(?string $type = null): self
     {

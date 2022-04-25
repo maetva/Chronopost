@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -18,13 +18,13 @@ class Statut extends AbstractStructBase
      * Meta information extracted from the WSDL
      * - maxOccurs: unbounded
      * - minOccurs: 0
-     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Entry[]
+     * @var \Maetva\Chronopost\ShippingServiceWS\StructType\Entry[]
      */
     protected ?array $entry = null;
     /**
      * Constructor method for statut
      * @uses Statut::setEntry()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Entry[] $entry
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\Entry[] $entry
      */
     public function __construct(?array $entry = null)
     {
@@ -33,7 +33,7 @@ class Statut extends AbstractStructBase
     }
     /**
      * Get entry value
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Entry[]
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\Entry[]
      */
     public function getEntry(): ?array
     {
@@ -54,12 +54,12 @@ class Statut extends AbstractStructBase
         $invalidValues = [];
         foreach ($values as $statutEntryItem) {
             // validation for constraint: itemType
-            if (!$statutEntryItem instanceof \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Entry) {
+            if (!$statutEntryItem instanceof \Maetva\Chronopost\ShippingServiceWS\StructType\Entry) {
                 $invalidValues[] = is_object($statutEntryItem) ? get_class($statutEntryItem) : sprintf('%s(%s)', gettype($statutEntryItem), var_export($statutEntryItem, true));
             }
         }
         if (!empty($invalidValues)) {
-            $message = sprintf('The entry property can only contain items of type \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Entry, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
+            $message = sprintf('The entry property can only contain items of type \Maetva\Chronopost\ShippingServiceWS\StructType\Entry, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
         }
         unset($invalidValues);
         
@@ -68,8 +68,8 @@ class Statut extends AbstractStructBase
     /**
      * Set entry value
      * @throws InvalidArgumentException
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Entry[] $entry
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Statut
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\Entry[] $entry
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\Statut
      */
     public function setEntry(?array $entry = null): self
     {
@@ -84,14 +84,14 @@ class Statut extends AbstractStructBase
     /**
      * Add item to entry value
      * @throws InvalidArgumentException
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Entry $item
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Statut
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\Entry $item
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\Statut
      */
-    public function addToEntry(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Entry $item): self
+    public function addToEntry(\Maetva\Chronopost\ShippingServiceWS\StructType\Entry $item): self
     {
         // validation for constraint: itemType
-        if (!$item instanceof \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Entry) {
-            throw new InvalidArgumentException(sprintf('The entry property can only contain items of type \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Entry, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
+        if (!$item instanceof \Maetva\Chronopost\ShippingServiceWS\StructType\Entry) {
+            throw new InvalidArgumentException(sprintf('The entry property can only contain items of type \Maetva\Chronopost\ShippingServiceWS\StructType\Entry, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
         }
         $this->entry[] = $item;
         

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -91,7 +91,7 @@ class SkybillValueBase extends AbstractStructBase
     /**
      * Set as value
      * @param string $as
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValueBase
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillValueBase
      */
     public function setAs(?string $as = null): self
     {
@@ -114,7 +114,7 @@ class SkybillValueBase extends AbstractStructBase
     /**
      * Set objectType value
      * @param string $objectType
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValueBase
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillValueBase
      */
     public function setObjectType(?string $objectType = null): self
     {
@@ -137,7 +137,7 @@ class SkybillValueBase extends AbstractStructBase
     /**
      * Set productCode value
      * @param string $productCode
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValueBase
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillValueBase
      */
     public function setProductCode(?string $productCode = null): self
     {
@@ -160,7 +160,7 @@ class SkybillValueBase extends AbstractStructBase
     /**
      * Set service value
      * @param string $service
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValueBase
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillValueBase
      */
     public function setService(?string $service = null): self
     {
@@ -183,7 +183,7 @@ class SkybillValueBase extends AbstractStructBase
     /**
      * Set shipDate value
      * @param string $shipDate
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValueBase
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillValueBase
      */
     public function setShipDate(?string $shipDate = null): self
     {
@@ -206,7 +206,7 @@ class SkybillValueBase extends AbstractStructBase
     /**
      * Set weight value
      * @param float $weight
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillValueBase
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillValueBase
      */
     public function setWeight(?float $weight = null): self
     {

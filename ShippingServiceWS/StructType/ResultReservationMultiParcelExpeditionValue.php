@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -59,7 +59,7 @@ class ResultReservationMultiParcelExpeditionValue extends AbstractStructBase
      * - maxOccurs: unbounded
      * - minOccurs: 0
      * - nillable: true
-     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue[]
+     * @var \Maetva\Chronopost\ShippingServiceWS\StructType\ResultParcelValue[]
      */
     protected ?array $resultParcelValue = null;
     /**
@@ -77,7 +77,7 @@ class ResultReservationMultiParcelExpeditionValue extends AbstractStructBase
      * @param string $errorMessage
      * @param string $pickupDate
      * @param string $reservationNumber
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue[] $resultParcelValue
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ResultParcelValue[] $resultParcelValue
      */
     public function __construct(?string $eSDFullNumber = null, ?string $eSDNumber = null, ?int $errorCode = null, ?string $errorMessage = null, ?string $pickupDate = null, ?string $reservationNumber = null, ?array $resultParcelValue = null)
     {
@@ -101,7 +101,7 @@ class ResultReservationMultiParcelExpeditionValue extends AbstractStructBase
     /**
      * Set ESDFullNumber value
      * @param string $eSDFullNumber
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationMultiParcelExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationMultiParcelExpeditionValue
      */
     public function setESDFullNumber(?string $eSDFullNumber = null): self
     {
@@ -124,7 +124,7 @@ class ResultReservationMultiParcelExpeditionValue extends AbstractStructBase
     /**
      * Set ESDNumber value
      * @param string $eSDNumber
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationMultiParcelExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationMultiParcelExpeditionValue
      */
     public function setESDNumber(?string $eSDNumber = null): self
     {
@@ -147,7 +147,7 @@ class ResultReservationMultiParcelExpeditionValue extends AbstractStructBase
     /**
      * Set errorCode value
      * @param int $errorCode
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationMultiParcelExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationMultiParcelExpeditionValue
      */
     public function setErrorCode(?int $errorCode = null): self
     {
@@ -170,7 +170,7 @@ class ResultReservationMultiParcelExpeditionValue extends AbstractStructBase
     /**
      * Set errorMessage value
      * @param string $errorMessage
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationMultiParcelExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationMultiParcelExpeditionValue
      */
     public function setErrorMessage(?string $errorMessage = null): self
     {
@@ -193,7 +193,7 @@ class ResultReservationMultiParcelExpeditionValue extends AbstractStructBase
     /**
      * Set pickupDate value
      * @param string $pickupDate
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationMultiParcelExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationMultiParcelExpeditionValue
      */
     public function setPickupDate(?string $pickupDate = null): self
     {
@@ -216,7 +216,7 @@ class ResultReservationMultiParcelExpeditionValue extends AbstractStructBase
     /**
      * Set reservationNumber value
      * @param string $reservationNumber
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationMultiParcelExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationMultiParcelExpeditionValue
      */
     public function setReservationNumber(?string $reservationNumber = null): self
     {
@@ -233,7 +233,7 @@ class ResultReservationMultiParcelExpeditionValue extends AbstractStructBase
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue[]
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultParcelValue[]
      */
     public function getResultParcelValue(): ?array
     {
@@ -254,12 +254,12 @@ class ResultReservationMultiParcelExpeditionValue extends AbstractStructBase
         $invalidValues = [];
         foreach ($values as $resultReservationMultiParcelExpeditionValueResultParcelValueItem) {
             // validation for constraint: itemType
-            if (!$resultReservationMultiParcelExpeditionValueResultParcelValueItem instanceof \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue) {
+            if (!$resultReservationMultiParcelExpeditionValueResultParcelValueItem instanceof \Maetva\Chronopost\ShippingServiceWS\StructType\ResultParcelValue) {
                 $invalidValues[] = is_object($resultReservationMultiParcelExpeditionValueResultParcelValueItem) ? get_class($resultReservationMultiParcelExpeditionValueResultParcelValueItem) : sprintf('%s(%s)', gettype($resultReservationMultiParcelExpeditionValueResultParcelValueItem), var_export($resultReservationMultiParcelExpeditionValueResultParcelValueItem, true));
             }
         }
         if (!empty($invalidValues)) {
-            $message = sprintf('The resultParcelValue property can only contain items of type \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
+            $message = sprintf('The resultParcelValue property can only contain items of type \Maetva\Chronopost\ShippingServiceWS\StructType\ResultParcelValue, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
         }
         unset($invalidValues);
         
@@ -270,8 +270,8 @@ class ResultReservationMultiParcelExpeditionValue extends AbstractStructBase
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
      * @throws InvalidArgumentException
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue[] $resultParcelValue
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationMultiParcelExpeditionValue
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ResultParcelValue[] $resultParcelValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationMultiParcelExpeditionValue
      */
     public function setResultParcelValue(?array $resultParcelValue = null): self
     {
@@ -290,14 +290,14 @@ class ResultReservationMultiParcelExpeditionValue extends AbstractStructBase
     /**
      * Add item to resultParcelValue value
      * @throws InvalidArgumentException
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue $item
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationMultiParcelExpeditionValue
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ResultParcelValue $item
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationMultiParcelExpeditionValue
      */
-    public function addToResultParcelValue(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue $item): self
+    public function addToResultParcelValue(\Maetva\Chronopost\ShippingServiceWS\StructType\ResultParcelValue $item): self
     {
         // validation for constraint: itemType
-        if (!$item instanceof \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue) {
-            throw new InvalidArgumentException(sprintf('The resultParcelValue property can only contain items of type \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultParcelValue, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
+        if (!$item instanceof \Maetva\Chronopost\ShippingServiceWS\StructType\ResultParcelValue) {
+            throw new InvalidArgumentException(sprintf('The resultParcelValue property can only contain items of type \Maetva\Chronopost\ShippingServiceWS\StructType\ResultParcelValue, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
         }
         $this->resultParcelValue[] = $item;
         

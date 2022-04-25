@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -209,7 +209,7 @@ class ResultReservationExpeditionValue extends AbstractStructBase
     /**
      * Set codeDepot value
      * @param string $codeDepot
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationExpeditionValue
      */
     public function setCodeDepot(?string $codeDepot = null): self
     {
@@ -232,7 +232,7 @@ class ResultReservationExpeditionValue extends AbstractStructBase
     /**
      * Set codeService value
      * @param string $codeService
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationExpeditionValue
      */
     public function setCodeService(?string $codeService = null): self
     {
@@ -255,7 +255,7 @@ class ResultReservationExpeditionValue extends AbstractStructBase
     /**
      * Set DSort value
      * @param string $dSort
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationExpeditionValue
      */
     public function setDSort(?string $dSort = null): self
     {
@@ -278,7 +278,7 @@ class ResultReservationExpeditionValue extends AbstractStructBase
     /**
      * Set destinationDepot value
      * @param string $destinationDepot
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationExpeditionValue
      */
     public function setDestinationDepot(?string $destinationDepot = null): self
     {
@@ -301,7 +301,7 @@ class ResultReservationExpeditionValue extends AbstractStructBase
     /**
      * Set ESDFullNumber value
      * @param string $eSDFullNumber
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationExpeditionValue
      */
     public function setESDFullNumber(?string $eSDFullNumber = null): self
     {
@@ -324,7 +324,7 @@ class ResultReservationExpeditionValue extends AbstractStructBase
     /**
      * Set ESDNumber value
      * @param string $eSDNumber
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationExpeditionValue
      */
     public function setESDNumber(?string $eSDNumber = null): self
     {
@@ -347,7 +347,7 @@ class ResultReservationExpeditionValue extends AbstractStructBase
     /**
      * Set errorCode value
      * @param int $errorCode
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationExpeditionValue
      */
     public function setErrorCode(?int $errorCode = null): self
     {
@@ -370,7 +370,7 @@ class ResultReservationExpeditionValue extends AbstractStructBase
     /**
      * Set errorMessage value
      * @param string $errorMessage
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationExpeditionValue
      */
     public function setErrorMessage(?string $errorMessage = null): self
     {
@@ -393,7 +393,7 @@ class ResultReservationExpeditionValue extends AbstractStructBase
     /**
      * Set geoPostCodeBarre value
      * @param string $geoPostCodeBarre
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationExpeditionValue
      */
     public function setGeoPostCodeBarre(?string $geoPostCodeBarre = null): self
     {
@@ -416,7 +416,7 @@ class ResultReservationExpeditionValue extends AbstractStructBase
     /**
      * Set geoPostNumeroColis value
      * @param string $geoPostNumeroColis
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationExpeditionValue
      */
     public function setGeoPostNumeroColis(?string $geoPostNumeroColis = null): self
     {
@@ -439,7 +439,7 @@ class ResultReservationExpeditionValue extends AbstractStructBase
     /**
      * Set groupingPriorityLabel value
      * @param string $groupingPriorityLabel
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationExpeditionValue
      */
     public function setGroupingPriorityLabel(?string $groupingPriorityLabel = null): self
     {
@@ -462,7 +462,7 @@ class ResultReservationExpeditionValue extends AbstractStructBase
     /**
      * Set OSort value
      * @param string $oSort
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationExpeditionValue
      */
     public function setOSort(?string $oSort = null): self
     {
@@ -485,7 +485,7 @@ class ResultReservationExpeditionValue extends AbstractStructBase
     /**
      * Set pickupDate value
      * @param string $pickupDate
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationExpeditionValue
      */
     public function setPickupDate(?string $pickupDate = null): self
     {
@@ -508,7 +508,7 @@ class ResultReservationExpeditionValue extends AbstractStructBase
     /**
      * Set reservationNumber value
      * @param string $reservationNumber
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationExpeditionValue
      */
     public function setReservationNumber(?string $reservationNumber = null): self
     {
@@ -531,7 +531,7 @@ class ResultReservationExpeditionValue extends AbstractStructBase
     /**
      * Set serviceMark value
      * @param string $serviceMark
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationExpeditionValue
      */
     public function setServiceMark(?string $serviceMark = null): self
     {
@@ -554,7 +554,7 @@ class ResultReservationExpeditionValue extends AbstractStructBase
     /**
      * Set serviceName value
      * @param string $serviceName
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationExpeditionValue
      */
     public function setServiceName(?string $serviceName = null): self
     {
@@ -577,7 +577,7 @@ class ResultReservationExpeditionValue extends AbstractStructBase
     /**
      * Set signaletiqueProduit value
      * @param string $signaletiqueProduit
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationExpeditionValue
      */
     public function setSignaletiqueProduit(?string $signaletiqueProduit = null): self
     {
@@ -600,7 +600,7 @@ class ResultReservationExpeditionValue extends AbstractStructBase
     /**
      * Set skybillNumber value
      * @param string $skybillNumber
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultReservationExpeditionValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultReservationExpeditionValue
      */
     public function setSkybillNumber(?string $skybillNumber = null): self
     {

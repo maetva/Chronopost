@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -59,7 +59,7 @@ class InfoDouanieres extends AbstractStructBase
     /**
      * Set devise value
      * @param string $devise
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoDouanieres
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\InfoDouanieres
      */
     public function setDevise(?string $devise = null): self
     {
@@ -82,7 +82,7 @@ class InfoDouanieres extends AbstractStructBase
     /**
      * Set montant value
      * @param float $montant
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoDouanieres
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\InfoDouanieres
      */
     public function setMontant(?float $montant = null): self
     {
@@ -105,7 +105,7 @@ class InfoDouanieres extends AbstractStructBase
     /**
      * Set type value
      * @param string $type
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\InfoDouanieres
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\InfoDouanieres
      */
     public function setType(?string $type = null): self
     {

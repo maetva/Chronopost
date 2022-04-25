@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType;
+namespace Maetva\Chronopost\TrackingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -57,7 +57,7 @@ class ResultCancelSkybill extends AbstractStructBase
     /**
      * Set errorCode value
      * @param int $errorCode
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultCancelSkybill
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\ResultCancelSkybill
      */
     public function setErrorCode(?int $errorCode = null): self
     {
@@ -80,7 +80,7 @@ class ResultCancelSkybill extends AbstractStructBase
     /**
      * Set errorMessage value
      * @param string $errorMessage
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultCancelSkybill
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\ResultCancelSkybill
      */
     public function setErrorMessage(?string $errorMessage = null): self
     {
@@ -103,7 +103,7 @@ class ResultCancelSkybill extends AbstractStructBase
     /**
      * Set statusCode value
      * @param int $statusCode
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultCancelSkybill
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\ResultCancelSkybill
      */
     public function setStatusCode(?int $statusCode = null): self
     {

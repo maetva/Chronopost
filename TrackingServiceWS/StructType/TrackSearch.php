@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType;
+namespace Maetva\Chronopost\TrackingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -143,7 +143,7 @@ class TrackSearch extends AbstractStructBase
     /**
      * Set accountNumber value
      * @param string $accountNumber
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSearch
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\TrackSearch
      */
     public function setAccountNumber(?string $accountNumber = null): self
     {
@@ -166,7 +166,7 @@ class TrackSearch extends AbstractStructBase
     /**
      * Set password value
      * @param string $password
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSearch
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\TrackSearch
      */
     public function setPassword(?string $password = null): self
     {
@@ -189,7 +189,7 @@ class TrackSearch extends AbstractStructBase
     /**
      * Set language value
      * @param string $language
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSearch
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\TrackSearch
      */
     public function setLanguage(?string $language = null): self
     {
@@ -212,7 +212,7 @@ class TrackSearch extends AbstractStructBase
     /**
      * Set consigneesCountry value
      * @param string $consigneesCountry
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSearch
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\TrackSearch
      */
     public function setConsigneesCountry(?string $consigneesCountry = null): self
     {
@@ -235,7 +235,7 @@ class TrackSearch extends AbstractStructBase
     /**
      * Set consigneesRef value
      * @param string $consigneesRef
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSearch
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\TrackSearch
      */
     public function setConsigneesRef(?string $consigneesRef = null): self
     {
@@ -258,7 +258,7 @@ class TrackSearch extends AbstractStructBase
     /**
      * Set consigneesZipCode value
      * @param string $consigneesZipCode
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSearch
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\TrackSearch
      */
     public function setConsigneesZipCode(?string $consigneesZipCode = null): self
     {
@@ -281,7 +281,7 @@ class TrackSearch extends AbstractStructBase
     /**
      * Set dateDeposit value
      * @param string $dateDeposit
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSearch
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\TrackSearch
      */
     public function setDateDeposit(?string $dateDeposit = null): self
     {
@@ -304,7 +304,7 @@ class TrackSearch extends AbstractStructBase
     /**
      * Set dateEndDeposit value
      * @param string $dateEndDeposit
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSearch
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\TrackSearch
      */
     public function setDateEndDeposit(?string $dateEndDeposit = null): self
     {
@@ -327,7 +327,7 @@ class TrackSearch extends AbstractStructBase
     /**
      * Set parcelState value
      * @param string $parcelState
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSearch
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\TrackSearch
      */
     public function setParcelState(?string $parcelState = null): self
     {
@@ -350,7 +350,7 @@ class TrackSearch extends AbstractStructBase
     /**
      * Set sendersRef value
      * @param string $sendersRef
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSearch
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\TrackSearch
      */
     public function setSendersRef(?string $sendersRef = null): self
     {
@@ -373,7 +373,7 @@ class TrackSearch extends AbstractStructBase
     /**
      * Set serviceCode value
      * @param string $serviceCode
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\TrackSearch
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\TrackSearch
      */
     public function setServiceCode(?string $serviceCode = null): self
     {

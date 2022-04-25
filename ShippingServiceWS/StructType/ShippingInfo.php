@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -121,7 +121,7 @@ class ShippingInfo extends AbstractStructBase
     /**
      * Set asCode value
      * @param string $asCode
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingInfo
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingInfo
      */
     public function setAsCode(?string $asCode = null): self
     {
@@ -144,7 +144,7 @@ class ShippingInfo extends AbstractStructBase
     /**
      * Set codeService value
      * @param string $codeService
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingInfo
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingInfo
      */
     public function setCodeService(?string $codeService = null): self
     {
@@ -167,7 +167,7 @@ class ShippingInfo extends AbstractStructBase
     /**
      * Set destinationDepot value
      * @param string $destinationDepot
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingInfo
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingInfo
      */
     public function setDestinationDepot(?string $destinationDepot = null): self
     {
@@ -190,7 +190,7 @@ class ShippingInfo extends AbstractStructBase
     /**
      * Set groupingPriorityLabel value
      * @param string $groupingPriorityLabel
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingInfo
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingInfo
      */
     public function setGroupingPriorityLabel(?string $groupingPriorityLabel = null): self
     {
@@ -213,7 +213,7 @@ class ShippingInfo extends AbstractStructBase
     /**
      * Set serviceMark value
      * @param string $serviceMark
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingInfo
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingInfo
      */
     public function setServiceMark(?string $serviceMark = null): self
     {
@@ -236,7 +236,7 @@ class ShippingInfo extends AbstractStructBase
     /**
      * Set serviceName value
      * @param string $serviceName
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingInfo
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingInfo
      */
     public function setServiceName(?string $serviceName = null): self
     {
@@ -259,7 +259,7 @@ class ShippingInfo extends AbstractStructBase
     /**
      * Set signaletiqueProduit value
      * @param string $signaletiqueProduit
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingInfo
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingInfo
      */
     public function setSignaletiqueProduit(?string $signaletiqueProduit = null): self
     {
@@ -282,7 +282,7 @@ class ShippingInfo extends AbstractStructBase
     /**
      * Set dSort value
      * @param string $dSort
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingInfo
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingInfo
      */
     public function setDSort(?string $dSort = null): self
     {
@@ -305,7 +305,7 @@ class ShippingInfo extends AbstractStructBase
     /**
      * Set oSort value
      * @param string $oSort
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingInfo
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingInfo
      */
     public function setOSort(?string $oSort = null): self
     {

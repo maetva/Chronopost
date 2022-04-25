@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -81,7 +81,7 @@ class Particularites extends AbstractStructBase
     /**
      * Set hauteur value
      * @param float $hauteur
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Particularites
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\Particularites
      */
     public function setHauteur(?float $hauteur = null): self
     {
@@ -104,7 +104,7 @@ class Particularites extends AbstractStructBase
     /**
      * Set instructionsParticulieres value
      * @param string $instructionsParticulieres
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Particularites
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\Particularites
      */
     public function setInstructionsParticulieres(?string $instructionsParticulieres = null): self
     {
@@ -127,7 +127,7 @@ class Particularites extends AbstractStructBase
     /**
      * Set largeur value
      * @param float $largeur
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Particularites
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\Particularites
      */
     public function setLargeur(?float $largeur = null): self
     {
@@ -150,7 +150,7 @@ class Particularites extends AbstractStructBase
     /**
      * Set longueur value
      * @param float $longueur
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Particularites
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\Particularites
      */
     public function setLongueur(?float $longueur = null): self
     {
@@ -173,7 +173,7 @@ class Particularites extends AbstractStructBase
     /**
      * Set nombreEnvois value
      * @param int $nombreEnvois
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Particularites
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\Particularites
      */
     public function setNombreEnvois(?int $nombreEnvois = null): self
     {
@@ -196,7 +196,7 @@ class Particularites extends AbstractStructBase
     /**
      * Set poids value
      * @param float $poids
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Particularites
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\Particularites
      */
     public function setPoids(?float $poids = null): self
     {

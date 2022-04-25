@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType;
+namespace Maetva\Chronopost\TrackingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -81,7 +81,7 @@ class SearchPOD extends AbstractStructBase
     /**
      * Set accountNumber value
      * @param string $accountNumber
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\SearchPOD
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\SearchPOD
      */
     public function setAccountNumber(?string $accountNumber = null): self
     {
@@ -104,7 +104,7 @@ class SearchPOD extends AbstractStructBase
     /**
      * Set password value
      * @param string $password
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\SearchPOD
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\SearchPOD
      */
     public function setPassword(?string $password = null): self
     {
@@ -127,7 +127,7 @@ class SearchPOD extends AbstractStructBase
     /**
      * Set language value
      * @param string $language
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\SearchPOD
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\SearchPOD
      */
     public function setLanguage(?string $language = null): self
     {
@@ -150,7 +150,7 @@ class SearchPOD extends AbstractStructBase
     /**
      * Set skybillNumber value
      * @param string $skybillNumber
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\SearchPOD
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\SearchPOD
      */
     public function setSkybillNumber(?string $skybillNumber = null): self
     {
@@ -173,7 +173,7 @@ class SearchPOD extends AbstractStructBase
     /**
      * Set pdf value
      * @param bool $pdf
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\SearchPOD
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\SearchPOD
      */
     public function setPdf(?bool $pdf = null): self
     {

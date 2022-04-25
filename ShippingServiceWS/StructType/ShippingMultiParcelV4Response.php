@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -19,33 +19,33 @@ class ShippingMultiParcelV4Response extends AbstractStructBase
      * The return
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultMultiParcelExpeditionValue|null
+     * @var \Maetva\Chronopost\ShippingServiceWS\StructType\ResultMultiParcelExpeditionValue|null
      */
-    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultMultiParcelExpeditionValue $return = null;
+    protected ?\Maetva\Chronopost\ShippingServiceWS\StructType\ResultMultiParcelExpeditionValue $return = null;
     /**
      * Constructor method for shippingMultiParcelV4Response
      * @uses ShippingMultiParcelV4Response::setReturn()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultMultiParcelExpeditionValue $return
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ResultMultiParcelExpeditionValue $return
      */
-    public function __construct(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultMultiParcelExpeditionValue $return = null)
+    public function __construct(?\Maetva\Chronopost\ShippingServiceWS\StructType\ResultMultiParcelExpeditionValue $return = null)
     {
         $this
             ->setReturn($return);
     }
     /**
      * Get return value
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultMultiParcelExpeditionValue|null
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultMultiParcelExpeditionValue|null
      */
-    public function getReturn(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultMultiParcelExpeditionValue
+    public function getReturn(): ?\Maetva\Chronopost\ShippingServiceWS\StructType\ResultMultiParcelExpeditionValue
     {
         return $this->return;
     }
     /**
      * Set return value
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultMultiParcelExpeditionValue $return
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV4Response
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ResultMultiParcelExpeditionValue $return
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelV4Response
      */
-    public function setReturn(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultMultiParcelExpeditionValue $return = null): self
+    public function setReturn(?\Maetva\Chronopost\ShippingServiceWS\StructType\ResultMultiParcelExpeditionValue $return = null): self
     {
         $this->return = $return;
         

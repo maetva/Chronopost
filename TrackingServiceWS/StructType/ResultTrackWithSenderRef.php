@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType;
+namespace Maetva\Chronopost\TrackingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -31,7 +31,7 @@ class ResultTrackWithSenderRef extends AbstractStructBase
      * - maxOccurs: unbounded
      * - minOccurs: 0
      * - nillable: true
-     * @var \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents[]
+     * @var \Maetva\Chronopost\TrackingServiceWS\StructType\ListEvents[]
      */
     protected ?array $listParcel = null;
     /**
@@ -41,7 +41,7 @@ class ResultTrackWithSenderRef extends AbstractStructBase
      * @uses ResultTrackWithSenderRef::setListParcel()
      * @param int $errorCode
      * @param string $errorMessage
-     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents[] $listParcel
+     * @param \Maetva\Chronopost\TrackingServiceWS\StructType\ListEvents[] $listParcel
      */
     public function __construct(?int $errorCode = null, ?string $errorMessage = null, ?array $listParcel = null)
     {
@@ -61,7 +61,7 @@ class ResultTrackWithSenderRef extends AbstractStructBase
     /**
      * Set errorCode value
      * @param int $errorCode
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultTrackWithSenderRef
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\ResultTrackWithSenderRef
      */
     public function setErrorCode(?int $errorCode = null): self
     {
@@ -84,7 +84,7 @@ class ResultTrackWithSenderRef extends AbstractStructBase
     /**
      * Set errorMessage value
      * @param string $errorMessage
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultTrackWithSenderRef
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\ResultTrackWithSenderRef
      */
     public function setErrorMessage(?string $errorMessage = null): self
     {
@@ -101,7 +101,7 @@ class ResultTrackWithSenderRef extends AbstractStructBase
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents[]
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\ListEvents[]
      */
     public function getListParcel(): ?array
     {
@@ -122,12 +122,12 @@ class ResultTrackWithSenderRef extends AbstractStructBase
         $invalidValues = [];
         foreach ($values as $resultTrackWithSenderRefListParcelItem) {
             // validation for constraint: itemType
-            if (!$resultTrackWithSenderRefListParcelItem instanceof \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents) {
+            if (!$resultTrackWithSenderRefListParcelItem instanceof \Maetva\Chronopost\TrackingServiceWS\StructType\ListEvents) {
                 $invalidValues[] = is_object($resultTrackWithSenderRefListParcelItem) ? get_class($resultTrackWithSenderRefListParcelItem) : sprintf('%s(%s)', gettype($resultTrackWithSenderRefListParcelItem), var_export($resultTrackWithSenderRefListParcelItem, true));
             }
         }
         if (!empty($invalidValues)) {
-            $message = sprintf('The listParcel property can only contain items of type \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
+            $message = sprintf('The listParcel property can only contain items of type \Maetva\Chronopost\TrackingServiceWS\StructType\ListEvents, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
         }
         unset($invalidValues);
         
@@ -138,8 +138,8 @@ class ResultTrackWithSenderRef extends AbstractStructBase
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
      * @throws InvalidArgumentException
-     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents[] $listParcel
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultTrackWithSenderRef
+     * @param \Maetva\Chronopost\TrackingServiceWS\StructType\ListEvents[] $listParcel
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\ResultTrackWithSenderRef
      */
     public function setListParcel(?array $listParcel = null): self
     {
@@ -158,14 +158,14 @@ class ResultTrackWithSenderRef extends AbstractStructBase
     /**
      * Add item to listParcel value
      * @throws InvalidArgumentException
-     * @param \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents $item
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ResultTrackWithSenderRef
+     * @param \Maetva\Chronopost\TrackingServiceWS\StructType\ListEvents $item
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\ResultTrackWithSenderRef
      */
-    public function addToListParcel(\Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents $item): self
+    public function addToListParcel(\Maetva\Chronopost\TrackingServiceWS\StructType\ListEvents $item): self
     {
         // validation for constraint: itemType
-        if (!$item instanceof \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents) {
-            throw new InvalidArgumentException(sprintf('The listParcel property can only contain items of type \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\ListEvents, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
+        if (!$item instanceof \Maetva\Chronopost\TrackingServiceWS\StructType\ListEvents) {
+            throw new InvalidArgumentException(sprintf('The listParcel property can only contain items of type \Maetva\Chronopost\TrackingServiceWS\StructType\ListEvents, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
         }
         $this->listParcel[] = $item;
         

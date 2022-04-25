@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -141,7 +141,7 @@ class ResultExpeditionValueV3 extends ResultExpeditionValue
     /**
      * Set codeDepot value
      * @param string $codeDepot
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValueV3
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValueV3
      */
     public function setCodeDepot(?string $codeDepot = null): self
     {
@@ -164,7 +164,7 @@ class ResultExpeditionValueV3 extends ResultExpeditionValue
     /**
      * Set codeService value
      * @param string $codeService
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValueV3
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValueV3
      */
     public function setCodeService(?string $codeService = null): self
     {
@@ -187,7 +187,7 @@ class ResultExpeditionValueV3 extends ResultExpeditionValue
     /**
      * Set destinationDepot value
      * @param string $destinationDepot
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValueV3
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValueV3
      */
     public function setDestinationDepot(?string $destinationDepot = null): self
     {
@@ -210,7 +210,7 @@ class ResultExpeditionValueV3 extends ResultExpeditionValue
     /**
      * Set geoPostCodeBarre value
      * @param string $geoPostCodeBarre
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValueV3
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValueV3
      */
     public function setGeoPostCodeBarre(?string $geoPostCodeBarre = null): self
     {
@@ -233,7 +233,7 @@ class ResultExpeditionValueV3 extends ResultExpeditionValue
     /**
      * Set geoPostNumeroColis value
      * @param string $geoPostNumeroColis
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValueV3
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValueV3
      */
     public function setGeoPostNumeroColis(?string $geoPostNumeroColis = null): self
     {
@@ -256,7 +256,7 @@ class ResultExpeditionValueV3 extends ResultExpeditionValue
     /**
      * Set groupingPriorityLabel value
      * @param string $groupingPriorityLabel
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValueV3
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValueV3
      */
     public function setGroupingPriorityLabel(?string $groupingPriorityLabel = null): self
     {
@@ -279,7 +279,7 @@ class ResultExpeditionValueV3 extends ResultExpeditionValue
     /**
      * Set serviceMark value
      * @param string $serviceMark
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValueV3
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValueV3
      */
     public function setServiceMark(?string $serviceMark = null): self
     {
@@ -302,7 +302,7 @@ class ResultExpeditionValueV3 extends ResultExpeditionValue
     /**
      * Set serviceName value
      * @param string $serviceName
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValueV3
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValueV3
      */
     public function setServiceName(?string $serviceName = null): self
     {
@@ -325,7 +325,7 @@ class ResultExpeditionValueV3 extends ResultExpeditionValue
     /**
      * Set signaletiqueProduit value
      * @param string $signaletiqueProduit
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValueV3
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValueV3
      */
     public function setSignaletiqueProduit(?string $signaletiqueProduit = null): self
     {
@@ -348,7 +348,7 @@ class ResultExpeditionValueV3 extends ResultExpeditionValue
     /**
      * Set dSort value
      * @param string $dSort
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValueV3
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValueV3
      */
     public function setDSort(?string $dSort = null): self
     {
@@ -371,7 +371,7 @@ class ResultExpeditionValueV3 extends ResultExpeditionValue
     /**
      * Set oSort value
      * @param string $oSort
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValueV3
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValueV3
      */
     public function setOSort(?string $oSort = null): self
     {

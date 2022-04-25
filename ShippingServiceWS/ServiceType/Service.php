@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\ServiceType;
+namespace Maetva\Chronopost\ShippingServiceWS\ServiceType;
 
 use SoapFault;
 use WsdlToPhp\PackageBase\AbstractSoapClientBase;
@@ -18,10 +18,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\FaisabiliteESD $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\FaisabiliteESDResponse|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\FaisabiliteESD $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\FaisabiliteESDResponse|bool
      */
-    public function faisabiliteESD(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\FaisabiliteESD $parameters)
+    public function faisabiliteESD(\Maetva\Chronopost\ShippingServiceWS\StructType\FaisabiliteESD $parameters)
     {
         try {
             $this->setResult($resultFaisabiliteESD = $this->getSoapClient()->__soapCall('faisabiliteESD', [
@@ -40,10 +40,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithType $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeResponse|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybillWithType $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybillWithTypeResponse|bool
      */
-    public function getReservedSkybillWithType(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithType $parameters)
+    public function getReservedSkybillWithType(\Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybillWithType $parameters)
     {
         try {
             $this->setResult($resultGetReservedSkybillWithType = $this->getSoapClient()->__soapCall('getReservedSkybillWithType', [
@@ -63,10 +63,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeAuth $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeAuthResponse|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeAuth $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeAuthResponse|bool
      */
-    public function getReservedSkybillWithTypeAndModeAuth(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeAuth $parameters)
+    public function getReservedSkybillWithTypeAndModeAuth(\Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeAuth $parameters)
     {
         try {
             $this->setResult($resultGetReservedSkybillWithTypeAndModeAuth = $this->getSoapClient()->__soapCall('getReservedSkybillWithTypeAndModeAuth', [
@@ -85,10 +85,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV2 $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV2Response|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV2 $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV2Response|bool
      */
-    public function shippingV2(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV2 $parameters)
+    public function shippingV2(\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV2 $parameters)
     {
         try {
             $this->setResult($resultShippingV2 = $this->getSoapClient()->__soapCall('shippingV2', [
@@ -107,10 +107,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV3 $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV3Response|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV3 $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV3Response|bool
      */
-    public function shippingV3(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV3 $parameters)
+    public function shippingV3(\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV3 $parameters)
     {
         try {
             $this->setResult($resultShippingV3 = $this->getSoapClient()->__soapCall('shippingV3', [
@@ -129,10 +129,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6 $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6Response|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV6 $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV6Response|bool
      */
-    public function shippingV6(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6 $parameters)
+    public function shippingV6(\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV6 $parameters)
     {
         try {
             $this->setResult($resultShippingV6 = $this->getSoapClient()->__soapCall('shippingV6', [
@@ -151,10 +151,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV7 $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV7Response|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV7 $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV7Response|bool
      */
-    public function shippingV7(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV7 $parameters)
+    public function shippingV7(\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV7 $parameters)
     {
         try {
             $this->setResult($resultShippingV7 = $this->getSoapClient()->__soapCall('shippingV7', [
@@ -173,10 +173,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV4 $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV4Response|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV4 $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV4Response|bool
      */
-    public function shippingV4(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV4 $parameters)
+    public function shippingV4(\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV4 $parameters)
     {
         try {
             $this->setResult($resultShippingV4 = $this->getSoapClient()->__soapCall('shippingV4', [
@@ -195,10 +195,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV5 $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV5Response|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV5 $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV5Response|bool
      */
-    public function shippingV5(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV5 $parameters)
+    public function shippingV5(\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV5 $parameters)
     {
         try {
             $this->setResult($resultShippingV5 = $this->getSoapClient()->__soapCall('shippingV5', [
@@ -217,10 +217,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CreerEnlevementNational $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CreerEnlevementNationalResponse|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\CreerEnlevementNational $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\CreerEnlevementNationalResponse|bool
      */
-    public function creerEnlevementNational(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CreerEnlevementNational $parameters)
+    public function creerEnlevementNational(\Maetva\Chronopost\ShippingServiceWS\StructType\CreerEnlevementNational $parameters)
     {
         try {
             $this->setResult($resultCreerEnlevementNational = $this->getSoapClient()->__soapCall('creerEnlevementNational', [
@@ -240,10 +240,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeByReservation $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeByReservationResponse|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeByReservation $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeByReservationResponse|bool
      */
-    public function getReservedSkybillWithTypeAndModeByReservation(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeByReservation $parameters)
+    public function getReservedSkybillWithTypeAndModeByReservation(\Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeByReservation $parameters)
     {
         try {
             $this->setResult($resultGetReservedSkybillWithTypeAndModeByReservation = $this->getSoapClient()->__soapCall('getReservedSkybillWithTypeAndModeByReservation', [
@@ -262,10 +262,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcel $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelResponse|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcel $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelResponse|bool
      */
-    public function shippingMultiParcel(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcel $parameters)
+    public function shippingMultiParcel(\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcel $parameters)
     {
         try {
             $this->setResult($resultShippingMultiParcel = $this->getSoapClient()->__soapCall('shippingMultiParcel', [
@@ -284,10 +284,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithESDOnlyV2 $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithESDOnlyV2Response|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithESDOnlyV2 $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithESDOnlyV2Response|bool
      */
-    public function shippingWithESDOnlyV2(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithESDOnlyV2 $parameters)
+    public function shippingWithESDOnlyV2(\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithESDOnlyV2 $parameters)
     {
         try {
             $this->setResult($resultShippingWithESDOnlyV2 = $this->getSoapClient()->__soapCall('shippingWithESDOnlyV2', [
@@ -306,10 +306,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationV2 $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationV2Response|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithReservationV2 $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithReservationV2Response|bool
      */
-    public function shippingWithReservationV2(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationV2 $parameters)
+    public function shippingWithReservationV2(\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithReservationV2 $parameters)
     {
         try {
             $this->setResult($resultShippingWithReservationV2 = $this->getSoapClient()->__soapCall('shippingWithReservationV2', [
@@ -328,10 +328,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Shipping $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingResponse|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\Shipping $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingResponse|bool
      */
-    public function shipping(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\Shipping $parameters)
+    public function shipping(\Maetva\Chronopost\ShippingServiceWS\StructType\Shipping $parameters)
     {
         try {
             $this->setResult($resultShipping = $this->getSoapClient()->__soapCall('shipping', [
@@ -350,10 +350,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybill $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillResponse|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybill $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybillResponse|bool
      */
-    public function getReservedSkybill(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybill $parameters)
+    public function getReservedSkybill(\Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybill $parameters)
     {
         try {
             $this->setResult($resultGetReservedSkybill = $this->getSoapClient()->__soapCall('getReservedSkybill', [
@@ -372,10 +372,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelWithReservation $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationResponse|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelWithReservation $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationResponse|bool
      */
-    public function shippingMultiParcelWithReservation(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelWithReservation $parameters)
+    public function shippingMultiParcelWithReservation(\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelWithReservation $parameters)
     {
         try {
             $this->setResult($resultShippingMultiParcelWithReservation = $this->getSoapClient()->__soapCall('shippingMultiParcelWithReservation', [
@@ -394,10 +394,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV4 $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV4Response|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelV4 $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelV4Response|bool
      */
-    public function shippingMultiParcelV4(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV4 $parameters)
+    public function shippingMultiParcelV4(\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelV4 $parameters)
     {
         try {
             $this->setResult($resultShippingMultiParcelV4 = $this->getSoapClient()->__soapCall('shippingMultiParcelV4', [
@@ -416,10 +416,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV5 $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV5Response|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelV5 $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelV5Response|bool
      */
-    public function shippingMultiParcelV5(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV5 $parameters)
+    public function shippingMultiParcelV5(\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelV5 $parameters)
     {
         try {
             $this->setResult($resultShippingMultiParcelV5 = $this->getSoapClient()->__soapCall('shippingMultiParcelV5', [
@@ -438,10 +438,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV2 $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV2Response|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelV2 $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelV2Response|bool
      */
-    public function shippingMultiParcelV2(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV2 $parameters)
+    public function shippingMultiParcelV2(\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelV2 $parameters)
     {
         try {
             $this->setResult($resultShippingMultiParcelV2 = $this->getSoapClient()->__soapCall('shippingMultiParcelV2', [
@@ -460,10 +460,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV3 $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV3Response|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelV3 $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelV3Response|bool
      */
-    public function shippingMultiParcelV3(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV3 $parameters)
+    public function shippingMultiParcelV3(\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelV3 $parameters)
     {
         try {
             $this->setResult($resultShippingMultiParcelV3 = $this->getSoapClient()->__soapCall('shippingMultiParcelV3', [
@@ -483,10 +483,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationV3 $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationV3Response|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationV3 $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationV3Response|bool
      */
-    public function shippingMultiParcelWithReservationV3(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationV3 $parameters)
+    public function shippingMultiParcelWithReservationV3(\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationV3 $parameters)
     {
         try {
             $this->setResult($resultShippingMultiParcelWithReservationV3 = $this->getSoapClient()->__soapCall('shippingMultiParcelWithReservationV3', [
@@ -506,10 +506,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationV2 $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationV2Response|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationV2 $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationV2Response|bool
      */
-    public function shippingMultiParcelWithReservationV2(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationV2 $parameters)
+    public function shippingMultiParcelWithReservationV2(\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationV2 $parameters)
     {
         try {
             $this->setResult($resultShippingMultiParcelWithReservationV2 = $this->getSoapClient()->__soapCall('shippingMultiParcelWithReservationV2', [
@@ -528,10 +528,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservation $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationResponse|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithReservation $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithReservationResponse|bool
      */
-    public function shippingWithReservation(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservation $parameters)
+    public function shippingWithReservation(\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithReservation $parameters)
     {
         try {
             $this->setResult($resultShippingWithReservation = $this->getSoapClient()->__soapCall('shippingWithReservation', [
@@ -550,10 +550,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RechercherContraintesEnlevement $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RechercherContraintesEnlevementResponse|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\RechercherContraintesEnlevement $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\RechercherContraintesEnlevementResponse|bool
      */
-    public function rechercherContraintesEnlevement(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RechercherContraintesEnlevement $parameters)
+    public function rechercherContraintesEnlevement(\Maetva\Chronopost\ShippingServiceWS\StructType\RechercherContraintesEnlevement $parameters)
     {
         try {
             $this->setResult($resultRechercherContraintesEnlevement = $this->getSoapClient()->__soapCall('rechercherContraintesEnlevement', [
@@ -572,10 +572,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AnnulerEnlevements $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AnnulerEnlevementsResponse|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\AnnulerEnlevements $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\AnnulerEnlevementsResponse|bool
      */
-    public function annulerEnlevements(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AnnulerEnlevements $parameters)
+    public function annulerEnlevements(\Maetva\Chronopost\ShippingServiceWS\StructType\AnnulerEnlevements $parameters)
     {
         try {
             $this->setResult($resultAnnulerEnlevements = $this->getSoapClient()->__soapCall('annulerEnlevements', [
@@ -594,10 +594,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CreerEnlevementEurope $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CreerEnlevementEuropeResponse|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\CreerEnlevementEurope $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\CreerEnlevementEuropeResponse|bool
      */
-    public function creerEnlevementEurope(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CreerEnlevementEurope $parameters)
+    public function creerEnlevementEurope(\Maetva\Chronopost\ShippingServiceWS\StructType\CreerEnlevementEurope $parameters)
     {
         try {
             $this->setResult($resultCreerEnlevementEurope = $this->getSoapClient()->__soapCall('creerEnlevementEurope', [
@@ -617,10 +617,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClient $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientResponse|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClient $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientResponse|bool
      */
-    public function shippingWithReservationAndESDWithRefClient(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClient $parameters)
+    public function shippingWithReservationAndESDWithRefClient(\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClient $parameters)
     {
         try {
             $this->setResult($resultShippingWithReservationAndESDWithRefClient = $this->getSoapClient()->__soapCall('shippingWithReservationAndESDWithRefClient', [
@@ -639,10 +639,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndMode $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeResponse|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndMode $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeResponse|bool
      */
-    public function getReservedSkybillWithTypeAndMode(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndMode $parameters)
+    public function getReservedSkybillWithTypeAndMode(\Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndMode $parameters)
     {
         try {
             $this->setResult($resultGetReservedSkybillWithTypeAndMode = $this->getSoapClient()->__soapCall('getReservedSkybillWithTypeAndMode', [
@@ -662,10 +662,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPCResponse|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPCResponse|bool
      */
-    public function shippingWithReservationAndESDWithRefClientPC(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC $parameters)
+    public function shippingWithReservationAndESDWithRefClientPC(\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPC $parameters)
     {
         try {
             $this->setResult($resultShippingWithReservationAndESDWithRefClientPC = $this->getSoapClient()->__soapCall('shippingWithReservationAndESDWithRefClientPC', [
@@ -684,10 +684,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithESDOnly $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithESDOnlyResponse|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithESDOnly $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithESDOnlyResponse|bool
      */
-    public function shippingWithESDOnly(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithESDOnly $parameters)
+    public function shippingWithESDOnly(\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithESDOnly $parameters)
     {
         try {
             $this->setResult($resultShippingWithESDOnly = $this->getSoapClient()->__soapCall('shippingWithESDOnly', [
@@ -706,10 +706,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetShippingInformation $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetShippingInformationResponse|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\GetShippingInformation $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\GetShippingInformationResponse|bool
      */
-    public function getShippingInformation(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetShippingInformation $parameters)
+    public function getShippingInformation(\Maetva\Chronopost\ShippingServiceWS\StructType\GetShippingInformation $parameters)
     {
         try {
             $this->setResult($resultGetShippingInformation = $this->getSoapClient()->__soapCall('getShippingInformation', [
@@ -728,10 +728,10 @@ class Service extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetRouting $parameters
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetRoutingResponse|bool
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\GetRouting $parameters
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\GetRoutingResponse|bool
      */
-    public function getRouting(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetRouting $parameters)
+    public function getRouting(\Maetva\Chronopost\ShippingServiceWS\StructType\GetRouting $parameters)
     {
         try {
             $this->setResult($resultGetRouting = $this->getSoapClient()->__soapCall('getRouting', [
@@ -748,7 +748,7 @@ class Service extends AbstractSoapClientBase
     /**
      * Returns the result
      * @see AbstractSoapClientBase::getResult()
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AnnulerEnlevementsResponse|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CreerEnlevementEuropeResponse|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CreerEnlevementNationalResponse|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\FaisabiliteESDResponse|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillResponse|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeAuthResponse|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeByReservationResponse|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeResponse|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeResponse|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetRoutingResponse|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetShippingInformationResponse|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RechercherContraintesEnlevementResponse|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelResponse|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV2Response|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV3Response|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV4Response|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelV5Response|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationResponse|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationV2Response|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationV3Response|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingResponse|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV2Response|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV3Response|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV4Response|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV5Response|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6Response|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV7Response|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithESDOnlyResponse|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithESDOnlyV2Response|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPCResponse|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientResponse|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationResponse|\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingWithReservationV2Response
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\AnnulerEnlevementsResponse|\Maetva\Chronopost\ShippingServiceWS\StructType\CreerEnlevementEuropeResponse|\Maetva\Chronopost\ShippingServiceWS\StructType\CreerEnlevementNationalResponse|\Maetva\Chronopost\ShippingServiceWS\StructType\FaisabiliteESDResponse|\Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybillResponse|\Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeAuthResponse|\Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeByReservationResponse|\Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeResponse|\Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybillWithTypeResponse|\Maetva\Chronopost\ShippingServiceWS\StructType\GetRoutingResponse|\Maetva\Chronopost\ShippingServiceWS\StructType\GetShippingInformationResponse|\Maetva\Chronopost\ShippingServiceWS\StructType\RechercherContraintesEnlevementResponse|\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelResponse|\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelV2Response|\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelV3Response|\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelV4Response|\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelV5Response|\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationResponse|\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationV2Response|\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcelWithReservationV3Response|\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingResponse|\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV2Response|\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV3Response|\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV4Response|\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV5Response|\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV6Response|\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV7Response|\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithESDOnlyResponse|\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithESDOnlyV2Response|\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientPCResponse|\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithReservationAndESDWithRefClientResponse|\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithReservationResponse|\Maetva\Chronopost\ShippingServiceWS\StructType\ShippingWithReservationV2Response
      */
     public function getResult()
     {

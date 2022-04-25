@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -19,9 +19,9 @@ class FaisabiliteESD extends AbstractStructBase
      * The shipperValue
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue|null
+     * @var \Maetva\Chronopost\ShippingServiceWS\StructType\ShipperValue|null
      */
-    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue $shipperValue = null;
+    protected ?\Maetva\Chronopost\ShippingServiceWS\StructType\ShipperValue $shipperValue = null;
     /**
      * The retrievalDateTime
      * Meta information extracted from the WSDL
@@ -41,11 +41,11 @@ class FaisabiliteESD extends AbstractStructBase
      * @uses FaisabiliteESD::setShipperValue()
      * @uses FaisabiliteESD::setRetrievalDateTime()
      * @uses FaisabiliteESD::setClosingDateTime()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue $shipperValue
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShipperValue $shipperValue
      * @param string $retrievalDateTime
      * @param string $closingDateTime
      */
-    public function __construct(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue $shipperValue = null, ?string $retrievalDateTime = null, ?string $closingDateTime = null)
+    public function __construct(?\Maetva\Chronopost\ShippingServiceWS\StructType\ShipperValue $shipperValue = null, ?string $retrievalDateTime = null, ?string $closingDateTime = null)
     {
         $this
             ->setShipperValue($shipperValue)
@@ -54,18 +54,18 @@ class FaisabiliteESD extends AbstractStructBase
     }
     /**
      * Get shipperValue value
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue|null
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShipperValue|null
      */
-    public function getShipperValue(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue
+    public function getShipperValue(): ?\Maetva\Chronopost\ShippingServiceWS\StructType\ShipperValue
     {
         return $this->shipperValue;
     }
     /**
      * Set shipperValue value
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue $shipperValue
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\FaisabiliteESD
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShipperValue $shipperValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\FaisabiliteESD
      */
-    public function setShipperValue(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue $shipperValue = null): self
+    public function setShipperValue(?\Maetva\Chronopost\ShippingServiceWS\StructType\ShipperValue $shipperValue = null): self
     {
         $this->shipperValue = $shipperValue;
         
@@ -82,7 +82,7 @@ class FaisabiliteESD extends AbstractStructBase
     /**
      * Set retrievalDateTime value
      * @param string $retrievalDateTime
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\FaisabiliteESD
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\FaisabiliteESD
      */
     public function setRetrievalDateTime(?string $retrievalDateTime = null): self
     {
@@ -105,7 +105,7 @@ class FaisabiliteESD extends AbstractStructBase
     /**
      * Set closingDateTime value
      * @param string $closingDateTime
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\FaisabiliteESD
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\FaisabiliteESD
      */
     public function setClosingDateTime(?string $closingDateTime = null): self
     {

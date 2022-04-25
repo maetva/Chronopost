@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -117,7 +117,7 @@ class ParticularitesEsd extends AbstractStructBase
     /**
      * Set etudeDeFaisabilite value
      * @param bool $etudeDeFaisabilite
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ParticularitesEsd
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ParticularitesEsd
      */
     public function setEtudeDeFaisabilite(?bool $etudeDeFaisabilite = null): self
     {
@@ -140,7 +140,7 @@ class ParticularitesEsd extends AbstractStructBase
     /**
      * Set grosVolume value
      * @param bool $grosVolume
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ParticularitesEsd
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ParticularitesEsd
      */
     public function setGrosVolume(?bool $grosVolume = null): self
     {
@@ -163,7 +163,7 @@ class ParticularitesEsd extends AbstractStructBase
     /**
      * Set hauteur value
      * @param int $hauteur
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ParticularitesEsd
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ParticularitesEsd
      */
     public function setHauteur(?int $hauteur = null): self
     {
@@ -186,7 +186,7 @@ class ParticularitesEsd extends AbstractStructBase
     /**
      * Set instructionsParticulieres value
      * @param string $instructionsParticulieres
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ParticularitesEsd
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ParticularitesEsd
      */
     public function setInstructionsParticulieres(?string $instructionsParticulieres = null): self
     {
@@ -209,7 +209,7 @@ class ParticularitesEsd extends AbstractStructBase
     /**
      * Set largeur value
      * @param int $largeur
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ParticularitesEsd
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ParticularitesEsd
      */
     public function setLargeur(?int $largeur = null): self
     {
@@ -232,7 +232,7 @@ class ParticularitesEsd extends AbstractStructBase
     /**
      * Set listeColisAnnonces value
      * @param string $listeColisAnnonces
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ParticularitesEsd
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ParticularitesEsd
      */
     public function setListeColisAnnonces(?string $listeColisAnnonces = null): self
     {
@@ -255,7 +255,7 @@ class ParticularitesEsd extends AbstractStructBase
     /**
      * Set longueur value
      * @param int $longueur
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ParticularitesEsd
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ParticularitesEsd
      */
     public function setLongueur(?int $longueur = null): self
     {
@@ -278,7 +278,7 @@ class ParticularitesEsd extends AbstractStructBase
     /**
      * Set nombreEnvois value
      * @param int $nombreEnvois
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ParticularitesEsd
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ParticularitesEsd
      */
     public function setNombreEnvois(?int $nombreEnvois = null): self
     {
@@ -301,7 +301,7 @@ class ParticularitesEsd extends AbstractStructBase
     /**
      * Set poids value
      * @param float $poids
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ParticularitesEsd
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ParticularitesEsd
      */
     public function setPoids(?float $poids = null): self
     {
@@ -324,7 +324,7 @@ class ParticularitesEsd extends AbstractStructBase
     /**
      * Set volume value
      * @param string $volume
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ParticularitesEsd
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ParticularitesEsd
      */
     public function setVolume(?string $volume = null): self
     {

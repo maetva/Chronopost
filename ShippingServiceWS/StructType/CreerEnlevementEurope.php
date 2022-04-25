@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -19,9 +19,9 @@ class CreerEnlevementEurope extends AbstractStructBase
      * The headerValue
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue|null
+     * @var \Maetva\Chronopost\ShippingServiceWS\StructType\HeaderValue|null
      */
-    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue $headerValue = null;
+    protected ?\Maetva\Chronopost\ShippingServiceWS\StructType\HeaderValue $headerValue = null;
     /**
      * The password
      * Meta information extracted from the WSDL
@@ -40,23 +40,23 @@ class CreerEnlevementEurope extends AbstractStructBase
      * The donneurDOrdre
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre|null
+     * @var \Maetva\Chronopost\ShippingServiceWS\StructType\DonneurDOrdre|null
      */
-    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre $donneurDOrdre = null;
+    protected ?\Maetva\Chronopost\ShippingServiceWS\StructType\DonneurDOrdre $donneurDOrdre = null;
     /**
      * The adresseEnlevement
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevementV3|null
+     * @var \Maetva\Chronopost\ShippingServiceWS\StructType\AdresseEnlevementV3|null
      */
-    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevementV3 $adresseEnlevement = null;
+    protected ?\Maetva\Chronopost\ShippingServiceWS\StructType\AdresseEnlevementV3 $adresseEnlevement = null;
     /**
      * The destinatairesEsd
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DestinatairesDpd|null
+     * @var \Maetva\Chronopost\ShippingServiceWS\StructType\DestinatairesDpd|null
      */
-    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DestinatairesDpd $destinatairesEsd = null;
+    protected ?\Maetva\Chronopost\ShippingServiceWS\StructType\DestinatairesDpd $destinatairesEsd = null;
     /**
      * The locale
      * Meta information extracted from the WSDL
@@ -73,15 +73,15 @@ class CreerEnlevementEurope extends AbstractStructBase
      * @uses CreerEnlevementEurope::setAdresseEnlevement()
      * @uses CreerEnlevementEurope::setDestinatairesEsd()
      * @uses CreerEnlevementEurope::setLocale()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue $headerValue
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\HeaderValue $headerValue
      * @param string $password
      * @param string $datePassage
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre $donneurDOrdre
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevementV3 $adresseEnlevement
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DestinatairesDpd $destinatairesEsd
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\DonneurDOrdre $donneurDOrdre
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\AdresseEnlevementV3 $adresseEnlevement
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\DestinatairesDpd $destinatairesEsd
      * @param string $locale
      */
-    public function __construct(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue $headerValue = null, ?string $password = null, ?string $datePassage = null, ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre $donneurDOrdre = null, ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevementV3 $adresseEnlevement = null, ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DestinatairesDpd $destinatairesEsd = null, ?string $locale = null)
+    public function __construct(?\Maetva\Chronopost\ShippingServiceWS\StructType\HeaderValue $headerValue = null, ?string $password = null, ?string $datePassage = null, ?\Maetva\Chronopost\ShippingServiceWS\StructType\DonneurDOrdre $donneurDOrdre = null, ?\Maetva\Chronopost\ShippingServiceWS\StructType\AdresseEnlevementV3 $adresseEnlevement = null, ?\Maetva\Chronopost\ShippingServiceWS\StructType\DestinatairesDpd $destinatairesEsd = null, ?string $locale = null)
     {
         $this
             ->setHeaderValue($headerValue)
@@ -94,18 +94,18 @@ class CreerEnlevementEurope extends AbstractStructBase
     }
     /**
      * Get headerValue value
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue|null
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\HeaderValue|null
      */
-    public function getHeaderValue(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue
+    public function getHeaderValue(): ?\Maetva\Chronopost\ShippingServiceWS\StructType\HeaderValue
     {
         return $this->headerValue;
     }
     /**
      * Set headerValue value
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue $headerValue
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CreerEnlevementEurope
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\HeaderValue $headerValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\CreerEnlevementEurope
      */
-    public function setHeaderValue(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue $headerValue = null): self
+    public function setHeaderValue(?\Maetva\Chronopost\ShippingServiceWS\StructType\HeaderValue $headerValue = null): self
     {
         $this->headerValue = $headerValue;
         
@@ -122,7 +122,7 @@ class CreerEnlevementEurope extends AbstractStructBase
     /**
      * Set password value
      * @param string $password
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CreerEnlevementEurope
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\CreerEnlevementEurope
      */
     public function setPassword(?string $password = null): self
     {
@@ -145,7 +145,7 @@ class CreerEnlevementEurope extends AbstractStructBase
     /**
      * Set datePassage value
      * @param string $datePassage
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CreerEnlevementEurope
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\CreerEnlevementEurope
      */
     public function setDatePassage(?string $datePassage = null): self
     {
@@ -159,18 +159,18 @@ class CreerEnlevementEurope extends AbstractStructBase
     }
     /**
      * Get donneurDOrdre value
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre|null
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\DonneurDOrdre|null
      */
-    public function getDonneurDOrdre(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre
+    public function getDonneurDOrdre(): ?\Maetva\Chronopost\ShippingServiceWS\StructType\DonneurDOrdre
     {
         return $this->donneurDOrdre;
     }
     /**
      * Set donneurDOrdre value
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre $donneurDOrdre
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CreerEnlevementEurope
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\DonneurDOrdre $donneurDOrdre
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\CreerEnlevementEurope
      */
-    public function setDonneurDOrdre(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DonneurDOrdre $donneurDOrdre = null): self
+    public function setDonneurDOrdre(?\Maetva\Chronopost\ShippingServiceWS\StructType\DonneurDOrdre $donneurDOrdre = null): self
     {
         $this->donneurDOrdre = $donneurDOrdre;
         
@@ -178,18 +178,18 @@ class CreerEnlevementEurope extends AbstractStructBase
     }
     /**
      * Get adresseEnlevement value
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevementV3|null
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\AdresseEnlevementV3|null
      */
-    public function getAdresseEnlevement(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevementV3
+    public function getAdresseEnlevement(): ?\Maetva\Chronopost\ShippingServiceWS\StructType\AdresseEnlevementV3
     {
         return $this->adresseEnlevement;
     }
     /**
      * Set adresseEnlevement value
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevementV3 $adresseEnlevement
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CreerEnlevementEurope
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\AdresseEnlevementV3 $adresseEnlevement
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\CreerEnlevementEurope
      */
-    public function setAdresseEnlevement(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevementV3 $adresseEnlevement = null): self
+    public function setAdresseEnlevement(?\Maetva\Chronopost\ShippingServiceWS\StructType\AdresseEnlevementV3 $adresseEnlevement = null): self
     {
         $this->adresseEnlevement = $adresseEnlevement;
         
@@ -197,18 +197,18 @@ class CreerEnlevementEurope extends AbstractStructBase
     }
     /**
      * Get destinatairesEsd value
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DestinatairesDpd|null
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\DestinatairesDpd|null
      */
-    public function getDestinatairesEsd(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DestinatairesDpd
+    public function getDestinatairesEsd(): ?\Maetva\Chronopost\ShippingServiceWS\StructType\DestinatairesDpd
     {
         return $this->destinatairesEsd;
     }
     /**
      * Set destinatairesEsd value
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DestinatairesDpd $destinatairesEsd
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CreerEnlevementEurope
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\DestinatairesDpd $destinatairesEsd
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\CreerEnlevementEurope
      */
-    public function setDestinatairesEsd(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DestinatairesDpd $destinatairesEsd = null): self
+    public function setDestinatairesEsd(?\Maetva\Chronopost\ShippingServiceWS\StructType\DestinatairesDpd $destinatairesEsd = null): self
     {
         $this->destinatairesEsd = $destinatairesEsd;
         
@@ -225,7 +225,7 @@ class CreerEnlevementEurope extends AbstractStructBase
     /**
      * Set locale value
      * @param string $locale
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CreerEnlevementEurope
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\CreerEnlevementEurope
      */
     public function setLocale(?string $locale = null): self
     {

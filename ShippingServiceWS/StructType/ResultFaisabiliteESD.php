@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -49,7 +49,7 @@ class ResultFaisabiliteESD extends AbstractStructBase
     /**
      * Set errorCode value
      * @param int $errorCode
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultFaisabiliteESD
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultFaisabiliteESD
      */
     public function setErrorCode(?int $errorCode = null): self
     {
@@ -72,7 +72,7 @@ class ResultFaisabiliteESD extends AbstractStructBase
     /**
      * Set errorMessage value
      * @param string $errorMessage
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultFaisabiliteESD
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultFaisabiliteESD
      */
     public function setErrorMessage(?string $errorMessage = null): self
     {

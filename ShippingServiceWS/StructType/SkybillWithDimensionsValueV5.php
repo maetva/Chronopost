@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -51,7 +51,7 @@ class SkybillWithDimensionsValueV5 extends SkybillWithDimensionsValueV4
     /**
      * Set carrier value
      * @param string $carrier
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillWithDimensionsValueV5
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillWithDimensionsValueV5
      */
     public function setCarrier(?string $carrier = null): self
     {
@@ -74,7 +74,7 @@ class SkybillWithDimensionsValueV5 extends SkybillWithDimensionsValueV4
     /**
      * Set skybillBackNumber value
      * @param string $skybillBackNumber
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillWithDimensionsValueV5
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillWithDimensionsValueV5
      */
     public function setSkybillBackNumber(?string $skybillBackNumber = null): self
     {

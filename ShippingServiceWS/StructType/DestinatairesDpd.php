@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -19,13 +19,13 @@ class DestinatairesDpd extends AbstractStructBase
      * - maxOccurs: unbounded
      * - minOccurs: 0
      * - nillable: true
-     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DestinataireDpd[]
+     * @var \Maetva\Chronopost\ShippingServiceWS\StructType\DestinataireDpd[]
      */
     protected ?array $destinataireDpd = null;
     /**
      * Constructor method for destinatairesDpd
      * @uses DestinatairesDpd::setDestinataireDpd()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DestinataireDpd[] $destinataireDpd
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\DestinataireDpd[] $destinataireDpd
      */
     public function __construct(?array $destinataireDpd = null)
     {
@@ -37,7 +37,7 @@ class DestinatairesDpd extends AbstractStructBase
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DestinataireDpd[]
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\DestinataireDpd[]
      */
     public function getDestinataireDpd(): ?array
     {
@@ -58,12 +58,12 @@ class DestinatairesDpd extends AbstractStructBase
         $invalidValues = [];
         foreach ($values as $destinatairesDpdDestinataireDpdItem) {
             // validation for constraint: itemType
-            if (!$destinatairesDpdDestinataireDpdItem instanceof \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DestinataireDpd) {
+            if (!$destinatairesDpdDestinataireDpdItem instanceof \Maetva\Chronopost\ShippingServiceWS\StructType\DestinataireDpd) {
                 $invalidValues[] = is_object($destinatairesDpdDestinataireDpdItem) ? get_class($destinatairesDpdDestinataireDpdItem) : sprintf('%s(%s)', gettype($destinatairesDpdDestinataireDpdItem), var_export($destinatairesDpdDestinataireDpdItem, true));
             }
         }
         if (!empty($invalidValues)) {
-            $message = sprintf('The destinataireDpd property can only contain items of type \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DestinataireDpd, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
+            $message = sprintf('The destinataireDpd property can only contain items of type \Maetva\Chronopost\ShippingServiceWS\StructType\DestinataireDpd, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
         }
         unset($invalidValues);
         
@@ -74,8 +74,8 @@ class DestinatairesDpd extends AbstractStructBase
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
      * @throws InvalidArgumentException
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DestinataireDpd[] $destinataireDpd
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DestinatairesDpd
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\DestinataireDpd[] $destinataireDpd
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\DestinatairesDpd
      */
     public function setDestinataireDpd(?array $destinataireDpd = null): self
     {
@@ -94,14 +94,14 @@ class DestinatairesDpd extends AbstractStructBase
     /**
      * Add item to destinataireDpd value
      * @throws InvalidArgumentException
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DestinataireDpd $item
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DestinatairesDpd
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\DestinataireDpd $item
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\DestinatairesDpd
      */
-    public function addToDestinataireDpd(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DestinataireDpd $item): self
+    public function addToDestinataireDpd(\Maetva\Chronopost\ShippingServiceWS\StructType\DestinataireDpd $item): self
     {
         // validation for constraint: itemType
-        if (!$item instanceof \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DestinataireDpd) {
-            throw new InvalidArgumentException(sprintf('The destinataireDpd property can only contain items of type \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\DestinataireDpd, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
+        if (!$item instanceof \Maetva\Chronopost\ShippingServiceWS\StructType\DestinataireDpd) {
+            throw new InvalidArgumentException(sprintf('The destinataireDpd property can only contain items of type \Maetva\Chronopost\ShippingServiceWS\StructType\DestinataireDpd, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
         }
         $this->destinataireDpd[] = $item;
         

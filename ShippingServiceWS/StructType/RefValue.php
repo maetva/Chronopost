@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -71,7 +71,7 @@ class RefValue extends AbstractStructBase
     /**
      * Set customerSkybillNumber value
      * @param string $customerSkybillNumber
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RefValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\RefValue
      */
     public function setCustomerSkybillNumber(?string $customerSkybillNumber = null): self
     {
@@ -94,7 +94,7 @@ class RefValue extends AbstractStructBase
     /**
      * Set PCardTransactionNumber value
      * @param string $pCardTransactionNumber
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RefValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\RefValue
      */
     public function setPCardTransactionNumber(?string $pCardTransactionNumber = null): self
     {
@@ -117,7 +117,7 @@ class RefValue extends AbstractStructBase
     /**
      * Set recipientRef value
      * @param string $recipientRef
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RefValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\RefValue
      */
     public function setRecipientRef(?string $recipientRef = null): self
     {
@@ -140,7 +140,7 @@ class RefValue extends AbstractStructBase
     /**
      * Set shipperRef value
      * @param string $shipperRef
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RefValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\RefValue
      */
     public function setShipperRef(?string $shipperRef = null): self
     {

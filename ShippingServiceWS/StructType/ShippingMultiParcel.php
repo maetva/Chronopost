@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -19,37 +19,37 @@ class ShippingMultiParcel extends AbstractStructBase
      * The esdValue
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3|null
+     * @var \Maetva\Chronopost\ShippingServiceWS\StructType\EsdValue3|null
      */
-    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3 $esdValue = null;
+    protected ?\Maetva\Chronopost\ShippingServiceWS\StructType\EsdValue3 $esdValue = null;
     /**
      * The headerValue
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue|null
+     * @var \Maetva\Chronopost\ShippingServiceWS\StructType\HeaderValue|null
      */
-    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue $headerValue = null;
+    protected ?\Maetva\Chronopost\ShippingServiceWS\StructType\HeaderValue $headerValue = null;
     /**
      * The shipperValue
      * Meta information extracted from the WSDL
      * - maxOccurs: unbounded
      * - minOccurs: 0
-     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue[]
+     * @var \Maetva\Chronopost\ShippingServiceWS\StructType\ShipperValue[]
      */
     protected ?array $shipperValue = null;
     /**
      * The customerValue
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue|null
+     * @var \Maetva\Chronopost\ShippingServiceWS\StructType\CustomerValue|null
      */
-    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue $customerValue = null;
+    protected ?\Maetva\Chronopost\ShippingServiceWS\StructType\CustomerValue $customerValue = null;
     /**
      * The recipientValue
      * Meta information extracted from the WSDL
      * - maxOccurs: unbounded
      * - minOccurs: 0
-     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue[]
+     * @var \Maetva\Chronopost\ShippingServiceWS\StructType\RecipientValue[]
      */
     protected ?array $recipientValue = null;
     /**
@@ -57,7 +57,7 @@ class ShippingMultiParcel extends AbstractStructBase
      * Meta information extracted from the WSDL
      * - maxOccurs: unbounded
      * - minOccurs: 0
-     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RefValue[]
+     * @var \Maetva\Chronopost\ShippingServiceWS\StructType\RefValue[]
      */
     protected ?array $refValue = null;
     /**
@@ -65,16 +65,16 @@ class ShippingMultiParcel extends AbstractStructBase
      * Meta information extracted from the WSDL
      * - maxOccurs: unbounded
      * - minOccurs: 0
-     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3[]
+     * @var \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3[]
      */
     protected ?array $skybillValue = null;
     /**
      * The skybillParamsValue
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValueV2|null
+     * @var \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillParamsValueV2|null
      */
-    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValueV2 $skybillParamsValue = null;
+    protected ?\Maetva\Chronopost\ShippingServiceWS\StructType\SkybillParamsValueV2 $skybillParamsValue = null;
     /**
      * The password
      * Meta information extracted from the WSDL
@@ -113,7 +113,7 @@ class ShippingMultiParcel extends AbstractStructBase
      * Meta information extracted from the WSDL
      * - maxOccurs: unbounded
      * - minOccurs: 0
-     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue[]
+     * @var \Maetva\Chronopost\ShippingServiceWS\StructType\ScheduledValue[]
      */
     protected ?array $scheduledValue = null;
     /**
@@ -132,22 +132,22 @@ class ShippingMultiParcel extends AbstractStructBase
      * @uses ShippingMultiParcel::setVersion()
      * @uses ShippingMultiParcel::setMultiParcel()
      * @uses ShippingMultiParcel::setScheduledValue()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3 $esdValue
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue $headerValue
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue[] $shipperValue
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue $customerValue
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue[] $recipientValue
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RefValue[] $refValue
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3[] $skybillValue
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValueV2 $skybillParamsValue
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\EsdValue3 $esdValue
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\HeaderValue $headerValue
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShipperValue[] $shipperValue
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\CustomerValue $customerValue
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\RecipientValue[] $recipientValue
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\RefValue[] $refValue
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3[] $skybillValue
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillParamsValueV2 $skybillParamsValue
      * @param string $password
      * @param string $modeRetour
      * @param int $numberOfParcel
      * @param string $version
      * @param string $multiParcel
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue[] $scheduledValue
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ScheduledValue[] $scheduledValue
      */
-    public function __construct(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3 $esdValue = null, ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue $headerValue = null, ?array $shipperValue = null, ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue $customerValue = null, ?array $recipientValue = null, ?array $refValue = null, ?array $skybillValue = null, ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValueV2 $skybillParamsValue = null, ?string $password = null, ?string $modeRetour = null, ?int $numberOfParcel = null, ?string $version = null, ?string $multiParcel = null, ?array $scheduledValue = null)
+    public function __construct(?\Maetva\Chronopost\ShippingServiceWS\StructType\EsdValue3 $esdValue = null, ?\Maetva\Chronopost\ShippingServiceWS\StructType\HeaderValue $headerValue = null, ?array $shipperValue = null, ?\Maetva\Chronopost\ShippingServiceWS\StructType\CustomerValue $customerValue = null, ?array $recipientValue = null, ?array $refValue = null, ?array $skybillValue = null, ?\Maetva\Chronopost\ShippingServiceWS\StructType\SkybillParamsValueV2 $skybillParamsValue = null, ?string $password = null, ?string $modeRetour = null, ?int $numberOfParcel = null, ?string $version = null, ?string $multiParcel = null, ?array $scheduledValue = null)
     {
         $this
             ->setEsdValue($esdValue)
@@ -167,18 +167,18 @@ class ShippingMultiParcel extends AbstractStructBase
     }
     /**
      * Get esdValue value
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3|null
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\EsdValue3|null
      */
-    public function getEsdValue(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3
+    public function getEsdValue(): ?\Maetva\Chronopost\ShippingServiceWS\StructType\EsdValue3
     {
         return $this->esdValue;
     }
     /**
      * Set esdValue value
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3 $esdValue
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcel
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\EsdValue3 $esdValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcel
      */
-    public function setEsdValue(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdValue3 $esdValue = null): self
+    public function setEsdValue(?\Maetva\Chronopost\ShippingServiceWS\StructType\EsdValue3 $esdValue = null): self
     {
         $this->esdValue = $esdValue;
         
@@ -186,18 +186,18 @@ class ShippingMultiParcel extends AbstractStructBase
     }
     /**
      * Get headerValue value
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue|null
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\HeaderValue|null
      */
-    public function getHeaderValue(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue
+    public function getHeaderValue(): ?\Maetva\Chronopost\ShippingServiceWS\StructType\HeaderValue
     {
         return $this->headerValue;
     }
     /**
      * Set headerValue value
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue $headerValue
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcel
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\HeaderValue $headerValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcel
      */
-    public function setHeaderValue(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\HeaderValue $headerValue = null): self
+    public function setHeaderValue(?\Maetva\Chronopost\ShippingServiceWS\StructType\HeaderValue $headerValue = null): self
     {
         $this->headerValue = $headerValue;
         
@@ -205,7 +205,7 @@ class ShippingMultiParcel extends AbstractStructBase
     }
     /**
      * Get shipperValue value
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue[]
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShipperValue[]
      */
     public function getShipperValue(): ?array
     {
@@ -226,12 +226,12 @@ class ShippingMultiParcel extends AbstractStructBase
         $invalidValues = [];
         foreach ($values as $shippingMultiParcelShipperValueItem) {
             // validation for constraint: itemType
-            if (!$shippingMultiParcelShipperValueItem instanceof \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue) {
+            if (!$shippingMultiParcelShipperValueItem instanceof \Maetva\Chronopost\ShippingServiceWS\StructType\ShipperValue) {
                 $invalidValues[] = is_object($shippingMultiParcelShipperValueItem) ? get_class($shippingMultiParcelShipperValueItem) : sprintf('%s(%s)', gettype($shippingMultiParcelShipperValueItem), var_export($shippingMultiParcelShipperValueItem, true));
             }
         }
         if (!empty($invalidValues)) {
-            $message = sprintf('The shipperValue property can only contain items of type \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
+            $message = sprintf('The shipperValue property can only contain items of type \Maetva\Chronopost\ShippingServiceWS\StructType\ShipperValue, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
         }
         unset($invalidValues);
         
@@ -240,8 +240,8 @@ class ShippingMultiParcel extends AbstractStructBase
     /**
      * Set shipperValue value
      * @throws InvalidArgumentException
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue[] $shipperValue
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcel
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShipperValue[] $shipperValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcel
      */
     public function setShipperValue(?array $shipperValue = null): self
     {
@@ -256,14 +256,14 @@ class ShippingMultiParcel extends AbstractStructBase
     /**
      * Add item to shipperValue value
      * @throws InvalidArgumentException
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue $item
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcel
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ShipperValue $item
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcel
      */
-    public function addToShipperValue(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue $item): self
+    public function addToShipperValue(\Maetva\Chronopost\ShippingServiceWS\StructType\ShipperValue $item): self
     {
         // validation for constraint: itemType
-        if (!$item instanceof \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue) {
-            throw new InvalidArgumentException(sprintf('The shipperValue property can only contain items of type \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShipperValue, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
+        if (!$item instanceof \Maetva\Chronopost\ShippingServiceWS\StructType\ShipperValue) {
+            throw new InvalidArgumentException(sprintf('The shipperValue property can only contain items of type \Maetva\Chronopost\ShippingServiceWS\StructType\ShipperValue, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
         }
         $this->shipperValue[] = $item;
         
@@ -271,18 +271,18 @@ class ShippingMultiParcel extends AbstractStructBase
     }
     /**
      * Get customerValue value
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue|null
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\CustomerValue|null
      */
-    public function getCustomerValue(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue
+    public function getCustomerValue(): ?\Maetva\Chronopost\ShippingServiceWS\StructType\CustomerValue
     {
         return $this->customerValue;
     }
     /**
      * Set customerValue value
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue $customerValue
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcel
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\CustomerValue $customerValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcel
      */
-    public function setCustomerValue(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\CustomerValue $customerValue = null): self
+    public function setCustomerValue(?\Maetva\Chronopost\ShippingServiceWS\StructType\CustomerValue $customerValue = null): self
     {
         $this->customerValue = $customerValue;
         
@@ -290,7 +290,7 @@ class ShippingMultiParcel extends AbstractStructBase
     }
     /**
      * Get recipientValue value
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue[]
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\RecipientValue[]
      */
     public function getRecipientValue(): ?array
     {
@@ -311,12 +311,12 @@ class ShippingMultiParcel extends AbstractStructBase
         $invalidValues = [];
         foreach ($values as $shippingMultiParcelRecipientValueItem) {
             // validation for constraint: itemType
-            if (!$shippingMultiParcelRecipientValueItem instanceof \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue) {
+            if (!$shippingMultiParcelRecipientValueItem instanceof \Maetva\Chronopost\ShippingServiceWS\StructType\RecipientValue) {
                 $invalidValues[] = is_object($shippingMultiParcelRecipientValueItem) ? get_class($shippingMultiParcelRecipientValueItem) : sprintf('%s(%s)', gettype($shippingMultiParcelRecipientValueItem), var_export($shippingMultiParcelRecipientValueItem, true));
             }
         }
         if (!empty($invalidValues)) {
-            $message = sprintf('The recipientValue property can only contain items of type \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
+            $message = sprintf('The recipientValue property can only contain items of type \Maetva\Chronopost\ShippingServiceWS\StructType\RecipientValue, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
         }
         unset($invalidValues);
         
@@ -325,8 +325,8 @@ class ShippingMultiParcel extends AbstractStructBase
     /**
      * Set recipientValue value
      * @throws InvalidArgumentException
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue[] $recipientValue
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcel
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\RecipientValue[] $recipientValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcel
      */
     public function setRecipientValue(?array $recipientValue = null): self
     {
@@ -341,14 +341,14 @@ class ShippingMultiParcel extends AbstractStructBase
     /**
      * Add item to recipientValue value
      * @throws InvalidArgumentException
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue $item
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcel
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\RecipientValue $item
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcel
      */
-    public function addToRecipientValue(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue $item): self
+    public function addToRecipientValue(\Maetva\Chronopost\ShippingServiceWS\StructType\RecipientValue $item): self
     {
         // validation for constraint: itemType
-        if (!$item instanceof \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue) {
-            throw new InvalidArgumentException(sprintf('The recipientValue property can only contain items of type \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RecipientValue, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
+        if (!$item instanceof \Maetva\Chronopost\ShippingServiceWS\StructType\RecipientValue) {
+            throw new InvalidArgumentException(sprintf('The recipientValue property can only contain items of type \Maetva\Chronopost\ShippingServiceWS\StructType\RecipientValue, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
         }
         $this->recipientValue[] = $item;
         
@@ -356,7 +356,7 @@ class ShippingMultiParcel extends AbstractStructBase
     }
     /**
      * Get refValue value
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RefValue[]
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\RefValue[]
      */
     public function getRefValue(): ?array
     {
@@ -377,12 +377,12 @@ class ShippingMultiParcel extends AbstractStructBase
         $invalidValues = [];
         foreach ($values as $shippingMultiParcelRefValueItem) {
             // validation for constraint: itemType
-            if (!$shippingMultiParcelRefValueItem instanceof \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RefValue) {
+            if (!$shippingMultiParcelRefValueItem instanceof \Maetva\Chronopost\ShippingServiceWS\StructType\RefValue) {
                 $invalidValues[] = is_object($shippingMultiParcelRefValueItem) ? get_class($shippingMultiParcelRefValueItem) : sprintf('%s(%s)', gettype($shippingMultiParcelRefValueItem), var_export($shippingMultiParcelRefValueItem, true));
             }
         }
         if (!empty($invalidValues)) {
-            $message = sprintf('The refValue property can only contain items of type \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RefValue, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
+            $message = sprintf('The refValue property can only contain items of type \Maetva\Chronopost\ShippingServiceWS\StructType\RefValue, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
         }
         unset($invalidValues);
         
@@ -391,8 +391,8 @@ class ShippingMultiParcel extends AbstractStructBase
     /**
      * Set refValue value
      * @throws InvalidArgumentException
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RefValue[] $refValue
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcel
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\RefValue[] $refValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcel
      */
     public function setRefValue(?array $refValue = null): self
     {
@@ -407,14 +407,14 @@ class ShippingMultiParcel extends AbstractStructBase
     /**
      * Add item to refValue value
      * @throws InvalidArgumentException
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RefValue $item
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcel
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\RefValue $item
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcel
      */
-    public function addToRefValue(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RefValue $item): self
+    public function addToRefValue(\Maetva\Chronopost\ShippingServiceWS\StructType\RefValue $item): self
     {
         // validation for constraint: itemType
-        if (!$item instanceof \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RefValue) {
-            throw new InvalidArgumentException(sprintf('The refValue property can only contain items of type \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RefValue, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
+        if (!$item instanceof \Maetva\Chronopost\ShippingServiceWS\StructType\RefValue) {
+            throw new InvalidArgumentException(sprintf('The refValue property can only contain items of type \Maetva\Chronopost\ShippingServiceWS\StructType\RefValue, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
         }
         $this->refValue[] = $item;
         
@@ -422,7 +422,7 @@ class ShippingMultiParcel extends AbstractStructBase
     }
     /**
      * Get skybillValue value
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3[]
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3[]
      */
     public function getSkybillValue(): ?array
     {
@@ -443,12 +443,12 @@ class ShippingMultiParcel extends AbstractStructBase
         $invalidValues = [];
         foreach ($values as $shippingMultiParcelSkybillValueItem) {
             // validation for constraint: itemType
-            if (!$shippingMultiParcelSkybillValueItem instanceof \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3) {
+            if (!$shippingMultiParcelSkybillValueItem instanceof \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3) {
                 $invalidValues[] = is_object($shippingMultiParcelSkybillValueItem) ? get_class($shippingMultiParcelSkybillValueItem) : sprintf('%s(%s)', gettype($shippingMultiParcelSkybillValueItem), var_export($shippingMultiParcelSkybillValueItem, true));
             }
         }
         if (!empty($invalidValues)) {
-            $message = sprintf('The skybillValue property can only contain items of type \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
+            $message = sprintf('The skybillValue property can only contain items of type \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
         }
         unset($invalidValues);
         
@@ -457,8 +457,8 @@ class ShippingMultiParcel extends AbstractStructBase
     /**
      * Set skybillValue value
      * @throws InvalidArgumentException
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3[] $skybillValue
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcel
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3[] $skybillValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcel
      */
     public function setSkybillValue(?array $skybillValue = null): self
     {
@@ -473,14 +473,14 @@ class ShippingMultiParcel extends AbstractStructBase
     /**
      * Add item to skybillValue value
      * @throws InvalidArgumentException
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3 $item
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcel
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3 $item
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcel
      */
-    public function addToSkybillValue(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3 $item): self
+    public function addToSkybillValue(\Maetva\Chronopost\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3 $item): self
     {
         // validation for constraint: itemType
-        if (!$item instanceof \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3) {
-            throw new InvalidArgumentException(sprintf('The skybillValue property can only contain items of type \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
+        if (!$item instanceof \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3) {
+            throw new InvalidArgumentException(sprintf('The skybillValue property can only contain items of type \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillWithDimensionsValueV3, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
         }
         $this->skybillValue[] = $item;
         
@@ -488,18 +488,18 @@ class ShippingMultiParcel extends AbstractStructBase
     }
     /**
      * Get skybillParamsValue value
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValueV2|null
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillParamsValueV2|null
      */
-    public function getSkybillParamsValue(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValueV2
+    public function getSkybillParamsValue(): ?\Maetva\Chronopost\ShippingServiceWS\StructType\SkybillParamsValueV2
     {
         return $this->skybillParamsValue;
     }
     /**
      * Set skybillParamsValue value
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValueV2 $skybillParamsValue
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcel
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\SkybillParamsValueV2 $skybillParamsValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcel
      */
-    public function setSkybillParamsValue(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\SkybillParamsValueV2 $skybillParamsValue = null): self
+    public function setSkybillParamsValue(?\Maetva\Chronopost\ShippingServiceWS\StructType\SkybillParamsValueV2 $skybillParamsValue = null): self
     {
         $this->skybillParamsValue = $skybillParamsValue;
         
@@ -516,7 +516,7 @@ class ShippingMultiParcel extends AbstractStructBase
     /**
      * Set password value
      * @param string $password
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcel
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcel
      */
     public function setPassword(?string $password = null): self
     {
@@ -539,7 +539,7 @@ class ShippingMultiParcel extends AbstractStructBase
     /**
      * Set modeRetour value
      * @param string $modeRetour
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcel
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcel
      */
     public function setModeRetour(?string $modeRetour = null): self
     {
@@ -562,7 +562,7 @@ class ShippingMultiParcel extends AbstractStructBase
     /**
      * Set numberOfParcel value
      * @param int $numberOfParcel
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcel
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcel
      */
     public function setNumberOfParcel(?int $numberOfParcel = null): self
     {
@@ -585,7 +585,7 @@ class ShippingMultiParcel extends AbstractStructBase
     /**
      * Set version value
      * @param string $version
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcel
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcel
      */
     public function setVersion(?string $version = null): self
     {
@@ -608,7 +608,7 @@ class ShippingMultiParcel extends AbstractStructBase
     /**
      * Set multiParcel value
      * @param string $multiParcel
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcel
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcel
      */
     public function setMultiParcel(?string $multiParcel = null): self
     {
@@ -622,7 +622,7 @@ class ShippingMultiParcel extends AbstractStructBase
     }
     /**
      * Get scheduledValue value
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue[]
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ScheduledValue[]
      */
     public function getScheduledValue(): ?array
     {
@@ -643,12 +643,12 @@ class ShippingMultiParcel extends AbstractStructBase
         $invalidValues = [];
         foreach ($values as $shippingMultiParcelScheduledValueItem) {
             // validation for constraint: itemType
-            if (!$shippingMultiParcelScheduledValueItem instanceof \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue) {
+            if (!$shippingMultiParcelScheduledValueItem instanceof \Maetva\Chronopost\ShippingServiceWS\StructType\ScheduledValue) {
                 $invalidValues[] = is_object($shippingMultiParcelScheduledValueItem) ? get_class($shippingMultiParcelScheduledValueItem) : sprintf('%s(%s)', gettype($shippingMultiParcelScheduledValueItem), var_export($shippingMultiParcelScheduledValueItem, true));
             }
         }
         if (!empty($invalidValues)) {
-            $message = sprintf('The scheduledValue property can only contain items of type \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
+            $message = sprintf('The scheduledValue property can only contain items of type \Maetva\Chronopost\ShippingServiceWS\StructType\ScheduledValue, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
         }
         unset($invalidValues);
         
@@ -657,8 +657,8 @@ class ShippingMultiParcel extends AbstractStructBase
     /**
      * Set scheduledValue value
      * @throws InvalidArgumentException
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue[] $scheduledValue
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcel
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ScheduledValue[] $scheduledValue
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcel
      */
     public function setScheduledValue(?array $scheduledValue = null): self
     {
@@ -673,14 +673,14 @@ class ShippingMultiParcel extends AbstractStructBase
     /**
      * Add item to scheduledValue value
      * @throws InvalidArgumentException
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue $item
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingMultiParcel
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ScheduledValue $item
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingMultiParcel
      */
-    public function addToScheduledValue(\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue $item): self
+    public function addToScheduledValue(\Maetva\Chronopost\ShippingServiceWS\StructType\ScheduledValue $item): self
     {
         // validation for constraint: itemType
-        if (!$item instanceof \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue) {
-            throw new InvalidArgumentException(sprintf('The scheduledValue property can only contain items of type \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ScheduledValue, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
+        if (!$item instanceof \Maetva\Chronopost\ShippingServiceWS\StructType\ScheduledValue) {
+            throw new InvalidArgumentException(sprintf('The scheduledValue property can only contain items of type \Maetva\Chronopost\ShippingServiceWS\StructType\ScheduledValue, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
         }
         $this->scheduledValue[] = $item;
         

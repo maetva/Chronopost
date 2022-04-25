@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -171,7 +171,7 @@ class AdresseDestinataire extends AbstractStructBase
     /**
      * Set adresse value
      * @param string $adresse
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseDestinataire
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\AdresseDestinataire
      */
     public function setAdresse(?string $adresse = null): self
     {
@@ -194,7 +194,7 @@ class AdresseDestinataire extends AbstractStructBase
     /**
      * Set adresseSuite value
      * @param string $adresseSuite
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseDestinataire
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\AdresseDestinataire
      */
     public function setAdresseSuite(?string $adresseSuite = null): self
     {
@@ -217,7 +217,7 @@ class AdresseDestinataire extends AbstractStructBase
     /**
      * Set codePays value
      * @param string $codePays
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseDestinataire
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\AdresseDestinataire
      */
     public function setCodePays(?string $codePays = null): self
     {
@@ -240,7 +240,7 @@ class AdresseDestinataire extends AbstractStructBase
     /**
      * Set codePostal value
      * @param string $codePostal
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseDestinataire
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\AdresseDestinataire
      */
     public function setCodePostal(?string $codePostal = null): self
     {
@@ -263,7 +263,7 @@ class AdresseDestinataire extends AbstractStructBase
     /**
      * Set digicode value
      * @param string $digicode
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseDestinataire
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\AdresseDestinataire
      */
     public function setDigicode(?string $digicode = null): self
     {
@@ -286,7 +286,7 @@ class AdresseDestinataire extends AbstractStructBase
     /**
      * Set etage value
      * @param string $etage
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseDestinataire
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\AdresseDestinataire
      */
     public function setEtage(?string $etage = null): self
     {
@@ -309,7 +309,7 @@ class AdresseDestinataire extends AbstractStructBase
     /**
      * Set mail value
      * @param string $mail
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseDestinataire
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\AdresseDestinataire
      */
     public function setMail(?string $mail = null): self
     {
@@ -332,7 +332,7 @@ class AdresseDestinataire extends AbstractStructBase
     /**
      * Set nom value
      * @param string $nom
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseDestinataire
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\AdresseDestinataire
      */
     public function setNom(?string $nom = null): self
     {
@@ -355,7 +355,7 @@ class AdresseDestinataire extends AbstractStructBase
     /**
      * Set poids value
      * @param float $poids
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseDestinataire
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\AdresseDestinataire
      */
     public function setPoids(?float $poids = null): self
     {
@@ -378,7 +378,7 @@ class AdresseDestinataire extends AbstractStructBase
     /**
      * Set prenom value
      * @param string $prenom
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseDestinataire
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\AdresseDestinataire
      */
     public function setPrenom(?string $prenom = null): self
     {
@@ -401,7 +401,7 @@ class AdresseDestinataire extends AbstractStructBase
     /**
      * Set raisonSociale value
      * @param string $raisonSociale
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseDestinataire
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\AdresseDestinataire
      */
     public function setRaisonSociale(?string $raisonSociale = null): self
     {
@@ -424,7 +424,7 @@ class AdresseDestinataire extends AbstractStructBase
     /**
      * Set referenceDestinataire value
      * @param string $referenceDestinataire
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseDestinataire
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\AdresseDestinataire
      */
     public function setReferenceDestinataire(?string $referenceDestinataire = null): self
     {
@@ -447,7 +447,7 @@ class AdresseDestinataire extends AbstractStructBase
     /**
      * Set telephone value
      * @param string $telephone
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseDestinataire
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\AdresseDestinataire
      */
     public function setTelephone(?string $telephone = null): self
     {
@@ -470,7 +470,7 @@ class AdresseDestinataire extends AbstractStructBase
     /**
      * Set ville value
      * @param string $ville
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseDestinataire
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\AdresseDestinataire
      */
     public function setVille(?string $ville = null): self
     {

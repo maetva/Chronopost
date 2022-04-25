@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -41,7 +41,7 @@ class AdresseEnlevementV2 extends AdresseEnlevement
     /**
      * Set email value
      * @param string $email
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\AdresseEnlevementV2
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\AdresseEnlevementV2
      */
     public function setEmail(?string $email = null): self
     {

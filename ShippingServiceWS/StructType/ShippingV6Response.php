@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -19,33 +19,33 @@ class ShippingV6Response extends AbstractStructBase
      * The return
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValueV3|null
+     * @var \Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValueV3|null
      */
-    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValueV3 $return = null;
+    protected ?\Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValueV3 $return = null;
     /**
      * Constructor method for shippingV6Response
      * @uses ShippingV6Response::setReturn()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValueV3 $return
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValueV3 $return
      */
-    public function __construct(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValueV3 $return = null)
+    public function __construct(?\Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValueV3 $return = null)
     {
         $this
             ->setReturn($return);
     }
     /**
      * Get return value
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValueV3|null
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValueV3|null
      */
-    public function getReturn(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValueV3
+    public function getReturn(): ?\Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValueV3
     {
         return $this->return;
     }
     /**
      * Set return value
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValueV3 $return
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ShippingV6Response
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValueV3 $return
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\ShippingV6Response
      */
-    public function setReturn(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\ResultExpeditionValueV3 $return = null): self
+    public function setReturn(?\Maetva\Chronopost\ShippingServiceWS\StructType\ResultExpeditionValueV3 $return = null): self
     {
         $this->return = $return;
         

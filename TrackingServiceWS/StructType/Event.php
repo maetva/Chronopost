@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType;
+namespace Maetva\Chronopost\TrackingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -101,7 +101,7 @@ class Event extends AbstractStructBase
     /**
      * Set code value
      * @param string $code
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\Event
      */
     public function setCode(?string $code = null): self
     {
@@ -124,7 +124,7 @@ class Event extends AbstractStructBase
     /**
      * Set eventDate value
      * @param string $eventDate
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\Event
      */
     public function setEventDate(?string $eventDate = null): self
     {
@@ -147,7 +147,7 @@ class Event extends AbstractStructBase
     /**
      * Set eventLabel value
      * @param string $eventLabel
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\Event
      */
     public function setEventLabel(?string $eventLabel = null): self
     {
@@ -170,7 +170,7 @@ class Event extends AbstractStructBase
     /**
      * Set highPriority value
      * @param bool $highPriority
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\Event
      */
     public function setHighPriority(?bool $highPriority = null): self
     {
@@ -193,7 +193,7 @@ class Event extends AbstractStructBase
     /**
      * Set NPC value
      * @param string $nPC
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\Event
      */
     public function setNPC(?string $nPC = null): self
     {
@@ -216,7 +216,7 @@ class Event extends AbstractStructBase
     /**
      * Set officeLabel value
      * @param string $officeLabel
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\Event
      */
     public function setOfficeLabel(?string $officeLabel = null): self
     {
@@ -239,7 +239,7 @@ class Event extends AbstractStructBase
     /**
      * Set zipCode value
      * @param string $zipCode
-     * @return \Maetva\Chronopost\Endpoint\TrackingServiceWS\StructType\Event
+     * @return \Maetva\Chronopost\TrackingServiceWS\StructType\Event
      */
     public function setZipCode(?string $zipCode = null): self
     {

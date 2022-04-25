@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -19,33 +19,33 @@ class RechercherContraintesEnlevementResponse extends AbstractStructBase
      * The return
      * Meta information extracted from the WSDL
      * - minOccurs: 0
-     * @var \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue|null
+     * @var \Maetva\Chronopost\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue|null
      */
-    protected ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue $return = null;
+    protected ?\Maetva\Chronopost\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue $return = null;
     /**
      * Constructor method for rechercherContraintesEnlevementResponse
      * @uses RechercherContraintesEnlevementResponse::setReturn()
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue $return
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue $return
      */
-    public function __construct(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue $return = null)
+    public function __construct(?\Maetva\Chronopost\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue $return = null)
     {
         $this
             ->setReturn($return);
     }
     /**
      * Get return value
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue|null
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue|null
      */
-    public function getReturn(): ?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue
+    public function getReturn(): ?\Maetva\Chronopost\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue
     {
         return $this->return;
     }
     /**
      * Set return value
-     * @param \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue $return
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\RechercherContraintesEnlevementResponse
+     * @param \Maetva\Chronopost\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue $return
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\RechercherContraintesEnlevementResponse
      */
-    public function setReturn(?\Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue $return = null): self
+    public function setReturn(?\Maetva\Chronopost\ShippingServiceWS\StructType\EsdResultContraintesAgenceValue $return = null): self
     {
         $this->return = $return;
         

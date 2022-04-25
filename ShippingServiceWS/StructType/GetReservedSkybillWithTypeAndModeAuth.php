@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType;
+namespace Maetva\Chronopost\ShippingServiceWS\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -71,7 +71,7 @@ class GetReservedSkybillWithTypeAndModeAuth extends AbstractStructBase
     /**
      * Set numberSearch value
      * @param string $numberSearch
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeAuth
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeAuth
      */
     public function setNumberSearch(?string $numberSearch = null): self
     {
@@ -94,7 +94,7 @@ class GetReservedSkybillWithTypeAndModeAuth extends AbstractStructBase
     /**
      * Set mode value
      * @param string $mode
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeAuth
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeAuth
      */
     public function setMode(?string $mode = null): self
     {
@@ -117,7 +117,7 @@ class GetReservedSkybillWithTypeAndModeAuth extends AbstractStructBase
     /**
      * Set accountNumber value
      * @param int $accountNumber
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeAuth
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeAuth
      */
     public function setAccountNumber(?int $accountNumber = null): self
     {
@@ -140,7 +140,7 @@ class GetReservedSkybillWithTypeAndModeAuth extends AbstractStructBase
     /**
      * Set password value
      * @param string $password
-     * @return \Maetva\Chronopost\Endpoint\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeAuth
+     * @return \Maetva\Chronopost\ShippingServiceWS\StructType\GetReservedSkybillWithTypeAndModeAuth
      */
     public function setPassword(?string $password = null): self
     {
